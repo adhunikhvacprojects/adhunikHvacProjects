@@ -859,7 +859,7 @@ export default function HeroPage() {
 
               <div className="  flex justify-center w-full h-full   ">
 
-                <CldImage
+                <img
                   className="w-full h-full object-center   object-cover rounded-3xl"
                   src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1743500674/indiaawards_k0es0f.webp"
                   alt="Adhunik Hvac Projects Private Limited has been honored with the India Business Award 2025 Presented by Actress Bipasha Basu"
@@ -985,17 +985,17 @@ export default function HeroPage() {
                 <div className="flex flex-wrap -mx-4 text-center md:text-left">
                   {[
                     {
-                      icon: 'cad__bvhdns',
+                      icon: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738750083/cad__bvhdns.webp',
                       title: 'Consultancy & Design',
                       content: 'Adhunik Hvac Projects provides (Engineering, Procurement, and Construction) HVAC Solutions to clients of various industries, executing turnkey HVAC Projects all over India.',
                     },
                     {
-                      icon: 'de__xjfjdj',
+                      icon: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738750084/de__xjfjdj.webp',
                       title: 'Detailed Engineering',
                       content: "We have over 19+ years of experience in the HVAC Industry. Our focus while system designing & selection is to provide energy-efficient & cost-effective cooling solutions with near 'zero' maintenance that is for large industrial, institutional, commercial as well as residential premises"
                     },
                     {
-                      icon: 'Project_Exe_mptvqx',
+                      icon: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1743499001/Project_Exe_mptvqx.webp',
                       title: 'Project Execution',
                       content: " We execute all the projects under NBC, CPWD & NABH guidelines. We also follow ISHRAE, ASHRAE & ISO Standards. We are committed to safety, measurement & precautions during the execution of the work."
                     },
@@ -1008,7 +1008,8 @@ export default function HeroPage() {
                         <div className="flex h-full flex-col items-start">
                           <div className="flex w-full mb-12 items-center justify-between">
 
-                            <CldImage
+                            <img
+
                               width="960"
                               height="400"
                               src={service.icon}
@@ -1016,6 +1017,7 @@ export default function HeroPage() {
                               alt="services"
                               fetchPriority="high"
                               decoding="async"
+
                             />
 
                           </div>
