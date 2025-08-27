@@ -197,11 +197,11 @@ export default function OurQualityServices() {
         <div className="md:w-6/12 flex flex-col justify-center item-center">
         <div className="container mx-auto    shadow-none p-2">
             <h1 className="text-3xl  md:text-4xl font-bold text-center mb-8 text-gray-800">
-              Your Trusted HVAC Contractor in Delhi NCR & Across India – Adhunik Powertech
+              Your Trusted HVAC Contractor in Delhi NCR & Across India – ADHUNIK HVAC PROJECTS
             </h1>
           </div>
         <p className="text-gray-700 text-justify mb-6 font-sans">
-            Welcome to Adhunik Powertech, your reliable partner for comprehensive HVAC (Heating, Ventilation, and Air Conditioning) solutions. We serve the diverse needs of clients across Delhi NCR (including Noida, Gurugram, Faridabad, and Ghaziabad) and extend our expertise throughout India. With a strong foundation built on years of experience and a commitment to excellence, we deliver expert, energy-efficient HVAC services tailored to commercial, industrial, and residential projects of all scales.
+            Welcome to ADHUNIK HVAC PROJECTS, your reliable partner for comprehensive HVAC (Heating, Ventilation, and Air Conditioning) solutions. We serve the diverse needs of clients across Delhi NCR (including Noida, Gurugram, Faridabad, and Ghaziabad) and extend our expertise throughout India. With a strong foundation built on years of experience and a commitment to excellence, we deliver expert, energy-efficient HVAC services tailored to commercial, industrial, and residential projects of all scales.
           </p>
         </div>
 
@@ -220,7 +220,7 @@ export default function OurQualityServices() {
             Comprehensive HVAC Services Tailored to Your Needs
           </h2>
           <p className="text-gray-700 text-justify mb-4  font-sans">
-            At Adhunik Powertech, we understand that every project has unique requirements. Our skilled team of engineers and technicians provides a complete spectrum of HVAC services, ensuring optimal comfort, efficiency, and air quality for your specific environment.
+            At ADHUNIK HVAC PROJECTS, we understand that every project has unique requirements. Our skilled team of engineers and technicians provides a complete spectrum of HVAC services, ensuring optimal comfort, efficiency, and air quality for your specific environment.
           </p>
 
           <ul className="list-disc pl-6 space-y-3 text-gray-700">
@@ -248,7 +248,7 @@ export default function OurQualityServices() {
               {
                 title: 'Industrial HVAC Expertise –',
                 description:
-                  'Adhunik Powertech possesses the expertise to handle the specialized HVAC requirements of industrial facilities, including process cooling, ventilation for manufacturing units, and precise temperature and humidity control for sensitive environments.'
+                  'ADHUNIK HVAC PROJECTS possesses the expertise to handle the specialized HVAC requirements of industrial facilities, including process cooling, ventilation for manufacturing units, and precise temperature and humidity control for sensitive environments.'
               },
               {
                 title: 'Energy-Efficient HVAC Upgrades and Retrofits –',
@@ -273,9 +273,9 @@ export default function OurQualityServices() {
           </ul>
 
           <h2 className="text-2xl font-semibold text-gray-800 mt-10 mb-4 text-center md:text-left">
-            Why Choose Adhunik Powertech as Your HVAC Contractor ?
+            Why Choose ADHUNIK HVAC PROJECTS as Your HVAC Contractor ?
           </h2>
-          <p className="text-gray-700 text-justify mb-4 font-sans">Selecting the right HVAC contractor is a critical decision. Here's why Adhunik Powertech is the preferred choice for clients across Delhi NCR and India:
+          <p className="text-gray-700 text-justify mb-4 font-sans">Selecting the right HVAC contractor is a critical decision. Here's why ADHUNIK HVAC PROJECTS is the preferred choice for clients across Delhi NCR and India:
           </p>
 
 
@@ -373,14 +373,14 @@ export default function OurQualityServices() {
                     <div className="section-title px-4 text-justify ">
                       <h2 className="text-3xl text-gray-800 font-semibold mb-4  text-center md:text-left ">Consultancy & Design</h2>
                       <p className="mb-4 font-sans font-normal text-gray-700 ">
-                        <strong> Adhunik Powertech </strong>  provides HVAC solutions (Engineering, procurement, and execution) to clients of various industries, executing turnkey HVAC projects all over India.
+                        <strong> ADHUNIK HVAC PROJECTS </strong>  provides HVAC solutions (Engineering, procurement, and execution) to clients of various industries, executing turnkey HVAC projects all over India.
                       </p>
                       <p className="mb-4 font-sans font-normal text-gray-700">
                         Our team of professional engineers collects the necessary data through deep interaction with the owners and users to crystallize the thinking of all concerned. A Design concept report is prepared to summarize requirements, proposed scheme, basis of design, and budgetary cost estimate, for approval of owners and users.
 
                       </p>
                       <p className="mb-4 font-sans font-normal text-gray-700">
-                        At <strong>Adhunik Powertech</strong>  our HVAC engineer takes the core responsibility to prepare the design/layout of the heating and cooling systems along with the control systems while keeping in mind the respective standards to be followed.
+                        At <strong>ADHUNIK HVAC PROJECTS</strong>  our HVAC engineer takes the core responsibility to prepare the design/layout of the heating and cooling systems along with the control systems while keeping in mind the respective standards to be followed.
                       </p>
 
                       <button
@@ -624,7 +624,7 @@ export default function OurQualityServices() {
 
 
 
-                      We at <strong>Adhunik Powertech</strong> are committed to achieving customer satisfaction by timely delivery of <strong>HVAC solutions</strong> and
+                      We at <strong>ADHUNIK HVAC PROJECTS</strong> are committed to achieving customer satisfaction by timely delivery of <strong>HVAC solutions</strong> and
                       services at the most competitive prices, conforming to high standards through continuous improvement with an eye on <strong>Safety, Wastage, and Environmental Care</strong>. Whether you have a project in Delhi NCR or anywhere in India, our team is ready to assist you. Contact us today for a consultation, a quote, or to discuss your specific requirements.
                     </p>
                   </div>

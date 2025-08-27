@@ -159,16 +159,61 @@ export default function HeroPage() {
 
     {
       id: 1,
-      img: 'https://videos.pexels.com/video-files/28750728/12466936_2560_1440_30fps.mp4',
-      img2: 'https://videos.pexels.com/video-files/28750728/12466936_2560_1440_30fps.mp4',
-     
-      alt:"adhunik hvac projects"
+      video: 'https://res.cloudinary.com/ddkyx2jhh/video/upload/q_50/v1738647245/Home_Page_v1_gmslhl.mp4',
+      title: 'WELCOME TO ADHUNIK HVAC PROJECTS',
+      content: 'We are technically very competent to design any kind of project where conditions are different from nominal.',
+      buttonText: 'Request A Quote',
+      descriptivetext: "We are technically very competent to design any kind of project where conditions are different from nominal."
+
+    }
+    ,
+
+    {
+      id: 2,
+      video: 'https://res.cloudinary.com/ddkyx2jhh/video/upload/q_50/v1738647251/Home_Page_v2_suqvdg.mp4',
+      title: 'Air Cooling & Air Conditioning System',
+      content: <>
+        Installation, Service, Repair &amp; Maintenance
+        <br />
+        24x7 Service Available
+      </>,
+      buttonText: 'CALL US NOW',
+      descriptivetext: "Air Cooling & Air Conditioning System"
+
     },
 
-    
+    {
+      id: 3,
+      video: 'https://res.cloudinary.com/ddkyx2jhh/video/upload/q_50/v1738647245/Home_Page_v3_zaxdfb.mp4',
+      title: 'Add Peace Of Mind',
+      content: <>We offer a team of Experienced Engineers to take care of your products. Just in case there is  trouble, all you need to call our customer support center and we will take care of your worries.</>,
+      buttonText: 'CALL US NOW',
+      descriptivetext: "We offer a team of Experienced Engineers to take care of your products. Just in case there is  trouble, all you need to call our customer support center and we will take care of your worries."
 
+    },
+
+    {
+      id: 4,
+      video: 'https://res.cloudinary.com/ddkyx2jhh/video/upload/q_50/v1738647238/Home_Page_v4_mmlhja.mp4',
+      title: 'Commercial, Residential & Office Space',
+      content: "With our complete HVAC solutions, you will feel superior comfort while enjoying the perfect air conditioning environment.",
+      buttonText: 'Request A Quote',
+      descriptivetext: "With our complete HVAC solutions, you will feel superior comfort while enjoying the perfect air conditioning environment."
+
+    },
+
+    {
+      id: 5,
+      video: 'https://res.cloudinary.com/ddkyx2jhh/video/upload/q_50/v1738647233/Home_Page_v5_uxnb0e.mp4',
+      title: 'Hospital, Pharma & Food Industry',
+      content: "We help your healthcare team maintain a comfortable temperature and a safe environment with our customized heating and cooling solutions.",
+      buttonText: 'Request A Quote',
+      descriptivetext: "We help your healthcare team maintain a comfortable temperature and a safe environment with our customized heating and cooling solutions."
+
+    },
 
   ];
+
 
   const [currentSlide, setCurrentSlide] = useState(0);
   const [isDragging, setIsDragging] = useState(false);
@@ -308,7 +353,7 @@ export default function HeroPage() {
             width="150"
   height="150"
             loading="lazy"
-            alt="4.5 out of 5 indiamart ratings of adhunik powertech"
+            alt="4.5 out of 5 indiamart ratings of Adhunik Hvac Projects"
           />
         </a>
       ),
@@ -328,7 +373,7 @@ export default function HeroPage() {
             width="150"
   height="150"
             loading="lazy"
-            alt="4.5 out of 5 indiamart ratings of adhunik powertech"
+            alt="4.5 out of 5 indiamart ratings of Adhunik Hvac Projects"
           />
         </a>
       ),
@@ -452,7 +497,7 @@ export default function HeroPage() {
   const paragraphs = [
     <>
 
-      Adhunik Powertech Private Limited delivers high-quality, personalized HVAC services  across  <strong>Delhi, Gurugram, Noida, Faridabad, Ghaziabad, Sonipat, Greater Noida, Meerut, Rohtak, Muzaffarnagar, Jaipur, Chandigarh, and the entire NCR </strong> region, as well as executing turnkey HVAC projects pan-India. With over 19 years of industry expertise, we exceed client expectations by providing comprehensive solutions from expert HVAC consulting and design, encompassing Engineering and Procurement, to detailed engineering focusing on energy-efficient and cost-effective cooling systems with minimal maintenance for industrial, institutional, commercial, and residential projects. <br />
+      Adhunik Hvac Projects Private Limited delivers high-quality, personalized HVAC services  across  <strong>Delhi, Gurugram, Noida, Faridabad, Ghaziabad, Sonipat, Greater Noida, Meerut, Rohtak, Muzaffarnagar, Jaipur, Chandigarh, and the entire NCR </strong> region, as well as executing turnkey HVAC projects pan-India. With over 19 years of industry expertise, we exceed client expectations by providing comprehensive solutions from expert HVAC consulting and design, encompassing Engineering and Procurement, to detailed engineering focusing on energy-efficient and cost-effective cooling systems with minimal maintenance for industrial, institutional, commercial, and residential projects. <br />
 
 
       Our commitment extends to meticulous HVAC project execution , adhering to  <strong>NBC, CPWD, NABH</strong> guidelines, and following  <strong>ISHRAE, ASHRAE, and ISO</strong> standards, ensuring safety, precise measurements, and stringent precautions throughout the project. We specialize in turnkey HVAC projects, offering tailored solutions that prioritize efficiency and client satisfaction, both regionally and nationally.
@@ -471,14 +516,14 @@ export default function HeroPage() {
       "@type": "Organization",
       "additionalType": "http://schema.org/Manufacturer",
       "@id": "https://adhunikpowertech.com/#organization",
-      "name": "Adhunik Powertech Private Limited",
+      "name": "Adhunik Hvac Projects Private Limited",
       "url": "https://adhunikpowertech.com/",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.adhunikpowertech.com/we.svg",
-        "caption": "Adhunik Powertech Private Limited Logo"
+        "caption": "Adhunik Hvac Projects Private Limited Logo"
       },
-      "description": "Founded in 2005, Adhunik Powertech Private Limited is a leading Indian manufacturer and global provider of comprehensive HVAC solutions. We specialize in designing, manufacturing, and installing energy-efficient cooling, ventilation, and fire safety systems for industrial, commercial, and residential clients.",
+      "description": "Founded in 2005, Adhunik Hvac Projects Private Limited is a leading Indian manufacturer and global provider of comprehensive HVAC solutions. We specialize in designing, manufacturing, and installing energy-efficient cooling, ventilation, and fire safety systems for industrial, commercial, and residential clients.",
       "foundingDate": "2005-09-22",
       "founder": {
         "@type": "Person",
@@ -527,7 +572,7 @@ export default function HeroPage() {
     {
       "@type": "HVACBusiness",
       "@id": "https://adhunikpowertech.com/#localbusiness",
-      "name": "Adhunik Powertech Private Limited",
+      "name": "Adhunik Hvac Projects Private Limited",
       "image": "https://www.adhunikpowertech.com/we.svg",
       "url": "https://adhunikpowertech.com/",
       "telephone": "8287885885",
@@ -572,7 +617,7 @@ export default function HeroPage() {
       "@type": "WebSite",
       "@id": "https://adhunikpowertech.com/#website",
       "url": "https://adhunikpowertech.com/",
-      "name": "Adhunik Powertech",
+      "name": "Adhunik Hvac Projects",
       "publisher": { "@id": "https://adhunikpowertech.com/#organization" },
       "potentialAction": {
         "@type": "SearchAction",
@@ -588,7 +633,7 @@ export default function HeroPage() {
       "@type": "WebPage",
       "@id": "https://www.adhunikpowertech.com/our-Company",
       "url": "https://www.adhunikpowertech.com/our-Company",
-      "name": "About Us - HVAC & Manufacturing Experts in Gurugram - Adhunik Powertech",
+      "name": "About Us - HVAC & Manufacturing Experts in Gurugram - Adhunik Hvac Projects",
       "isPartOf": { "@id": "https://adhunikpowertech.com/#website" },
       "about": { "@id": "https://adhunikpowertech.com/#organization" },
       "inLanguage": "en-IN"
@@ -597,7 +642,7 @@ export default function HeroPage() {
       "@type": "WebPage",
       "@id": "https://www.adhunikpowertech.com/product-overview",
       "url": "https://www.adhunikpowertech.com/product-overview",
-      "name": "HVAC & Industrial Cooling Products India | Global - Adhunik Powertech",
+      "name": "HVAC & Industrial Cooling Products India | Global - Adhunik Hvac Projects",
       "isPartOf": { "@id": "https://adhunikpowertech.com/#website" },
       "inLanguage": "en-IN"
     },
@@ -605,8 +650,8 @@ export default function HeroPage() {
       "@type": "WebPage",
       "@id": "https://www.adhunikpowertech.com/top-HVAC-Contractor-in-Delhi-NCR-&-India",
       "url": "https://www.adhunikpowertech.com/top-HVAC-Contractor-in-Delhi-NCR-&-India",
-      "name": "Top HVAC Contractor in Delhi NCR & India - Adhunik Powertech",
-	  "description": "Adhunik Powertech is a trusted HVAC contractor in Delhi NCR and across India, offering expert services in HVAC design, installation, repair, and maintenance for industrial and commercial clients.",
+      "name": "Top HVAC Contractor in Delhi NCR & India - Adhunik Hvac Projects",
+	  "description": "Adhunik Hvac Projects is a trusted HVAC contractor in Delhi NCR and across India, offering expert services in HVAC design, installation, repair, and maintenance for industrial and commercial clients.",
       "isPartOf": { "@id": "https://adhunikpowertech.com/#website" },
       "inLanguage": "en-IN"
     }
@@ -622,33 +667,33 @@ export default function HeroPage() {
         <meta charSet="UTF-8" />
 
         <link rel="icon" type="image/svg+xml" href="/d.svg" />
-        <meta name="application-name" content="Adhunik Powertech" />
+        <meta name="application-name" content="Adhunik Hvac Projects" />
         <meta name="google-site-verification" content="ZZcgUmCTYjVHPEYAV2XPTWfgp_PXc7M2GOEgeg6kYW0" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="mobile-web-app-capable" content="yes" />
-        <meta name="apple-mobile-web-app-title" content="Adhunik Powertech" />
+        <meta name="apple-mobile-web-app-title" content="Adhunik Hvac Projects" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
         <meta httpEquiv="X-UA-Compatible" content="IE=EmulateIE7" />
         <meta name="twitter:site" content="@adhunikpowertech" />
         <meta name="twitter:image" content="https://adhunikpowertech.com/img/logo.png" />
-        <meta name="twitter:image:alt" content="Adhunik Powertech" />
+        <meta name="twitter:image:alt" content="Adhunik Hvac Projects" />
         <meta property="og:image" content="https://adhunikpowertech.com/img/logo.png" />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
         <meta name="robots" content="index,follow" />
         <meta name="googlebot" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1"></meta>
         <meta name="bingbot" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1"></meta>
-        <meta name="author" content="Adhunik Powertech"></meta>
+        <meta name="author" content="Adhunik Hvac Projects"></meta>
         <meta httpEquiv="Accept-CH" content="DPR, Viewport-Width, Width, Save-Data" />
-        <meta property="og:title" content="Top & Best HVAC Companies in India - Adhunik Powertech" />
-        <meta name="twitter:title" content="Top & Best HVAC Companies in India - Adhunik Powertech" />
-        <meta name="twitter:description" content="Searching for the top HVAC companies in India? Adhunik Powertech, Delhi's trusted HVAC contractor, manufacturer & supplier, offers expert cooling solutions across India. Contact us now & Get a Free Quote!" />
-        <meta name="keywords" content="HVAC solutions, industrial cooling, air washers, air handling units, ventilation systems, energy-efficient cooling, Adhunik Powertech" />
+        <meta property="og:title" content="Top & Best HVAC Companies in India - Adhunik Hvac Projects" />
+        <meta name="twitter:title" content="Top & Best HVAC Companies in India - Adhunik Hvac Projects" />
+        <meta name="twitter:description" content="Searching for the top HVAC companies in India? Adhunik Hvac Projects, Delhi's trusted HVAC contractor, manufacturer & supplier, offers expert cooling solutions across India. Contact us now & Get a Free Quote!" />
+        <meta name="keywords" content="HVAC solutions, industrial cooling, air washers, air handling units, ventilation systems, energy-efficient cooling, Adhunik Hvac Projects" />
         <meta property="og:locale" content="en_IN" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://adhunikpowertech.com/" />
-        <meta property="og:site_name" content="Adhunik Powertech" />
+        <meta property="og:site_name" content="Adhunik Hvac Projects" />
         <meta name="twitter:card" content="summary" />
 
       </Head>
@@ -662,7 +707,8 @@ export default function HeroPage() {
       <div className="row   h-auto w-full relative font-sans" >
 
 
-           <div
+        <div
+
           className="relative w-full h-screen overflow-hidden"
           ref={containerRef}
           onMouseDown={handleMouseDown}
@@ -676,15 +722,7 @@ export default function HeroPage() {
               className={`absolute inset-0 transition-opacity duration-1000 ease-in-out ${index === currentSlide ? 'opacity-100' : 'opacity-0'
                 }`}
             >
-              <div
-
-                className="w-full h-full object-cover"
-                style={{ position: 'absolute', top: 0, left: 0, zIndex: 1 }}
-
-              >
-
-                     <video
-
+              <video
                 autoPlay
                 loop
                 muted
@@ -693,21 +731,33 @@ export default function HeroPage() {
                 type="video/mp4"
                 className="w-full h-full object-cover"
                 style={{ position: 'absolute', top: 0, left: 0, zIndex: -1 }}
-
               >
-                <source src={slide.img} type="video/mp4" />
+                <source src={slide.video} type="video/mp4" />
 
-                {slide.alt}
+                {slide.descriptivetext}
 
               </video>
 
-                
-              </div>
 
+              <div className="  flex items-center h-screen bg-[#0000005a] bg-opacity-40">
 
-              <div className="  flex items-center h-screen bg-black bg-opacity-40">
-
-
+                <div className=" text-white   text-center md:text-left  lg:px-16">
+                  <p className="   text-[22px] md:text-6xl  md:w-[90%]  mb-2 font-thin">{slide.title}</p>
+                  <p className='  text-[12px] md:text-[14px]  md:w-[70%]'>{slide.content} </p>
+                  <button
+                    className="cursor-pointer z-10 relative mt-4 text-[12px] px-7 py-4 text-white rounded-lg shadow-lg transition-colors duration-300"
+                    style={{
+                      background: `
+                    radial-gradient(circle at 12.3% 19.3%, rgb(85, 88, 218) 0%, rgb(95, 209, 249) 100.2%),
+                    linear-gradient(68.8deg, rgba(0, 0, 0, 0.95) 1.8%, rgb(0, 55, 79) 31.8%, rgb(9, 93, 134) 56.2%, rgb(15, 155, 217) 89%)
+                  `,
+                      backgroundBlendMode: 'multiply',
+                    }}
+                    onClick={() => handleButtonClick(slide.buttonText)}
+                  >
+                    {slide.buttonText}
+                  </button>
+                </div>
               </div>
 
 
@@ -715,7 +765,7 @@ export default function HeroPage() {
           ))}
 
 
-          <div className="absolute bottom-4 z-2 left-1/2 transform -translate-x-1/2 flex space-x-2">
+          <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2">
             {slides.map((_, index) => (
               <button
                 key={index}
@@ -732,7 +782,32 @@ export default function HeroPage() {
 
 
 
- 
+  <div className=" flex flex-col section px-7 py-7  w-full justify-center  items-center ">
+
+
+          <p className=' pt-11 h-full relative w-full justify-center flex  text-9xl font-extrabold font-sans'>
+
+
+            <Image
+              width="960"
+              height="600"
+              src="/hvacsolution.webp"
+              className="h-full md:w-[70%]"
+              alt="hvac solution"
+              fetchPriority="high"
+              decoding="async"
+              effect="blur"
+              loading='lazy'
+            />
+
+
+          </p>
+
+          <p className='  uppercase w-full  h-full text-center   md:text-2xl  lg:text-3xl font-sans'> </p>
+          <p className="  pt-4 text-3xl font-extrabold text-center md:text-5xl lg:text-6xl"><span className=" bg-clip-text text-transparent bg-gradient-to-r to-[#0093E9] from-[#80D0C7] uppercase">    under one roof </span></p>
+
+        </div>
+
 
 
         <div className="row mt-7">
@@ -745,13 +820,13 @@ export default function HeroPage() {
 
                 <h1 className="mb-4 text-[20px] md:text-3xl  font-bold  text-gray-800 ">
 
-                  Adhunik Powertech: 19+ Years of HVAC Excellence – Contact Us Today!
+                  Adhunik Hvac Projects: 19+ Years of HVAC Excellence – Contact Us Today!
 
                 </h1>
 
 
                 <p className="mb-2 text-justify  font-light font-sans  ">
-                  Founded in 2005, Adhunik Powertech has established itself as a leader in the HVAC industry. We deliver innovative and efficient solutions, driven by our strong commitment to quality, reliability, and exceptional customer satisfaction.
+                  Founded in 2005, Adhunik Hvac Projects has established itself as a leader in the HVAC industry. We deliver innovative and efficient solutions, driven by our strong commitment to quality, reliability, and exceptional customer satisfaction.
 
                   We are proud to receive the <strong>India Business Award 2025</strong>  for the  <strong>  Best Quality Standards and Services in the HVAC Industry.</strong>
 
@@ -787,7 +862,7 @@ export default function HeroPage() {
                 <CldImage
                   className="w-full h-full object-center   object-cover rounded-3xl"
                   src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1743500674/indiaawards_k0es0f.webp"
-                  alt="Adhunik Powertech Private Limited has been honored with the India Business Award 2025 Presented by Actress Bipasha Basu"
+                  alt="Adhunik Hvac Projects Private Limited has been honored with the India Business Award 2025 Presented by Actress Bipasha Basu"
                   width="600"
                   height="960"
                 />
@@ -800,114 +875,7 @@ export default function HeroPage() {
         </div>
 
 
-        <div className="inline-flex items-center justify-center w-full mx-auto mt-4 my-3">
-          <hr className="w-[90%] h-px my-8 bg-gray-300 border-0 " />
-          <h2 className="absolute px-3  text-gray-700 -translate-x-1/2 bg-white left-1/2  text-lg   text-center  md:text-3xl text-1xl capitalize font-extrabold font-sans" >Our Projects </h2>
-        </div>
-
-        <section className="row ">
-          <div className="col">
-            <div className="  justify-center">
-              <div className="row">
-                <div className="col py-4">
-                  <div className="items-center justify-center h-full">
-                    <div className=' flex-row flex  flex-wrap justify-center items-center gap-3'>
-                      {products.map((item, index) => (
-                        <div key={index} className="  md:w-[30%]  w-80">
-                          <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30 rounded-xl">
-                            <div className="w-auto">
-                              <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
-                                <CldImage
-                                  width="960"
-                                  height="600"
-                                  src={item.src}
-                                  sizes="100vw"
-                                  alt={item.alt}
-                                  fetchPriority="high"
-                                  decoding="async"
-                                  className="h-96 w-full object-center object-contain"
-                                  effect="blur"
-                                />
-                              </div>
-                            </div>
-                            <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
-                            <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-                              <h2 className="font-sans font-normal text-[18px] uppercase text-white">
-                                {item.title}
-                              </h2>
-                              <p className="mb-3 pt-2 text-[12px] italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                                {item.content}
-                              </p>
-                              <Link
-                                href={item.link}
-                                className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60"
-                              >
-                                {item.linkText}
-                              </Link>
-                            </div>
-                          </div>
-                        </div>
-                      ))}
-                    </div>
-                  </div>
-                </div>
-
-
-                <div className="col py-4">
-                  <div className="items-center justify-center h-full">
-                    <div className=' flex-row flex-wrap flex justify-center items-center gap-3'>
-                      {products2.map((item, index) => (
-                        <div key={index} className="   w-80">
-                          <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30 rounded-xl">
-                            <div className="w-auto">
-                              <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
-
-                                <CldImage
-                                  width="960"
-                                  height="600"
-                                  src={item.src} // Assuming item.src contains the Cloudinary public ID
-                                  sizes="100vw"
-                                  alt={item.alt} // Assuming item.alt contains the alt description
-                                  fetchPriority="high"
-                                  decoding="async"
-                                  className="h-96 w-full object-center object-fill"
-                                  effect="blur"
-                                />
-                              </div>
-                            </div>
-                            <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
-                            <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-                              <h2 className="font-sans  font-normal text-[16px]   uppercase  text-white">
-                                {item.title}
-                              </h2>
-                              <p className="mb-3 pt-2 text-[12px] italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                                {item.content}
-                              </p>
-                              <Link
-                                href={item.link}
-                                className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60"
-                              >
-                                {item.linkText}
-                              </Link>
-                            </div>
-                          </div>
-                        </div>
-                      ))}
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-
-            </div>
-
-
-
-
-
-
-          </div>
-        </section>
+    
 
         <div className="inline-flex items-center justify-center w-full mx-auto my-4">
           <hr className="w-[90%] h-px my-8 bg-gray-300 border-0 " />
@@ -963,7 +931,7 @@ export default function HeroPage() {
                     From the Heart of India to  the Far  Corners of the World  <span className='  text-[10px] lg:text-[18px] '> </span>
                   </h2>
                   <p className="mb-3 text-[12px]  text-justify  lg:text-[14px] font-sans font-light">
-                    At Adhunik Powertech, we believe everyone deserves the comfort and efficiency of reliable cooling solutions. That's why we're dedicated to delivering our innovative air conditioning and air cooling products to customers across the globe.
+                    At Adhunik Hvac Projects, we believe everyone deserves the comfort and efficiency of reliable cooling solutions. That's why we're dedicated to delivering our innovative air conditioning and air cooling products to customers across the globe.
 
 
                   </p>
@@ -973,13 +941,13 @@ export default function HeroPage() {
 
                   </p>
 
-                  <p className=' text-[12px] lg:text-[14px] text-justify  font-sans font-light'>When you choose Adhunik Powertech, you're choosing a company dedicated to providing innovative, reliable, and sustainable cooling solutions. Our focus on quality, customer satisfaction, and global reach sets us apart as a leading provider in the industry.</p>
+                  <p className=' text-[12px] lg:text-[14px] text-justify  font-sans font-light'>When you choose Adhunik Hvac Projects, you're choosing a company dedicated to providing innovative, reliable, and sustainable cooling solutions. Our focus on quality, customer satisfaction, and global reach sets us apart as a leading provider in the industry.</p>
 
 
                 </div>
                 <div className="container flex  justify-center pt-3">
                   <Link aria-label=" learn more about HVAC Solutions and Air Cooling Systems product page" href='/product-overview' className=' bg-[#0177C8] relative text-white text-[14px] px-4 py-3 md:px-12 md:py-4 rounded-full  uppercase font-normal  font-sans'>
-                    Product Overview
+                    Project Overview
                   </Link>
                 </div>
 
@@ -1004,7 +972,7 @@ export default function HeroPage() {
           <section className="relative   py-20  bg-body overflow-hidden bg-black text-white">
             <div className="relative container mx-auto px-4">
 
-              <div className="absolute top-0 right-0 -mr-52 -mt-64 w-186 h-186 bg-gradient-to-t from-purple-600 via-darkBlue-900 rounded-full filter blur-4xl"></div>
+              
               <div className="relative  h-full w-full mx-auto lg:mx-0 mb-7 text-center">
                 <h2 className="font-heading text-4xl font-medium  tracking-tight mb-6">Our Quality Services</h2>
                 <p className="  text-gray-400 tracking-tight capitalize">
@@ -1019,7 +987,7 @@ export default function HeroPage() {
                     {
                       icon: 'cad__bvhdns',
                       title: 'Consultancy & Design',
-                      content: 'Adhunik Powertech provides (Engineering, Procurement, and Construction) HVAC Solutions to clients of various industries, executing turnkey HVAC Projects all over India.',
+                      content: 'Adhunik Hvac Projects provides (Engineering, Procurement, and Construction) HVAC Solutions to clients of various industries, executing turnkey HVAC Projects all over India.',
                     },
                     {
                       icon: 'de__xjfjdj',
@@ -1034,7 +1002,7 @@ export default function HeroPage() {
                   ].map((service, index) => (
                     <div key={index} className="w-full lg:w-1/3 px-4 mb-8 lg:mb-0">
                       <div
-                        className="group block h-auto xl:h-128 p-8 border-2 border-white border-opacity-10 hover:border-opacity-200 rounded-3xl transition duration-200 cursor-pointer"
+                        className="group block h-auto  p-8 border-[1px] border-gray-800 border-opacity-10 hover:border-opacity-200 rounded-3xl transition duration-200 cursor-pointer"
 
                       >
                         <div className="flex h-full flex-col items-start">
@@ -1120,31 +1088,7 @@ export default function HeroPage() {
           </div>
         </section>
 
-        <div className="row">
-          <div className="inline-flex items-center justify-center w-full mx-auto my-4">
-            <hr className="w-[90%] h-px my-8 bg-gray-300 border-0 " />
-            <h2 className="absolute px-3  text-gray-700 -translate-x-1/2 bg-white left-1/2   md:text-3xl   capitalize font-bold text-center font-sans">Our Premier Product Selection</h2>
-          </div>
-
-          <div className="row flex flex-row flex-wrap-reverse  mb-3 justify-evenly items-center">
-            <div className=" w-full h-full md:w-5/12 px-3">
-
-              <h2 className=" font-manrope uppercase  font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 to-blue-600 text-2xl lg:text-4xl text-black mb-9 max-lg:text-center relative ">
-Our Product Range 
-                </h2>
-
-              <p className="font-light font-sans text-justify text-[16px] leading-8 text-gray-500   max-w-2xl mx-auto">
-                We pride ourselves on offering a <strong>diverse and innovative product range</strong> designed to meet the specific needs of our clients across various industries. Our portfolio includes high-quality, cutting-edge solutions that are engineered for  <strong>performance, durability, and efficiency.</strong> Whether you require advanced HVAC systems, specialized ducting, or customized components, our products are meticulously crafted to deliver exceptional results, ensuring that every project is executed to the highest standards.
-              </p>
-            </div>
-
-            <div className=" w-full h-full md:w-5/12 my-5  ">
-              <ImageGallery items={images3} className="rounded-lg " />
-            </div>
-          </div>
-
-        </div>
-
+      
 
         <div className="inline-flex  py-6 items-center justify-center w-full mx-auto my-4 mt-8">
           <hr className="w-[90%] h-px  bg-gray-300 border-0 " />
@@ -1246,7 +1190,11 @@ Our Product Range
 
           </div>
 
-          <div className="  inline-flex mb-4  items-center justify-center w-full mx-auto mt-3 ">
+
+
+{/* Ratings from Leading Platforms.   ################## */}
+
+          {/* <div className="  inline-flex mb-4  items-center justify-center w-full mx-auto mt-3 ">
 
             <hr className="w-[90%] h-px my-8 bg-gray-300 border-0  " />
 
@@ -1255,11 +1203,6 @@ Our Product Range
             </h2>
 
           </div>
-
-
-
-
-
 
 
           <section className="hidden md:flex flex-col px-4 flex-wrap md:flex-row justify-evenly items-center gap-9 pt-6">
@@ -1274,7 +1217,7 @@ Our Product Range
                         width="300"
   height="300"
                   loading="lazy"
-                  alt="4.5 out of 5 indiamart ratings of adhunik powertech"
+                  alt="4.5 out of 5 indiamart ratings of Adhunik Hvac Projects"
                 />
               </a>
             </div>
@@ -1287,7 +1230,7 @@ Our Product Range
                         width="300"
   height="300"
                   loading="lazy"
-                  alt="4.5 out of 5 Google ratings of adhunik powertech has 84 good reviews"
+                  alt="4.5 out of 5 Google ratings of Adhunik Hvac Projects has 84 good reviews"
                 />
               </Link>
 
@@ -1342,7 +1285,7 @@ Our Product Range
                 &#8250;
               </button>
             </div>
-          </div>
+          </div> */}
 
 
 

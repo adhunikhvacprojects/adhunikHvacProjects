@@ -186,13 +186,11 @@ export default function SupportForm() {
         <>
             <ToastContainer />
 
-            <div className="w-full  ">
+            <div className="w-full pt-12  ">
                 <div className=" w-full p-7   items-center justify-center ">
-
                     <p className="text-5xl pt-4 text-center h-full mt-16">
                     Support Form
                      </p>
-
                 </div>
 
                 <div className=" w-full ">
@@ -358,7 +356,7 @@ export default function SupportForm() {
                                         rows="4"
                                         value={formData.message}
                                         onChange={handleChange}
-                                        className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                                        className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500      "
                                         placeholder="Write here..."
                                     ></textarea>
                                     {errors.message && (

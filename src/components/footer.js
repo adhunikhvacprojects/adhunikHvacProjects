@@ -109,7 +109,7 @@ function Footer() {
 
             <h2 className=" mb-4 flex flex-row text-center  font-semibold uppercase justify-center">
 
-              Adhunik PowerTech Private Limited
+              ADHUNIK HVAC PROJECTS Private Limited
               provides   latest cooling technology
               with sustainable climate control
               at the   fingertips.
@@ -254,7 +254,7 @@ function Footer() {
 
 
       <div className=" flex bg-black/5 p-6 text-center   flex-col  md:flex-row justify-center items-center gap-6">
-        <div className="font-semibold cursor-pointer"  > © Copyright 2025 Adhunik Powertech Private Ltd. All Rights Reserved.</div>
+        <div className="font-semibold cursor-pointer"  > © Copyright 2025 ADHUNIK HVAC PROJECTS Private Ltd. All Rights Reserved.</div>
         <Link href='/sitemap' className="font-semibold cursor-pointer hover:text-cyan-500"  > Sitemap</Link>
       </div>
     </footer>

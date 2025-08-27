@@ -20,12 +20,9 @@ function Header() {
 
   const [openDropdown, setOpenDropdown] = useState(null);
 
-
-
   const toggleDropdown = (dropdownIndex) => {
     setOpenDropdown(openDropdown === dropdownIndex ? null : dropdownIndex);
   };
-
 
   const stopPropagation = (e) => {
     e.stopPropagation();
@@ -37,36 +34,24 @@ function Header() {
 
     { href: '/our-quality-service', text: 'Our Quality Service' },
 
-    // {
-    //   to: '#',
-    //   text: 'Our Projects',
-    //   dropdownItems: [
-    //     { label: 'Projects 1"', href: '/Projects' },
-     
-    //   ],
-    // },
-
-
     { text: 'Our  Projects', href: '/our-projects' },
+
+    { text: 'Our  Clients', href: '/our-clients'},
+
     { href: '/blog', text: 'Blogs' },
 
     { text: 'Contact Us', href: '/support-form' },
   ];
 
 
-
   const [nestedDropdown, setNestedDropdown] = useState(null);
-
-
 
   const toggleNestedDropdown = (index) => {
     setNestedDropdown(nestedDropdown === index ? null : index);
   };
 
-
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
-
 
   const toggleMobileMenu = useCallback(() => {
     setIsMobileMenuOpen((prev) => !prev);
@@ -91,7 +76,6 @@ function Header() {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
-
 
   const pathname = usePathname();
   const [logoSrc, setLogoSrc] = useState('https://res.cloudinary.com/ddkyx2jhh/image/upload/v1755068273/LOGO_s_2_dwogzo.png');
@@ -122,15 +106,13 @@ function Header() {
       href: "/our-quality-service"
     },
 
-    // {
-    //   label: "Service",
-    //   dropdown: [],
-    // },
-
     {
       label: "Our Projects",
       href: "/our-projects"
     },
+
+     { label: 'Our  Clients', href: '/our-clients'},
+    
     {
       label: "Blogs",
       href: "/blog"
@@ -155,10 +137,6 @@ function Header() {
   const [results, setResults] = useState([]);
   const [showSearch, setShowSearch] = useState(false);
   const router = useRouter();
-
-
-
-
   const handleSearch = (e) => {
     const input = e.target.value;
     setQuery(input);

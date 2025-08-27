@@ -4,3 +4,35 @@
 
  
  
+*::selection {
+    background-color: rgb(252, 164, 154);
+ }
+
+
+
+
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('/fonts/AC.ttf') format('woff2');
+ 
+  }
+  
+
+ 
+
+  @font-face {
+  font-family: 'Poppins';
+  src: url('/fonts/Poppins/Poppins-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+  
+  html::-webkit-scrollbar, body::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for Webkit browsers (Chrome, Safari) */
+ }
