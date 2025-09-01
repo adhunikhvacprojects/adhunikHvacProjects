@@ -125,7 +125,7 @@ function Footer() {
             </p>
 
             <p className=' pb-1'>
-            Email: info@adhunikpowertech.com
+            Email: info@adhunikhvacprojects.com
             </p>
 
             <p>Phone: 8287885885</p>

@@ -16,7 +16,7 @@ export default function SupportForm() {
     const handlePhoneCall = () => {
         window.location.href = `tel:${phoneNumber}`;
     };
-    const emailAddress = "info@adhunikpowertech.com";
+    const emailAddress = "info@adhunikhvacprojects.com";
 
     const handleEmailSend = () => {
         window.location.href = `mailto:${emailAddress}`;
@@ -24,9 +24,9 @@ export default function SupportForm() {
     const locationAddress = "DCG1-0102, Tower -1, DLF Corporate Green Sector-74A Gurugram (HR) 122004";
 
     const handleGetLocation = () => {
-        // Constructing the Google Maps URL with the address
+      
         const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(locationAddress)}`;
-        // Opening the URL in a new tab
+       
         window.open(mapsUrl, '_blank');
     };
 
