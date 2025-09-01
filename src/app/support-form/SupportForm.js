@@ -8,8 +8,8 @@ import 'react-toastify/dist/ReactToastify.css';
 import { useRouter } from 'next/navigation';
 
 export default function SupportForm() {
-    // const notifye = () => toast.error(" Invalid Details ");
-    // const notifys = () => toast(" Message Sent ");
+    const notifye = () => toast.error(" Invalid Details ");
+    const notifys = () => toast(" Message Sent ");
     const router = useRouter();
     const phoneNumber = "8287885885";
 
@@ -84,18 +84,18 @@ export default function SupportForm() {
         e.preventDefault();
 
         if (validateForm()) {
-
+          
             emailjs
-                .sendForm("service_rurf2x7", "template_l7fwlg4", form.current, {
-                    publicKey: "MhRQ4EQ146BN6g6VJ",
+                .sendForm("service_106xw2n", "template_xpk4wj5", form.current, {
+                    publicKey: "K49eAHdpU4ZAW7xJe",
                 })
                 .then(() => {
                     notifys();
                     console.log("SUCCESS!");
-
+                   
                     setTimeout(() => {
                         router.push("/");
-                    }, 5000);
+                    }, 1000);
                 })
                 .catch((error) => {
                     console.log("FAILED...", error);
@@ -107,6 +107,7 @@ export default function SupportForm() {
             notifye();
         }
     };
+
 
     const contactDetails = [
         {
@@ -238,8 +239,8 @@ export default function SupportForm() {
 
                             <form
                                 className="w-auto m-3 md:m-7"
-                                // onSubmit={sendEmail}
-                                // ref={form}
+                                onSubmit={sendEmail}
+                                ref={form}
                             >
                                 <h1 className="text-4xl mb-7 capitalize">Talk to our expert.</h1>
                                 <div className="flex flex-wrap -mx-3 mb-6">
