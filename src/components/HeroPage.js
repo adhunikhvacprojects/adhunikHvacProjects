@@ -558,15 +558,7 @@ export default function HeroPage() {
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
         "name": "Product Catalog",
-       "itemListElement": [
-{ "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Air Washer" } },
-{ "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Ducted Air Coolers" } },
-{ "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Ventilation & Exhaust Fans" } },
-{ "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Panel Air Conditioner" } },
-{ "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Oil and Coolant Chiller" } },
-{ "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Air Shower" } },
-{ "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Air Handling Unit (AHU)" } }
-]
+     
 
       }
     },
@@ -604,15 +596,7 @@ export default function HeroPage() {
         "ratingValue": "4.6",
         "ratingCount": "85"
       },
-      "makesOffer": [
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "HVAC Contracting Services" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "HVAC Design and Consultation" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Professional HVAC Installation" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "HVAC Repair and Maintenance" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Industrial HVAC Solutions" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Energy-Efficient HVAC Upgrades" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Indoor Air Quality Solutions" } }
-      ]
+    
     },
     {
       "@type": "WebSite",
