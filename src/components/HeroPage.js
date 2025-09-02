@@ -816,33 +816,30 @@ export default function HeroPage() {
 
             <div className=" gap-7 md:gap-16   items-center flex  flex-wrap-reverse pt-0 mt-0 py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2  lg:px-6">
 
-              <div className="font-light text-gray-700 text-[15px]  md:text-[16px] text-center md:text-left">
+              <div className="    text-gray-700 text-[15px]  md:text-[16px] text-center md:text-left">
 
-                <h1 className="mb-4 text-[20px] md:text-3xl  font-bold  text-gray-800 ">
+                <h1 className="mb-4 text-[20px] md:text-2xl  font-bold  text-gray-800 ">
 
-                  Adhunik Hvac Projects: 19+ Years of HVAC Excellence – Contact Us Today!
+                 Adhunik HVAC Projects : Engineering Excellence, Built on a Legacy of Trust 
 
                 </h1>
 
 
-                <p className="mb-2 text-justify  font-light font-sans  ">
-                  Founded in 2005, Adhunik Hvac Projects has established itself as a leader in the HVAC industry. We deliver innovative and efficient solutions, driven by our strong commitment to quality, reliability, and exceptional customer satisfaction.
-
-                  We are proud to receive the <strong>India Business Award 2025</strong>  for the  <strong>  Best Quality Standards and Services in the HVAC Industry.</strong>
+                <p className="mb-2 text-justify  text-sm      ">
+              <strong> Adhunik HVAC Projects </strong> is an award-winning leader in specialized HVAC solutions, born from a 19+ year legacy of engineering excellence at the renowned <strong>Adhunik Powertech</strong>. Our work has been recognized with the <strong>India Business Award 2025</strong> for <strong>"Best Quality Standards,"</strong> a testament to our commitment to delivering superior results. 
 
                 </p>
 
-                <p className=' mb-2 text-justify  font-light font-sans'>
-                  Our extensive range of <strong>
-                    air cooling and air conditioning products
-                  </strong>  meets various needs, catering to commercial and industrial environments. We focus on comfort and energy efficiency in every solution. Additionally, our comprehensive <strong>HVAC project services —including design, installation, and maintenance</strong>—ensure that our clients receive the best possible support from start to finish.
+                <p className=' mb-2 text-justify  text-sm    '>
+
+                As the dedicated projects division of Adhunik Guds & Services, we provide comprehensive <strong>turnkey services</strong>—from innovative <strong>design</strong> to flawless <strong>installation</strong> and long-term <strong>maintenance</strong>. Our team of industry veteran engineers designs highly reliable and energy-efficient systems that ensure optimal performance and complete peace of mind for our clients and partners. 
 
 
                 </p>
 
-                <p className=' pb-8 text-justify  font-light font-sans'>
+                <p className=' pb-8 text-justify  text-sm '>
 
-                  Experience the  <strong>Adhunik Difference and Explore Our Solutions Today!</strong>
+                We are not just continuing a <strong>legacy</strong>; we are defining its <strong>future</strong>. Welcome to the next chapter of <strong>HVAC excellence</strong>.
 
                 </p>
 
@@ -877,7 +874,7 @@ export default function HeroPage() {
 
     
 
-        <div className="inline-flex items-center justify-center w-full mx-auto my-4">
+        {/* <div className="inline-flex items-center justify-center w-full mx-auto my-4">
           <hr className="w-[90%] h-px my-8 bg-gray-300 border-0 " />
           <h2 className="absolute px-2 md:px-3  text-gray-700 -translate-x-1/2 bg-white left-1/2  text-center text-[20px]  md:text-3xl text-1xl capitalize font-extrabold font-sans"> Serving WorldWide
           </h2>
@@ -958,7 +955,7 @@ export default function HeroPage() {
           </div>
 
 
-        </div>
+        </div> */}
 
         <div className="row">
 
@@ -975,8 +972,10 @@ export default function HeroPage() {
               
               <div className="relative  h-full w-full mx-auto lg:mx-0 mb-7 text-center">
                 <h2 className="font-heading text-4xl font-medium  tracking-tight mb-6">Our Quality Services</h2>
+
                 <p className="  text-gray-400 tracking-tight capitalize">
-                  <span className='  text-center '> we offer high-quality, personalized services that ensure a  great experience and <br /> exceed your expectations.</span>
+                  <span className='  text-center '> We Offer High-Quality, Personalized Services That Ensure a <br /> Great Experience and Exceed Your Expectations.
+</span>
                 </p>
               </div>
 
@@ -987,17 +986,17 @@ export default function HeroPage() {
                     {
                       icon: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738750083/cad__bvhdns.webp',
                       title: 'Consultancy & Design',
-                      content: 'Adhunik Hvac Projects provides (Engineering, Procurement, and Construction) HVAC Solutions to clients of various industries, executing turnkey HVAC Projects all over India.',
+                      content: 'Adhunik HVAC Projects provides expert HVAC consultancy and design services. We work closely with clients across various industries to engineer custom, turnkey solutions for projects all over India.',
                     },
                     {
                       icon: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738750084/de__xjfjdj.webp',
                       title: 'Detailed Engineering',
-                      content: "We have over 19+ years of experience in the HVAC Industry. Our focus while system designing & selection is to provide energy-efficient & cost-effective cooling solutions with near 'zero' maintenance that is for large industrial, institutional, commercial as well as residential premises"
+                      content: "With over 19+ years of legacy experience, our detailed engineering process focuses on designing energy-efficient and cost-effective cooling solutions with near 'zero' maintenance for large industrial, institutional, and commercial facilities."
                     },
                     {
                       icon: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1743499001/Project_Exe_mptvqx.webp',
                       title: 'Project Execution',
-                      content: " We execute all the projects under NBC, CPWD & NABH guidelines. We also follow ISHRAE, ASHRAE & ISO Standards. We are committed to safety, measurement & precautions during the execution of the work."
+                      content: "Our project execution is defined by precision and adherence to the highest standards. We execute all projects under strict NBC, CPWD, and NABH guidelines, while following ISHRAE, ASHRAE, and ISO standards to ensure safety and performance."
                     },
                   ].map((service, index) => (
                     <div key={index} className="w-full lg:w-1/3 px-4 mb-8 lg:mb-0">
@@ -1036,6 +1035,7 @@ export default function HeroPage() {
             </div>
           </section>
 
+    
 
         </div>
 
@@ -1074,12 +1074,35 @@ export default function HeroPage() {
                 <div className="w-full flex-col justify-center items-start gap-8 flex">
                   <div className="w-full flex-col justify-start lg:items-start items-center gap-3 flex">
                     <h2 className="text-gray-700 text-xl font-semibold font-manrope w-full leading-normal  text-center">
-                      Top HVAC Services in Delhi NCR & India : Design, Engineering, Installation
+                    The Adhunik Advantage
+<br />
+Expertise Across Key Industries
                     </h2>
                     <div className=" text-base  leading-relaxed   space-y-4">
-                      {paragraphs.map((paragraph, index) => (
-                        <p className="font-sans  text-sm font-thin  text-justify " key={index}>{paragraph}</p>
-                      ))}
+                    <p>
+                      We don't believe in one-size-fits-all solutions. Our 19+ years of experience include delivering custom-engineered HVAC systems for some of the most demanding environments. Our specialized expertise includes:
+
+                    </p>
+                    <ul className=' list-disc list-inside space-y-2'>
+                      <li>
+<strong className=' text-cyan-600 font-bold'>Commercial & Hospitality : </strong> Creating optimal comfort and energy efficiency for corporate offices, hotels, and retail spaces.
+                      </li>
+
+                      <li>
+<strong className=' text-cyan-600 font-bold'>Industrial & Manufacturing : </strong> Designing robust ventilation and process cooling systems for factories, warehouses, and high-heat-load environments.
+                      </li>
+                      
+                      <li>
+<strong className=' text-cyan-600 font-bold'>Pharmaceutical & Healthcare : </strong>  Engineering and installing compliant Clean Room, OT, and laboratory systems where air quality and precision are paramount.
+                      </li>
+
+                      <li>
+
+<strong className=' text-cyan-600 font-bold'> Data Centers & IT : </strong> Delivering mission-critical, redundant cooling solutions to protect sensitive IT infrastructure 24/7.
+
+                      </li>
+
+                    </ul>
                     </div>
                   </div>
                 </div>
@@ -1091,6 +1114,95 @@ export default function HeroPage() {
         </section>
 
       
+
+            <section className="relative   py-20  bg-body overflow-hidden  text-gray-700">
+            <div className="relative container mx-auto px-4">
+
+              
+              
+
+
+              <div className="relative max-w-md lg:max-w-none mx-auto">
+                <div className="flex flex-wrap -mx-4 text-center md:text-left">
+                  {[
+                    {
+                      icon: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738750083/cad__bvhdns.webp',
+                      title: 'Integrating Technology for Smarter Performance',
+                      content: 'We leverage modern technology to deliver systems that are not only powerful but also intelligent. Our capabilities include integrating advanced Building Management Systems (BMS), utilizing sophisticated energy modeling to predict and optimize performance, and designing smart solutions that give you greater control over your environment while reducing operational costs.',
+                    },
+                    {
+                      icon: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738750084/de__xjfjdj.webp',
+                      title: 'A Commitment to Sustainability',
+                      content: "We believe that superior performance and environmental responsibility go hand-in-hand. Our engineering process prioritizes energy efficiency at every stage, helping our clients reduce their carbon footprint and achieve significant long-term cost savings. We are your partners in building a greener, more sustainable future."
+                    },
+                  
+                  ].map((service, index) => (
+                    <div key={index} className="w-full lg:w-6/12 px-4 mb-8 lg:mb-0">
+                      <div
+                        className="group block h-auto  p-8 border-[1px] border-gray-800 border-opacity-10 hover:border-opacity-200 rounded-3xl transition duration-200 cursor-pointer"
+
+                      >
+                        <div className="flex h-full flex-col items-start">
+                    
+                          <div className="mt-auto ">
+                            <h2 className="text-3xl sm:text-4xl mb-2 font-medium  group-hover:text-cyan-500">{service.title}</h2>
+                            <p className="text-gray-400 tracking-tight leading-5  ">{service.content}</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+
+            </div>
+          </section>
+
+            <section className="relative   pb-20  bg-body overflow-hidden  text-gray-700">
+            <div className="relative container mx-auto px-4">
+
+              
+              
+
+
+              <div className="relative max-w-md lg:max-w-none mx-auto">
+                <div className="flex flex-wrap -mx-4 text-center md:text-left">
+                  {[
+                    {
+                      icon: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738750083/cad__bvhdns.webp',
+                      title: 'Top HVAC Contractor in Delhi NCR & Across India: Design, Engineering, Installation',
+                      content: 'With a legacy spanning over 19 years, inherited from the renowned Adhunik Powertech, Adhunik HVAC Projects delivers high-performance, personalized HVAC services, boasting a strong presence in Delhi, Gurugram, Noida, and the entire NCR. We are a leading turnkey contractor with proven capabilities for executing complex projects pan-India. Our team of seasoned experts excels in providing comprehensive solutions that encompass every phase of a project, from initial expert consulting and detailed engineering to flawless installation and long-term maintenance.Our unwavering commitment to quality is demonstrated by our meticulous project execution, which adheres strictly to the highest national and international standards, including ISHRAE, ASHRAE, NBC, and CPWD. We specialize in engineering energy-efficient and cost-effective cooling systems that are tailored to the unique demands of industrial, commercial, and institutional environments. This focus ensures we deliver not only superior performance and safety but also lasting value and client satisfaction on every project we undertake.',
+                    },
+                    {
+                      icon: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738750084/de__xjfjdj.webp',
+                      title: 'Our HVAC Solutions',
+                      content: "We pride ourselves on offering a diverse range of innovative HVAC solutions, designed to meet the specific needs of our clients across various industries. Our portfolio is comprised of high-quality, cutting-edge systems that are engineered for performance, durability, and efficiency. Whether your project requires complex centralized HVAC systems, specialized industrial ducting, or custom-engineered air management solutions, our expertise ensures every component is integrated to deliver exceptional results. We are meticulously focused on ensuring that every project is executed to the highest standards."
+                    },
+                  
+                  ].map((service, index) => (
+                    <div key={index} className="w-full lg:w-6/12 px-4 mb-8 lg:mb-0">
+                      <div
+                        className="group block h-auto  p-8 border-[1px] border-gray-800 border-opacity-10 hover:border-opacity-200 rounded-3xl transition duration-200 cursor-pointer"
+
+                      >
+                        <div className="flex h-full flex-col items-start">
+                          
+                          <div className="mt-auto ">
+                            <h2 className="text-3xl sm:text-4xl mb-2 font-medium  group-hover:text-cyan-500">{service.title}</h2>
+                            <p className="text-gray-400 tracking-tight leading-5  ">{service.content}</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+
+            </div>
+          </section>
+
 
         <div className="inline-flex  py-6 items-center justify-center w-full mx-auto my-4 mt-8">
           <hr className="w-[90%] h-px  bg-gray-300 border-0 " />

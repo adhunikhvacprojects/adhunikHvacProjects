@@ -34,5 +34,5 @@
 
   
   html::-webkit-scrollbar, body::-webkit-scrollbar {
-    display: none; /* Hide scrollbar for Webkit browsers (Chrome, Safari) */
+    display: none; 
  }
