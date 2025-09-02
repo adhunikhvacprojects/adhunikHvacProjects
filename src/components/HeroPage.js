@@ -558,15 +558,16 @@ export default function HeroPage() {
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
         "name": "Product Catalog",
-        "itemListElement": [
-          { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Air Washer" } },
-          { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Ducted Air Coolers" } },
-          { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Ventilation & Exhaust Fans" } },
-          { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Panel Air Conditioner" } },
-          { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Oil and Coolant Chiller" } },
-          { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Air Shower" } },
-          { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Air Handling Unit (AHU)" } }
-        ]
+       "itemListElement": [
+{ "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Air Washer" } },
+{ "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Ducted Air Coolers" } },
+{ "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Ventilation & Exhaust Fans" } },
+{ "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Panel Air Conditioner" } },
+{ "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Oil and Coolant Chiller" } },
+{ "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Air Shower" } },
+{ "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Air Handling Unit (AHU)" } }
+]
+
       }
     },
     {
