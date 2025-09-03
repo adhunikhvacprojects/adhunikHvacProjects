@@ -9,6 +9,7 @@ export default function OurQualityServices() {
 
 
   const features = [
+
     {
       id: 1,
       icon: (
@@ -20,9 +21,10 @@ export default function OurQualityServices() {
           />
         </svg>
       ),
-      description: ' Estimating the Heating and Cooling Requisites ',
-      item2: " Our engineer would consider and prepare a plan that shares the information on the overall load calculation as to how much heating and cooling capacity would be required of various equipment. "
+      description: 'Expert HVAC Design and Consultation',
+      item2: "Our process begins with a thorough understanding of your needs. We provide expert consultation to develop customized HVAC systems that are both effective and energy-efficient, adhering to all relevant Indian standards and building codes."
     },
+
     {
       id: 2,
       icon: (
@@ -34,9 +36,10 @@ export default function OurQualityServices() {
           />
         </svg>
       ),
-      description: ' Evaluate and Delineate Plans ',
-      item2: "Before the start-up of any new project our HVAC design engineers ensure to understand the overall layout of the project which is with regards to the planning, schematics, and blueprints."
+      description: 'Professional HVAC Installation ',
+      item2: "We handle the seamless installation of a wide range of systems, including central air conditioning, VRF/VRV systems, chillers, and specialized ventilation. Our meticulous installation ensures optimal performance and longevity for your investment."
     },
+
     {
       id: 3,
       icon: (
@@ -48,9 +51,11 @@ export default function OurQualityServices() {
           />
         </svg>
       ),
-      description: 'Anticipate Oxygenating Requisites ',
-      item2: " We will always be cordial and modest, respecting the rights and needs of others to strengthen healthy social relationships and improve the quality of life in our communities. "
+      description: 'Reliable HVAC Repair and Maintenance (AMCs)',
+      item2: "Our responsive repair and maintenance services, available through comprehensive Annual Maintenance Contracts (AMCs), are designed to minimize downtime and maximize the lifespan of your HVAC equipment."
     },
+
+
     {
       id: 4,
       icon: (
@@ -62,9 +67,10 @@ export default function OurQualityServices() {
           />
         </svg>
       ),
-      description: 'Determine Budget Expenses ',
-      item2: "Post accreditation from the client on the system design and specification we provide valuable support on the budget estimation of the project by evaluating proper technical specification and commercial cost."
+      description: 'Energy-Efficient HVAC Upgrades and Retrofits',
+      item2: "We help businesses transition to more energy-efficient HVAC systems, reducing energy consumption, lowering utility costs, and contributing to a sustainable future."
     },
+
     {
       id: 5,
       icon: (
@@ -76,24 +82,12 @@ export default function OurQualityServices() {
           />
         </svg>
       ),
-      description: ' Coordinate with Project Teams  ',
-      item2: "The team of engineers coordinates and cooperates with the team of architects and contractors who are part of the project when the work is assigned to design heating and cooling systems."
+      description: 'Indoor Air Quality (IAQ) Solutions',
+      item2: "Ensuring a healthy indoor environment is paramount. We offer a range of air quality solutions, including high-efficiency filtration systems and humidifiers/dehumidifiers, tailored to the specific challenges in Delhi NCR and beyond."
     },
-    {
-      id: 6,
-      icon: (
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-10 h-10 text-[#e8f1f5]">
-          <path
-            fillRule="evenodd"
-            d="M9 4.5a.75.75 0 01.721.544l.813 2.846a3.75 3.75 0 002.576 2.576l2.846.813a.75.75 0 010 1.442l-2.846.813a3.75 3.75 0 00-2.576 2.576l-.813 2.846a.75.75 0 01-1.442 0l-.813-2.846a3.75 3.75 0 00-2.576-2.576l-2.846-.813a.75.75 0 010-1.442l2.846-.813A3.75 3.75 0 007.466 7.89l.813-2.846A.75.75 0 019 4.5zM18 1.5a.75.75 0 01.728.568l.258 1.036c.236.94.97 1.674 1.91 1.91l1.036.258a.75.75 0 010 1.456l-1.036.258c-.94.236-1.674.97-1.91 1.91l-.258 1.036a.75.75 0 01-1.456 0l-.258-1.036a2.625 2.625 0 00-1.91-1.91l-1.036-.258a.75.75 0 010-1.456l1.036-.258a2.625 2.625 0 001.91-1.91l.258-1.036A.75.75 0 0118 1.5zM16.5 15a.75.75 0 01.712.513l.394 1.183c.15.447.5.799.948.948l1.183.395a.75.75 0 010 1.422l-1.183.395c-.447.15-.799.5-.948.948l-.395 1.183a.75.75 0 01-1.422 0l-.395-1.183a1.5 1.5 0 00-.948-.948l-1.183-.395a.75.75 0 010-1.422l1.183-.395c.447-.15.799-.5.948-.948l.395-1.183A.75.75 0 0116.5 15z"
-            clipRule="evenodd"
-          />
-        </svg>
-      ),
-      description: ' Adhere to All Building Codes  ',
-      item2: "We follow all the respective building codes and practices that are defined as well as mandatory for the successful implementation of HVAC services in the projects."
-    },
-    // Add more items as needed
+
+
+     
   ];
 
 
@@ -195,130 +189,137 @@ export default function OurQualityServices() {
                 </div>
         </div>
         <div className="md:w-6/12 flex flex-col justify-center item-center">
-        <div className="container mx-auto    shadow-none p-2">
-            <h1 className="text-3xl  md:text-4xl font-bold text-center mb-8 text-gray-800">
-              Your Trusted HVAC Contractor in Delhi NCR & Across India – ADHUNIK HVAC PROJECTS
+        <div className="container mx-auto    shadow-none ">
+            <h1 className=" text-lg md:text-2xl md:text-left  font-bold text-center mb-2 text-gray-800">
+             A Commitment to End-to-End Excellence
+
             </h1>
           </div>
-        <p className="text-gray-700 text-justify mb-6 font-sans">
-            Welcome to ADHUNIK HVAC PROJECTS, your reliable partner for comprehensive HVAC (Heating, Ventilation, and Air Conditioning) solutions. We serve the diverse needs of clients across Delhi NCR (including Noida, Gurugram, Faridabad, and Ghaziabad) and extend our expertise throughout India. With a strong foundation built on years of experience and a commitment to excellence, we deliver expert, energy-efficient HVAC services tailored to commercial, industrial, and residential projects of all scales.
-          </p>
+        <p className="text-gray-700 text-sm text-justify mb-6 font-sans">
+        At Adhunik HVAC Projects, we provide a comprehensive suite of services designed to deliver performance, reliability, and peace of mind at every stage of your project. Our process is built on a 19+ year legacy of engineering excellence, ensuring a seamless journey from the initial blueprint to flawless execution and long-term support.
+
+         </p>
+
+           <div className="px-4 md:px-0 pb-0  max-w-7xl mx-auto  ">
+       
+ 
+          <h2 className=" text-lg md:text-2xl font-semibold text-gray-800  mb-4 text-center md:text-left">
+       Consultancy & Strategic Design
+         </h2>
+
+          <p className="text-gray-700 text-sm text-justify mb-4  font-sans">
+        Every successful project begins with a deep understanding of your unique requirements. Our process starts with expert consultancy, where our team of professional engineers engages in detailed interactions with all stakeholders. We work to crystallize your vision and translate it into a clear, actionable plan. This phase includes
+  </p>
+
+          <ul className="list-disc pl-6 space-y-3 text-gray-700">
+            {[
+              {
+                title: 'Needs Assessment –',
+                description:
+                  'We meticulously gather data on your facility, operational needs, and long-term goals.'
+              },
+          
+              {
+                title: 'Conceptual Planning –',
+                description:
+                  'A detailed design concept report is prepared, summarizing the project requirements, proposed system scheme, and a budgetary cost estimate for your approval.'
+              },
+              {
+                title: 'System Layout –',
+                description:
+                  'Our HVAC engineers take full responsibility for designing the optimal layout for all heating, cooling, and control systems, ensuring every element is planned in accordance with the highest industry standards.'
+              },
+          
+            
+            ].map((item, index) => (
+              <li key={index} className=" text-sm font-thin text-justify font-sans">
+                <span className="font-semibold">{item.title}</span>&nbsp;{item.description}
+              </li>
+            ))}
+          </ul>
+          
+          </div>
         </div>
 
 
       </div>
     </section>
 
-      <section className=' md:px-9'>
+      <section className=' pt-4 md:pt-0 md:px-9'>
         <div className="px-4 pb-0 md:py-12 max-w-7xl mx-auto  ">
        
-
-
-       
-
+ 
           <h2 className="text-2xl font-semibold text-gray-800 md:mt-10 mb-4 text-center md:text-left">
-            Comprehensive HVAC Services Tailored to Your Needs
-          </h2>
-          <p className="text-gray-700 text-justify mb-4  font-sans">
-            At ADHUNIK HVAC PROJECTS, we understand that every project has unique requirements. Our skilled team of engineers and technicians provides a complete spectrum of HVAC services, ensuring optimal comfort, efficiency, and air quality for your specific environment.
-          </p>
+      Detailed Engineering
+         </h2>
+
+          <p className="text-gray-700 text-sm text-justify mb-4  font-sans">
+     This is where precision takes shape. With our extensive experience, we focus on designing energy-efficient and cost-effective solutions that require minimal maintenance. Our detailed engineering phase ensures every technical aspect is perfected before procurement or construction begins. Our capabilities include
+  </p>
 
           <ul className="list-disc pl-6 space-y-3 text-gray-700">
             {[
               {
-                title: 'Expert HVAC Design and Consultation –',
+                title: 'Advanced System Modeling –',
                 description:
-                  'Our process begins with a thorough understanding of your needs and project specifications. We provide expert consultation and design services, developing customized HVAC systems that are both effective and energy-efficient, adhering to relevant Indian standards and building codes.'
+                  'We utilize advanced software for precise load calculations, P&ID development, line sizing, and energy mass balance to ensure optimal performance.'
               },
               {
-                title: 'Professional HVAC Installation –',
+                title: 'Comprehensive Documentation –',
                 description:
-                  'We handle the seamless installation of a wide range of HVAC systems, including central air conditioning, VRF/VRV systems, chillers, heat pumps, ventilation systems, and more. Our meticulous installation ensures optimal performance and longevity of your investment.'
+                  'We develop all necessary technical documents, including plot plans, 2D/3D models, isometrics, and a detailed material take-off (MTO).'
               },
+            
               {
-                title: 'Reliable HVAC Repair and Maintenance –',
+                title: 'Safety & Efficiency Focus –',
                 description:
-                  'Our responsive repair and maintenance services are designed to minimize downtime and maximize the lifespan of your HVAC equipment. We offer comprehensive maintenance plans and are available for prompt and efficient repairs when you need them most, across Delhi NCR and India.'
+                  'We engineer for a comfortable and safe indoor environment with superior air quality, while maximizing the energy efficiency of your building.'
               },
-              {
-                title: 'Commercial HVAC Solutions –',
-                description:
-                  'We cater to the complex HVAC demands of commercial spaces, including offices, retail outlets, hotels, hospitals, educational institutions, and more. Our solutions are designed for comfort, efficiency, and scalability'
-              },
-              {
-                title: 'Industrial HVAC Expertise –',
-                description:
-                  'ADHUNIK HVAC PROJECTS possesses the expertise to handle the specialized HVAC requirements of industrial facilities, including process cooling, ventilation for manufacturing units, and precise temperature and humidity control for sensitive environments.'
-              },
-              {
-                title: 'Energy-Efficient HVAC Upgrades and Retrofits –',
-                description:
-                  'We help businesses and homeowners transition to more energy-efficient HVAC systems, reducing energy consumption, lowering utility costs, and contributing to a sustainable future.'
-              },
-              {
-                title: 'Indoor Air Quality Solutions –',
-                description:
-                  'Ensuring healthy indoor environments is paramount. We offer a range of air quality solutions, including air purifiers, filtration systems, humidifiers, and dehumidifiers, tailored to the specific air quality challenges in Delhi NCR and beyond.'
-              },
-              {
-                title: 'Ventilation System Design and Installation –',
-                description:
-                  'Proper ventilation is crucial for air quality and comfort. We design and install effective ventilation systems for various applications, ensuring optimal airflow and the removal of pollutants.'
-              }
+            
             ].map((item, index) => (
-              <li key={index} className="text-justify font-sans">
-                <span className="font-semibold">{item.title}</span>&nbsp;{item.description}
+              <li key={index} className="  text-sm text-justify font-sans">
+                <span className="font-semibold">
+                {item.title}
+                </span>&nbsp;
+                {item.description}
               </li>
             ))}
           </ul>
 
+
           <h2 className="text-2xl font-semibold text-gray-800 mt-10 mb-4 text-center md:text-left">
-            Why Choose ADHUNIK HVAC PROJECTS as Your HVAC Contractor ?
-          </h2>
-          <p className="text-gray-700 text-justify mb-4 font-sans">Selecting the right HVAC contractor is a critical decision. Here's why ADHUNIK HVAC PROJECTS is the preferred choice for clients across Delhi NCR and India:
+         Project Execution & Management
+ </h2>
+          <p className=" text-sm text-gray-700 text-justify mb-4 font-sans">
+        Our project execution is defined by precision, safety, and a commitment to timelines. We execute all projects under strict adherence to NBC, CPWD, and NABH guidelines, while following ISHRAE, ASHRAE, and ISO standards. Our on-site management ensures a smooth workflow from start to finish. This phase includes
+
           </p>
 
 
           <ul className="list-disc pl-6 space-y-3 text-gray-700">
             {[
               {
-                title: 'Extensive Experience –',
-                description: 'With years of experience in the HVAC industry, we possess the knowledge and expertise to handle projects of any complexity',
+                title: 'Workflow Management –',
+                description: 'Our professional engineers oversee every task to ensure milestones are met on schedule.',
               },
+
               {
-                title: 'Commitment to Quality –',
-                description: 'We are dedicated to delivering high-quality workmanship and using reliable, energy-efficient equipment from leading manufacturers',
+                title: 'Risk & Change Management –',
+                description: 'We proactively manage any issues that arise, ensuring quick adjustments and clear communication.',
               },
+
               {
-                title: 'Expert Team –',
-                description: 'Our team of qualified engineers and certified technicians are highly skilled and committed to providing exceptional service',
+                title: 'Client Communication –',
+                description: 'We believe in transparency and provide regular project status reports to keep you informed at every stage.',
               },
+
               {
-                title: 'Customer-Centric Approach –',
-                description: 'We prioritize understanding your unique needs and providing tailored solutions that exceed your expectations',
+                title: 'Quality Assurance –',
+                description: 'We are committed to completing every project within the promised time, without ever compromising on our award-winning quality standards.',
               },
-              {
-                title: 'Pan-India Reach –',
-                description: 'While our base is in Delhi NCR, we have the capability and resources to serve clients across India',
-              },
-              {
-                title: 'Focus on Energy Efficiency –',
-                description: 'We are committed to providing and recommending energy-efficient HVAC solutions that save you money and reduce your environmental impact',
-              },
-              {
-                title: 'Adherence to Standards –',
-                description: 'We adhere to all relevant Indian standards, building codes, and safety regulations',
-              },
-              {
-                title: 'Transparent Communication –',
-                description: 'We believe in clear and open communication throughout every stage of your project',
-              },
-              {
-                title: 'Comprehensive Support –',
-                description: 'We are your dedicated HVAC partner from initial consultation to post-installation support.',
-              },
+           
             ].map((item, index) => (
-              <li key={index} className="text-justify font-sans">
+              <li key={index} className=" text-sm text-justify font-sans">
                 <span className="font-semibold  ">{item.title}</span> {item.description}
               </li>
             ))}
@@ -326,15 +327,139 @@ export default function OurQualityServices() {
 
 
 
-          <h2 className="text-2xl font-semibold text-center md:text-left  text-gray-800 mt-10 mb-4">
-            Serving Delhi NCR and Beyond
-          </h2>
+         
+          <h2 className="text-2xl font-semibold text-gray-800 mt-10 mb-4 text-center md:text-left">
+        After-Sales Support & Annual Maintenance Contracts (AMCs)
+
+ </h2>
+          <p className="text-gray-700 text-justify mb-4 font-sans">
+       Our partnership doesn't end when the project is complete. We offer comprehensive after-sales support and tailored Annual Maintenance Contracts (AMCs) to ensure your system continues to operate at peak performance. Our support services are designed to extend the life of your investment, prevent unexpected downtime, and guarantee long-term energy efficiency.
 
 
-          <p className="text-gray-700 text-justify mb-6 font-sans">
-            Our primary service areas in Delhi NCR include Noida, Gurugram, Faridabad, and Ghaziabad. We also serve Sonipat, Panipat, Rohtak, Rewari, Palwal, Bhiwadi, Meerut, Neemrana, Tapukara, Bawal, Manesar, Dharuhera, Muzaffarnagar, Jaipur, and Chandigarh. However, our commitment to providing quality HVAC solutions extends across India. Contact us to discuss your project, regardless of your location.
           </p>
 
+
+         
+
+
+
+         
+         
+          <h2 className="text-2xl font-semibold text-gray-800 mt-10 mb-4 text-center md:text-left">
+         Technologies & Systems We Master
+
+ </h2>
+ 
+          <p className="text-gray-700 text-justify mb-4 font-sans">
+      Our engineering team possesses deep expertise across a wide range of modern HVAC technologies and systems. We have a proven track record of successfully installing and commissioning:
+
+
+          </p>
+
+
+          <ul className="list-disc pl-6 space-y-3 text-gray-700">
+            {[
+              {
+                title: 'Variable Refrigerant Flow (VRF/VRV) Systems',
+              },
+
+              {
+                title: 'Chiller Plants (Water-Cooled & Air-Cooled)',
+              },
+
+              {
+                title: 'Precision Air Conditioning (PAC) for Data Centers',
+               },
+
+              {
+                title: 'Air Handling Units (AHUs) & Fan Coil Units (FCUs)',
+             },
+           
+              {
+                title: 'Ductable & Packaged Air Conditioners',
+             },
+
+              {
+                title: 'Industrial Ventilation & Exhaust Systems',
+             },
+           
+            ].map((item, index) => (
+              <li key={index} className=" text-sm text-justify font-sans">
+                <span className="font-semibold  ">{item.title}</span> {item.description}
+              </li>
+            ))}
+          </ul>
+
+
+
+         
+         
+          <h2 className="text-2xl font-semibold text-gray-800 mt-10 mb-4 text-center md:text-left">
+        Specialized Solutions for Demanding Industries
+
+ </h2>
+
+          <p className="text-gray-700 text-justify mb-4 font-sans">
+
+We recognize that every industry has its unique set of challenges. We engineer tailored solutions to meet the strict compliance and operational needs of specialized sectors, including
+
+          </p>
+
+
+          <ul className="list-disc pl-6 space-y-3 text-gray-700">
+            {[
+              {
+                title: 'Pharmaceutical & Healthcare -',
+                description:"Designing and executing compliant HVAC systems for Clean Rooms, OTs, and laboratories where air quality is critical.",
+              },
+              {
+                title: 'Manufacturing & Industrial -',
+                description:"Implementing robust ventilation and process cooling to manage high heat loads and ensure worker safety.",
+              },
+              {
+                title: 'IT & Data Centers -',
+                description:"Delivering redundant, mission-critical cooling to protect sensitive digital infrastructure.",
+              },
+
+            ].map((item, index) => (
+              <li key={index} className=" text-sm text-justify font-sans">
+                <span className="font-semibold  ">{item.title}</span> {item.description}
+              </li>
+            ))}
+          </ul>
+
+
+
+
+         
+          <h2 className="text-2xl font-semibold text-gray-800 mt-10 mb-4 text-center md:text-left">
+       Our Commitment to Quality & Safety
+
+ </h2>
+
+          <p className="text-gray-700  text-sm text-justify mb-4 font-sans">
+
+At Adhunik HVAC Projects, quality and safety are not just procedures; they are the foundation of our culture. Every project is meticulously planned and executed to ensure the well-being of our team, our clients' staff, and the public. Our adherence to the highest ISO, ISHRAE, and ASHRAE standards is a testament to our unwavering commitment to delivering not just a successful project, but a safe and reliable long-term asset.
+
+          </p>
+
+
+        
+          <h2 className="text-2xl font-semibold text-gray-800 mt-10 mb-4 text-center md:text-left">
+      Your Trusted HVAC Contractor in Delhi NCR & Across India
+
+ </h2>
+
+          <p className="text-gray-700  text-sm text-justify mb-4 font-sans">
+
+At Adhunik HVAC Projects, we provide a comprehensive suite of services designed to deliver performance, reliability, and peace of mind at every stage of your project. Our process is built on a 19+ year legacy of engineering excellence, ensuring a seamless journey from the initial blueprint to flawless execution and long-term support for commercial, industrial, and residential projects of all scales.
+
+          </p>
+
+
+        
+
+         
 
 
 
@@ -422,25 +547,34 @@ export default function OurQualityServices() {
                 <div className="blur-[106px] h-32 bg-gradient-to-r from-cyan-400 to-indigo-600"></div>
               </div>
               <div className="max-w-7xl mx-auto  py-4 md:px-12 xl:px-6">
-                <div className="  w-full mt-2 text-gray-100 flex items-center">
+
+                <div className="  w-full mt-2 text-gray-100 flex items-center flex-col">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6 text-secondary">
                     {/* SVG content */}
                   </svg>
-                  <h2 className=" w-full text-2xl font-bold text-white  md:text-4xl ps-3"> HVAC Project Planning and Execution Steps </h2>
+                  <h2 className=" w-full text-2xl font-bold text-white  md:text-3xl "> 
+                  HVAC Project Planning and Execution Steps 
+                  </h2>
+                  <p className=' text-sm py-2'>We understand that every project is unique. Our skilled team of engineers and technicians offers a comprehensive range of HVAC services, ensuring optimal comfort, efficiency, and air quality tailored to your specific environment.
+</p>
                 </div>
-                <div className="mt-5 grid divide-x divide-y divide-gray-700 overflow-hidden rounded-3xl border text-gray-600 border-gray-700 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:divide-y-0 xl:grid-cols-3">
+
+                <div className="mt-5 grid divide-x divide-y divide-gray-700 overflow-hidden rounded-3xl border text-gray-600 border-gray-700 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:divide-y-0 xl:grid-cols-3 ">
+
                   {features.map((feature) => (
                     <div key={feature.id} className=" group relative bg-gray-800 transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10">
                       <div className="relative space-y-8 py-12 p-8 text-[#eff0f4]">
                         <div className="space-y-1 text-[#eff0f4] ">
                           <ul className="list-none flex flex-row">
-                            <div className="h-full w-fit pe-3 ">{feature.icon}</div>
-                            <li className="text-[#F1F2FD]   font-sans font-normal  ">{feature.description}</li>
+                            <div className="h-full  w-fit pe-3 ">
+                            {feature.icon}
+                            </div>
+                            <li className="text-[#F1F2FD] font-bold  font-sans">{feature.description}</li>
 
                           </ul>
                         </div>
 
-                        <div className=" pt-0 mt-0    font-sans font-thin ">
+                        <div className=" text-sm pt-0 mt-0    font-sans font-thin ">
                           {feature.item2}
                         </div>
 
@@ -451,6 +585,10 @@ export default function OurQualityServices() {
               </div>
             </div>
           </section>
+
+
+   
+
 
           <section className="about-area pt-16 ">
             <div className="container mx-auto md:px-10">
@@ -558,6 +696,107 @@ export default function OurQualityServices() {
           </div>
 
 
+ <section className=' md:px-9'>
+        <div className="px-4 pb-0 md:py-12 max-w-7xl mx-auto  ">
+       
+
+<div className="continaer">
+     <h2 className="text-2xl font-semibold text-gray-800 mt-10 mb-4 text-center md:text-left">
+     Specialized Expertise for Demanding Industries
+
+ </h2>
+
+          <p className="text-gray-700 text-justify mb-4 font-sans">
+
+We possess the expertise to handle the specialized requirements of diverse facilities.
+
+          </p>
+
+
+          <ul className="list-disc pl-6 space-y-3 text-gray-700">
+            {[
+              {
+                title: 'Commercial HVAC Solutions -',
+                description:"We cater to the complex HVAC demands of commercial spaces, including offices, retail outlets, hotels, hospitals, and educational institutions. Our solutions are designed for comfort, efficiency, and scalability.",
+              },
+              {
+                title: 'Industrial HVAC Expertise -',
+                description:" We handle the specialized HVAC requirements of industrial facilities, including process cooling, ventilation for manufacturing units, and precise temperature and humidity control for sensitive environments like clean rooms and data centers.",
+              },
+            
+
+            ].map((item, index) => (
+              <li key={index} className=" text-sm text-justify font-sans">
+                <span className="font-semibold  ">{item.title}</span> {item.description}
+              </li>
+            ))}
+          </ul>
+
+</div>
+
+<div className="continaer">
+     <h2 className="text-2xl font-semibold text-gray-800 mt-10 mb-4 text-center md:text-left">
+    Why Choose Adhunik HVAC Projects ?
+
+ </h2>
+
+          <p className="text-gray-700 text-justify mb-4 font-sans">
+
+Selecting the right HVAC contractor is a critical decision. Here's why we are the preferred choice for clients across Delhi NCR and India :
+
+          </p>
+
+
+          <ul className="list-disc pl-6 space-y-3 text-gray-700">
+            {[
+              {
+                title: 'Extensive Experience -',
+                description:" With a 19+ year legacy in the HVAC industry, we possess the knowledge to handle projects of any complexity.",
+              },
+              {
+                title: 'Commitment to Quality -',
+                description:" We are dedicated to delivering high-quality workmanship and using reliable, energy-efficient equipment.",
+              },
+            
+              {
+                title: 'Expert Team -',
+                description:"Our team of qualified engineers and certified technicians are highly skilled and committed to exceptional service.",
+              },
+            
+              {
+                title: 'Customer-Centric Approach -',
+                description:"We prioritize understanding your unique needs and providing tailored solutions that exceed your expectations.",
+              },
+
+              {
+                title: 'Pan-India Reach -',
+                description:"While based in Delhi NCR, we have the capability and resources to serve clients across India.",
+              },
+            
+              {
+                title: 'Adherence to Standards -',
+                description:"We meticulously follow all relevant Indian standards, building codes (ISHRAE, ASHRAE, NBC), and safety regulations.",
+              },
+            
+              {
+                title: 'Comprehensive Support -',
+                description:"We are your dedicated HVAC partner from initial consultation to post-installation support and maintenance.",
+              },
+            
+
+            ].map((item, index) => (
+              <li key={index} className=" text-sm text-justify font-sans">
+                <span className="font-semibold  ">{item.title}</span> {item.description}
+              </li>
+            ))}
+          </ul>
+
+</div>
+
+
+</div>
+</section>
+
           <section className="about-area pt-10 pb-10 bg-gray-100 relative">
             <div className="container mx-auto px-4">
               <div className="row flex flex-row  flex-wrap-reverse">
@@ -620,12 +859,22 @@ export default function OurQualityServices() {
 
                 <div className="col-lg-12">
                   <div className="about-content">
-                    <p className=' font-normal   text-justify font-sans'>
+                    <p className=' font-normal  text-sm py-4  text-justify font-sans'>
 
 
 
                       We at <strong>ADHUNIK HVAC PROJECTS</strong> are committed to achieving customer satisfaction by timely delivery of <strong>HVAC solutions</strong> and
                       services at the most competitive prices, conforming to high standards through continuous improvement with an eye on <strong>Safety, Wastage, and Environmental Care</strong>. Whether you have a project in Delhi NCR or anywhere in India, our team is ready to assist you. Contact us today for a consultation, a quote, or to discuss your specific requirements.
+                    </p>
+
+                    <h2 className=' text-2xl pt-8 font-semibold mb-4  text-center md:text-left'>
+                    Serving Delhi NCR and Beyond
+  
+                    </h2>
+
+                    <p className=' font-normal  text-sm pb-4  text-justify font-sans'>
+                      Our primary service areas include Noida, Gurugram, Faridabad, Ghaziabad, Sonipat, Panipat, Rohtak, Rewari, Palwal, Bhiwadi, Meerut, Manesar, Dharuhera, Muzaffarnagar, Jaipur, and Chandigarh. However, our commitment to providing quality HVAC solutions extends across India. Contact us to discuss your project, regardless of your location.
+
                     </p>
                   </div>
                 </div>
@@ -666,6 +915,8 @@ export default function OurQualityServices() {
 
 
           </section>
+
+
 
 
         </div>
