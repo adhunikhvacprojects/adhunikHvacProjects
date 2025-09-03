@@ -73,7 +73,7 @@ function Header() {
 
   const pathname = usePathname();
   const [logoSrc, setLogoSrc] = useState(
-    "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1755068273/LOGO_s_2_dwogzo.png"
+    "https://res.cloudinary.com/dxenuee4n/image/upload/v1756884652/LOGO_r3gl55.webp"
   );
   const [logoSize, setLogoSize] = useState({ width: "150", height: "60" });
 
@@ -86,12 +86,12 @@ function Header() {
         pathname === "/fire-VESDA-system"
       ) {
         setLogoSrc(
-          "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1755068273/LOGO_s_2_dwogzo.png"
+          "https://res.cloudinary.com/dxenuee4n/image/upload/v1756884652/LOGO_r3gl55.webp"
         );
         setLogoSize({ width: "150", height: "60" });
       } else {
         setLogoSrc(
-          "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1755068273/LOGO_s_2_dwogzo.png"
+          "https://res.cloudinary.com/dxenuee4n/image/upload/v1756884652/LOGO_r3gl55.webp"
         );
         setLogoSize({ width: "150", height: "60" });
       }
