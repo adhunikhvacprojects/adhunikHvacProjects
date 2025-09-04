@@ -79,12 +79,14 @@ function Header() {
 
   useEffect(() => {
     if (pathname) {
+      
       if (
         pathname === "/fire&safety" ||
         pathname === "/glow-signage-&-emergency-lights" ||
         pathname === "/fire-tubing-system" ||
         pathname === "/fire-VESDA-system"
-      ) {
+      )
+       {
         setLogoSrc(
           "https://res.cloudinary.com/dxenuee4n/image/upload/v1756884652/LOGO_r3gl55.webp"
         );

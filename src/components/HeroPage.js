@@ -24,122 +24,23 @@ export default function HeroPage() {
   }, [currentIndex]);
 
 
-
-  const images3 = [
-    {
-      original: "/awi/cooler.webp",
-      thumbnail: "/awi/cooler.webp",
-      originalAlt: "HVAC System Image",
-      thumbnailAlt: "HVAC System Image",
-      originalHeight: 600,
-      originalWidth: 600,
-      loading: "lazy",
-      thumbnailHeight: 150,
-      thumbnailWidth: 150,
-      thumbnailLoading: "lazy",
-    },
-
-    {
-      original: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738841648/airwasher_n0a5gw.webp",
-      thumbnail: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738841648/airwasher_n0a5gw.webp",
-      originalAlt: "Cooling Equipment Image",
-      thumbnailAlt: "Cooling Equipment Image",
-      originalHeight: 600,
-      originalWidth: 600,
-      loading: "lazy",
-      thumbnailHeight: 150,
-      thumbnailWidth: 150,
-      thumbnailLoading: "lazy",
-    },
-    {
-      original: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738841648/9_f9bq6x_onl4kf.webp",
-      thumbnail: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738841648/9_f9bq6x_onl4kf.webp",
-      originalAlt: "Cooling Equipment Image",
-      thumbnailAlt: "Cooling Equipment Image",
-      originalHeight: 600,
-      originalWidth: 600,
-      loading: "lazy",
-      thumbnailHeight: 150,
-      thumbnailWidth: 150,
-      thumbnailLoading: "lazy",
-    },
-    {
-      original: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738841648/8_l2toyp_naoo5o.webp",
-      thumbnail: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738841648/8_l2toyp_naoo5o.webp",
-      originalAlt: "Air Handling Unit Image",
-      thumbnailAlt: "Air Handling Unit Image",
-      originalHeight: 600,
-      originalWidth: 600,
-      loading: "lazy",
-      thumbnailHeight: 150,
-      thumbnailWidth: 150,
-      thumbnailLoading: "lazy",
-    },
-    {
-      original: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738841647/7_xjguld_hnctpy.webp",
-      thumbnail: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738841647/7_xjguld_hnctpy.webp",
-      originalAlt: "Industrial Air Cooling System Image",
-      thumbnailAlt: "Industrial Air Cooling System Image",
-      originalHeight: 600,
-      originalWidth: 600,
-      loading: "lazy",
-      thumbnailHeight: 150,
-      thumbnailWidth: 150,
-      thumbnailLoading: "lazy",
-    },
-    {
-      original: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738841647/3_hlacmx_t3cosf.webp",
-      thumbnail: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738841647/3_hlacmx_t3cosf.webp",
-      originalAlt: "Ventilation Fans Image",
-      thumbnailAlt: "Ventilation Fans Image",
-      originalHeight: 600,
-      originalWidth: 600,
-      loading: "lazy",
-      thumbnailHeight: 150,
-      thumbnailWidth: 150,
-      thumbnailLoading: "lazy",
-    },
-    {
-      original: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738841647/2_pxs9ab_tp70du.webp",
-      thumbnail: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738841647/2_pxs9ab_tp70du.webp",
-      originalAlt: "Panel Air Conditioners Image",
-      thumbnailAlt: "Panel Air Conditioners Image",
-      originalHeight: 600,
-      originalWidth: 600,
-      loading: "lazy",
-      thumbnailHeight: 150,
-      thumbnailWidth: 150,
-      thumbnailLoading: "lazy",
-    },
-    {
-      original: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738841647/1_vmsg3f_aqwufc.webp",
-      thumbnail: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738841647/1_vmsg3f_aqwufc.webp",
-      originalAlt: "Chiller Oil Water Coolant Image",
-      thumbnailAlt: "Chiller Oil Water Coolant Image",
-      originalHeight: 600,
-      originalWidth: 600,
-      loading: "lazy",
-      thumbnailHeight: 150,
-      thumbnailWidth: 150,
-      thumbnailLoading: "lazy",
-    },
-  ];
+ 
 
 
 
   const logos = [
     { src: '/projects/1.webp', alt: 'Asahi-India-Glass-Ltd', width: 176, height: 112 },
-    { src: '/projects/2.webp', alt: 'Bajaj', width: 126, height: 100 },
-    { src: '/projects/3.webp', alt: 'Bajaj', width: 176, height: 112 },
-    { src: '/projects/4.webp', alt: 'Bajaj', width: 176, height: 112 },
-    { src: '/projects/5.webp', alt: 'Bajaj', width: 176, height: 112 },
-    { src: '/projects/6.webp', alt: 'Bajaj', width: 176, height: 112 },
-    { src: '/projects/7.webp', alt: 'Bajaj', width: 176, height: 112 },
-    { src: '/projects/8.webp', alt: 'Bajaj', width: 176, height: 112 },
-    { src: '/projects/9.webp', alt: 'Bajaj', width: 176, height: 112 },
-    { src: '/projects/10.webp', alt: 'Bajaj', width: 176, height: 112 },
-    { src: '/projects/10.png', alt: 'Bajaj', width: 176, height: 112 },
-    { src: '/projects/101.webp', alt: 'Bajaj', width: 176, height: 112 },
+    { src: '/projects/2.webp', alt: 'BKT', width: 126, height: 100 },
+    { src: '/projects/3.webp', alt: 'BOOKFIELD', width: 176, height: 112 },
+    { src: '/projects/4.webp', alt: 'HERO', width: 176, height: 112 },
+    { src: '/projects/5.webp', alt: 'MARUTI SUZUKI', width: 176, height: 112 },
+    { src: '/projects/6.webp', alt: 'SIGNATURE GLOBAL ', width: 176, height: 112 },
+    { src: '/projects/7.webp', alt: 'NFC', width: 176, height: 112 },
+    { src: '/projects/8.webp', alt: 'POSITRON', width: 176, height: 112 },
+    { src: '/projects/9.webp', alt: 'ZOMATO', width: 176, height: 112 },
+    { src: '/projects/10.webp', alt: 'BHILAI STEEL PLANT', width: 176, height: 112 },
+    { src: '/projects/10.png', alt: 'GOODREZ', width: 176, height: 112 },
+    { src: '/projects/101.webp', alt: 'AARVY HEALTHCARE', width: 176, height: 112 },
   ];
 
 
@@ -270,51 +171,7 @@ export default function HeroPage() {
     setCurrentSlide(index);
   };
 
-  const images4 = [
-
-    {
-
-      src: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1743493133/india_qejhxm.webp',
-      alt: 'India',
-      label: 'India',
-
-
-    }
-    ,
-
-    {
-      src: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1743498724/nepal_mp0pkh.webp',
-      alt: 'Nepal',
-      label: 'Nepal',
-
-    },
-
-    {
-      src: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1743494131/bangladesh_rtj40y.webp',
-      alt: 'Bangladesh',
-      label: 'Bangladesh',
-
-    },
-    {
-      src: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1743499150/uae_wtdhma.webp',
-      alt: 'UAE',
-      label: 'UAE',
-
-    },
-    {
-      src: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1743499081/saudi_ml8qgc.webp',
-      alt: 'Saudi Arab',
-      label: 'Saudi Arab',
-
-    },
-    {
-      src: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1743494762/iraq_x29kze.webp',
-      alt: 'Iraq',
-      label: 'Iraq',
-
-    },
-
-  ];
+ 
 
   const images6 = [
     { src: '/l1.webp', alt: 'pics', width: 120, height: 120 },
@@ -454,58 +311,26 @@ export default function HeroPage() {
     // Add more items if needed
   ];
 
-  const products2 = [
-    {
-      src: "panel_bgfupm",
-      alt: "PANEL AIR CONDITIONER",
-      title: "PANEL AIR CONDITIONER",
-      content: " Protect your valuable equipment from overheating with our wide range of panel air conditioners. ",
-      link: "/panel-air-conditioners",
-      linkText: "Explore More",
-    },
-
-    {
-      src: "OC__koeafw",
-      alt: "OIL AND COOLANT CHILLER UNIT",
-      title: "OIL AND COOLANT CHILLER ",
-      content: "Maximize the performance of your machinery and enhance its lifespan with our advanced oil chillers.",
-      link: "/chiller-oil-water-coolant",
-      linkText: "Explore More",
-    },
-
-    {
-      src: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738750082/Air_Shower2__of10ut.webp",
-      alt: "AIR SHOWER",
-      title: "AIR SHOWER",
-      content: "Ensure the safety of your workspace and personnel from contamination with our efficient air showers.",
-      link: "/air-shower",
-      linkText: "Explore More",
-    },
-    {
-      src: "AHU1_lab7sl_ccwn9d",
-      alt: "Air Handling Unit",
-      title: "Air Handling Unit",
-      content: "Experience unparalleled air quality, precise temperature control, and exceptional energy efficiency with our advanced air handling unit.",
-      link: "/air-handling-unit",
-      linkText: "Explore More",
-    },
-    // Add more items if needed
-  ];
-
+ 
+ 
 
  
-  const paragraphs = [
-    <>
-
-      Adhunik Hvac Projects Private Limited delivers high-quality, personalized HVAC services  across  <strong>Delhi, Gurugram, Noida, Faridabad, Ghaziabad, Sonipat, Greater Noida, Meerut, Rohtak, Muzaffarnagar, Jaipur, Chandigarh, and the entire NCR </strong> region, as well as executing turnkey HVAC projects pan-India. With over 19 years of industry expertise, we exceed client expectations by providing comprehensive solutions from expert HVAC consulting and design, encompassing Engineering and Procurement, to detailed engineering focusing on energy-efficient and cost-effective cooling systems with minimal maintenance for industrial, institutional, commercial, and residential projects. <br />
-
-
-      Our commitment extends to meticulous HVAC project execution , adhering to  <strong>NBC, CPWD, NABH</strong> guidelines, and following  <strong>ISHRAE, ASHRAE, and ISO</strong> standards, ensuring safety, precise measurements, and stringent precautions throughout the project. We specialize in turnkey HVAC projects, offering tailored solutions that prioritize efficiency and client satisfaction, both regionally and nationally.
-      
-    </>
+ const logos2 = [
+    { src: '/certi/7.webp', alt: 'Asahi-India-Glass-Ltd', width: 176, height: 112 },
+    { src: '/certi/8.webp', alt: 'Bajaj', width: 126, height: 100 },
+    { src: '/certi/9.webp', alt: 'Bajaj', width: 176, height: 112 },
+    { src: '/certi/10.webp', alt: 'Bajaj', width: 176, height: 112 },
+    { src: '/certi/11.webp', alt: 'Bajaj', width: 176, height: 112 },
+    { src: '/certi/12.webp', alt: 'Bajaj', width: 176, height: 112 },
+   
+    { src: '/certi/7.webp', alt: 'Asahi-India-Glass-Ltd', width: 176, height: 112 },
+    { src: '/certi/8.webp', alt: 'Bajaj', width: 126, height: 100 },
+    { src: '/certi/9.webp', alt: 'Bajaj', width: 176, height: 112 },
+    { src: '/certi/10.webp', alt: 'Bajaj', width: 176, height: 112 },
+    { src: '/certi/11.webp', alt: 'Bajaj', width: 176, height: 112 },
+    { src: '/certi/12.webp', alt: 'Bajaj', width: 176, height: 112 },
+   
   ];
-
- 
 
 
   
@@ -642,6 +467,78 @@ export default function HeroPage() {
     }
   ]
 };
+
+  const products2 = [
+     {
+      src: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1748602146/A_R_1_rjplf1.webp",
+      alt: "AWARDED AS INDIA BUSINESS AWARD 2025",
+      borderColor: "border-yellow-500", 
+    },
+
+    {
+      src: "/certi/award1.webp",
+      alt: "AWARDED AS MOST INNOVATIVE BRAND FOR HVAC PROJECTS 2024-25",
+      borderColor: "border-yellow-500", 
+    }
+    ,
+      
+    {
+      src: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1748602146/A_R__2_qup0rl.webp",
+      alt: "AWARDED AS NATIONAL GROWTH PARTNER AWARD",
+      borderColor: "border-yellow-500", 
+    },
+
+    {
+      src: "/certi/award2.webp",
+      alt: "AWARDED FOR PARTICIPATION GURUGRAM INDUSTRIAL EXPO 2023",
+      borderColor: "border-yellow-500", 
+    }
+    ,
+
+    {
+      src: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1748602146/A_R_3_fkcvcv.webp",
+      alt: " AWARDED FOR BEST QUALITY STANDARDS & SERVICES IN HVAC INDUSTRY",
+      borderColor: "border-yellow-500", 
+    },
+
+  
+  
+    
+    {
+      src: "/certi/award3.webp",
+      alt: "RECOGNIZED BY NATIONAL TRADE & INDUSTRY COUNCIL",
+      borderColor: "border-yellow-500", 
+    }
+    ,
+    {
+      src: "/certi/award4.webp",
+      alt: "AWARDED FOR PARTICIPATION SUSTAINABLE HVAC AND ARCHITECTURE",
+      borderColor: "border-yellow-500", 
+    }
+    ,
+    {
+      src: "/certi/award5.webp",
+      alt: "CERTIFICATE OF APPRECIATION MOST INNOVATIVE BRAND FOR HVAC PROJECTS 2024-25",
+      borderColor: "border-yellow-500", 
+    },
+    {
+      src: "/certi/award6.webp",
+      alt: "AWARDED FOR OVERALL PERFORMANCE IN 2023",
+      borderColor: "border-yellow-500", 
+    },
+
+  
+   
+
+
+
+  
+
+  
+
+  ];
+
+  
   return (
     <>
       <Head>
@@ -1261,6 +1158,50 @@ Expertise Across Key Industries
           </div>
         </div>
 
+<div className="row">
+    <div className="  inline-flex mb-4  items-center justify-center w-full mx-auto mt-3 ">
+
+            <hr className="w-[90%] h-px my-8 bg-gray-300 border-0  " />
+
+            <h2 className="absolute   px-3  text-gray-700 -translate-x-1/2 bg-white left-1/2  md:text-3xl text-1xl capitalize font-extrabold text-center font-sans" > Certificate & Accreditation
+
+            </h2>
+
+          </div>
+  <style>
+        {`
+        @keyframes infinite-scroll {
+          from { transform: translateX(0); }
+          to { transform: translateX(-100%); }
+        }
+        .animate-infinite-scroll {
+          animation: infinite-scroll 25s linear infinite;
+        }
+        .parent-container:hover .animate-infinite-scroll {
+          animation-play-state: paused;
+        }
+        `}
+      </style>
+          <div className="w-full py-5 inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-128px),transparent_100%)]">
+            {[...Array(2)].map((_, index) => (
+              <ul
+                key={index}
+                className="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll"
+                aria-hidden={index === 1 ? 'true' : 'false'}
+              >
+                {logos2.map((image, index) => (
+                  <li key={index}>
+                    <Image loading='lazy' src={image.src} width={image.width} height={image.height} alt={image.alt} />
+                  </li>
+                ))}
+              </ul>
+            ))}
+
+          </div>
+          
+</div>
+
+
 
         <div className="row  py-6">
           <div className="  inline-flex mb-4  items-center justify-center w-full mx-auto mt-3 ">
@@ -1290,106 +1231,73 @@ Expertise Across Key Industries
           </div>
 
 
-
-{/* Ratings from Leading Platforms.   ################## */}
-
-          {/* <div className="  inline-flex mb-4  items-center justify-center w-full mx-auto mt-3 ">
+    <div className="  inline-flex mb-4  items-center justify-center w-full mx-auto mt-3 ">
 
             <hr className="w-[90%] h-px my-8 bg-gray-300 border-0  " />
 
-            <h2 className="absolute   px-3  text-gray-700 -translate-x-1/2 bg-white left-1/2  md:text-3xl text-1xl capitalize font-extrabold text-center font-sans" > Ratings from Leading Platforms
-
+            <h2 className="absolute   px-3  text-gray-700 -translate-x-1/2 bg-white left-1/2  md:text-3xl text-1xl capitalize font-extrabold text-center font-sans" > Awards and Recognitions
             </h2>
 
           </div>
-
-
-          <section className="hidden md:flex flex-col px-4 flex-wrap md:flex-row justify-evenly items-center gap-9 pt-6">
-            <div className="box w-fit md:w-4/12 lg:w-2/12 border-2 rounded-xl">
-              <a
-                className="rounded-xl"
-                href="https://www.indiamart.com/adhunik-cooling-system-limited/"
-                rel="nofollow"
-              >
-                <img
-                  src="/indiamartreview.webp"
-                        width="300"
-  height="300"
-                  loading="lazy"
-                  alt="4.5 out of 5 indiamart ratings of Adhunik Hvac Projects"
-                />
-              </a>
-            </div>
-
-            <div className="box w-fit md:w-4/12 lg:w-2/12 border-2 rounded-xl">
-
-              <Link href="https://g.page/r/CdkchWQZZnQmEBE/review">
-                <img
-                  src="/googlereview.webp"
-                        width="300"
-  height="300"
-                  loading="lazy"
-                  alt="4.5 out of 5 Google ratings of Adhunik Hvac Projects has 84 good reviews"
-                />
-              </Link>
-
-            </div>
-
-            <div className="box w-fit md:w-4/12 lg:w-2/12 border-2 rounded-xl">
-              <a href="https://www.ambitionbox.com/overview/adhunik-powertech-private-limited-overview?utm_source=employer-dashboard&utm_campaign=adhunik-powertech-private-limited&utm_medium=badges">
-                <img
-                  src="https://employer.ambitionbox.com/api/badge/225936?badge-type=ratings"
-                  alt="image"
-                  loading='lazy'
-                     width="300"
-  height="300"
-                />
-              </a>
-            </div>
-          </section>
-
-
-
-          <div className="row">
-            <div className="relative w-full max-w-xl mx-auto block md:hidden">
-              <div className="overflow-hidden">
-                <div
-                  className="flex transition-transform duration-700 ease-in-out"
-                  style={{ transform: `translateX(-${currentIndex * 100}%)` }}
-                >
-                  {reviewBoxes.map((item) => (
-                    <div
-                      key={item.id}
-                      className="min-w-full flex justify-center px-4 mt-4 items-center"
-                    >
-                      <div className={`box w-fit md:w-4/12 lg:w-2/12 ${item.classes}`}>
-                        {item.content}
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </div>
-
-              <button
-                onClick={handlePrev}
-                className="absolute top-1/2 left-2 transform -translate-y-1/2  text-black px-3 py-2 rounded-lg"
-              >
-                &#8249;
-              </button>
-
-              <button
-                onClick={handleNext}
-                className="absolute top-1/2 right-2 transform -translate-y-1/2 bg-transparent text-black px-3 py-2 rounded-lg"
-              >
-                &#8250;
-              </button>
-            </div>
-          </div> */}
-
-
-
         </div>
 
+
+ 
+ 
+
+        <div className="col">
+
+          <div className="  justify-center   ">
+
+            <div className="row">
+
+              <div className="col py-4">
+
+                <div className="items-center justify-center h-full">
+                  <div className="flex-row flex flex-wrap justify-center items-center gap-5 pb-10">
+
+                    {products2.map((item, index) => (
+                      <div key={index} className=" md:w-[25%] w-80 p-5">
+                        <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow rounded-xl">
+                          <div className="w-auto">
+                            <div className={`w-full rounded-xl  bg-white  `}>
+                              <img
+                                className={`h-auto border-[1px]  ${item.borderColor} p-2 w-auto mx-auto object-center object-cover transition-transform duration-500 group-hover:scale-90 
+                           rounded-lg`} 
+                                src={item.src}
+                                fetchPriority="high"
+                                loading="lazy"
+                                 height={300}
+                  width={500}
+                                decoding="async"
+                                alt={item.alt}
+                              />
+                            </div>
+                            <div className="text-center mt-3">
+                              <h3 className="text-lg font-semibold">{item.title}</h3>
+                              <p className="text-sm text-gray-600">{item.description}</p>
+                              <a
+                                href={item.link}
+                                className="text-blue-500 hover:underline mt-1 inline-block"
+                              >
+                                {item.linkText}
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    ))}
+                  
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
       </div>
 
     </>
