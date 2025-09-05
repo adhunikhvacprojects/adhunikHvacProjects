@@ -10,7 +10,13 @@ import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
 import Link from 'next/link';
 
-import { CldImage } from 'next-cloudinary';
+  import {
+  Clock,
+  Briefcase,
+  Award,
+  HeartHandshake,
+  ArrowRight
+} from 'lucide-react';
 
 export default function HeroPage() {
 
@@ -23,11 +29,7 @@ export default function HeroPage() {
     return () => clearInterval(interval);
   }, [currentIndex]);
 
-
  
-
-
-
   const logos = [
     { src: '/projects/1.webp', alt: 'Asahi-India-Glass-Ltd', width: 176, height: 112 },
     { src: '/projects/2.webp', alt: 'BKT', width: 126, height: 100 },
@@ -42,9 +44,7 @@ export default function HeroPage() {
     { src: '/projects/10.png', alt: 'GOODREZ', width: 176, height: 112 },
     { src: '/projects/101.webp', alt: 'AARVY HEALTHCARE', width: 176, height: 112 },
   ];
-
-
-
+ 
   const handleButtonClick = (buttonText) => {
     console.log('Button clicked:', buttonText);  
     if (buttonText === 'Request A Quote') {
@@ -55,6 +55,7 @@ export default function HeroPage() {
       window.location.href = 'tel:8287885885';  
     }
   };
+
 
    const slides = [
 
@@ -172,7 +173,6 @@ export default function HeroPage() {
   };
 
  
-
   const images6 = [
     { src: '/l1.webp', alt: 'pics', width: 120, height: 120 },
     { src: '/l2.webp', alt: 'pics', width: 150, height: 150 }, // Custom size
@@ -194,7 +194,6 @@ export default function HeroPage() {
     { src: '/NTIC2.webp', alt: 'pics', width: 120, height: 120 },
 
   ];
-
 
   const reviewBoxes = [
     {
@@ -281,36 +280,7 @@ export default function HeroPage() {
 
 
 
-  const products = [
-    {
-      src: "awb_y87hai_edmbck",
-      alt: "Air Washer",
-      title: "Air Washer",
-      content: "Elevate your well-being with our air washers for cleaner, cooler, and fresher air!",
-      link: "/air-washer",
-      linkText: " Explore More",
-
-    },
-    {
-      src: "ductedaircooler_tgibhs",
-      alt: "Ducted Air Coolers",
-      title: "Ducted Air Coolers",
-      content: "Experience the flexibility of our ducted air coolers, which offer optimal cooling solutions tailored to any space.",
-      link: "/ducted-air-cooler",
-      linkText: "Explore More",
-    },
-
-    {
-      src: "ventilationfan_ey4ush",
-      alt: "Ventlilation Exhaust Fan",
-      title: "Ventlilation Exhaust Fan",
-      content: " Transform your indoor environment with our powerful ventilation fans, ensuring superior air quality and unmatched comfort. ",
-      link: "/ventilation-fans",
-      linkText: "Explore More",
-    },
-    // Add more items if needed
-  ];
-
+   
  
  
 
@@ -329,6 +299,28 @@ export default function HeroPage() {
     { src: '/certi/10.webp', alt: 'Bajaj', width: 176, height: 112 },
     { src: '/certi/11.webp', alt: 'Bajaj', width: 176, height: 112 },
     { src: '/certi/12.webp', alt: 'Bajaj', width: 176, height: 112 },
+   
+  ];
+
+
+ const logos4 = [
+    { src: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1748602146/A_R_1_rjplf1.webp', alt: 'AWARDED AS INDIA BUSINESS AWARD 2025', width: 176, height: 112 },
+    { src: '/certi/award1.webp', alt: 'AWARDED AS MOST INNOVATIVE BRAND FOR HVAC PROJECTS 2024-25', width: 126, height: 100 },
+    { src: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1748602146/A_R__2_qup0rl.webp', alt: 'AWARDED AS NATIONAL GROWTH PARTNER AWARD', width: 176, height: 112 },
+    { src: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1748602146/A_R__2_qup0rl.webp', alt: 'AWARDED AS NATIONAL GROWTH PARTNER AWARD', width: 176, height: 112 },
+    { src: '/certi/award2.webp', alt: 'AWARDED FOR PARTICIPATION GURUGRAM INDUSTRIAL EXPO 2023', width: 176, height: 112 },
+    { src: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1748602146/A_R_3_fkcvcv.webp', alt: 'AWARDED FOR BEST QUALITY STANDARDS & SERVICES IN HVAC INDUSTRY', width: 176, height: 112 },
+    { src: '/certi/award3.webp', alt: 'RECOGNIZED BY NATIONAL TRADE & INDUSTRY COUNCIL', width: 176, height: 112 },
+   
+
+    { src: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1748602146/A_R_1_rjplf1.webp', alt: 'AWARDED AS INDIA BUSINESS AWARD 2025', width: 176, height: 112 },
+    { src: '/certi/award1.webp', alt: 'AWARDED AS MOST INNOVATIVE BRAND FOR HVAC PROJECTS 2024-25', width: 126, height: 100 },
+    { src: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1748602146/A_R__2_qup0rl.webp', alt: 'AWARDED AS NATIONAL GROWTH PARTNER AWARD', width: 176, height: 112 },
+    { src: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1748602146/A_R__2_qup0rl.webp', alt: 'AWARDED AS NATIONAL GROWTH PARTNER AWARD', width: 176, height: 112 },
+    { src: '/certi/award2.webp', alt: 'AWARDED FOR PARTICIPATION GURUGRAM INDUSTRIAL EXPO 2023', width: 176, height: 112 },
+    { src: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1748602146/A_R_3_fkcvcv.webp', alt: 'AWARDED FOR BEST QUALITY STANDARDS & SERVICES IN HVAC INDUSTRY', width: 176, height: 112 },
+   
+    { src: '/certi/award3.webp', alt: 'RECOGNIZED BY NATIONAL TRADE & INDUSTRY COUNCIL', width: 176, height: 112 },
    
   ];
 
@@ -490,14 +482,14 @@ export default function HeroPage() {
 
     {
       src: "/certi/award2.webp",
-      alt: "AWARDED FOR PARTICIPATION GURUGRAM INDUSTRIAL EXPO 2023",
+      alt: "",
       borderColor: "border-yellow-500", 
     }
     ,
 
     {
       src: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1748602146/A_R_3_fkcvcv.webp",
-      alt: " AWARDED FOR BEST QUALITY STANDARDS & SERVICES IN HVAC INDUSTRY",
+      alt: " ",
       borderColor: "border-yellow-500", 
     },
 
@@ -539,6 +531,43 @@ export default function HeroPage() {
   ];
 
   
+
+const achievementData = [
+ 
+  {
+    icon: <Award size={24} className="text-cyan-600" />,
+
+    number: 'Top HVAC Contractor in Delhi NCR & Across India: Design, Engineering, Installation',
+
+    description: 'With a legacy spanning over 19 years, inherited from the renowned Adhunik Powertech, Adhunik HVAC Projects delivers high-performance, personalized HVAC services, boasting a strong presence in Delhi, Gurugram, Noida, and the entire NCR. We are a leading turnkey contractor with proven capabilities for executing complex projects pan-India. Our team of seasoned experts excels in providing comprehensive solutions that encompass every phase of a project, from initial expert consulting and detailed engineering to flawless installation and long-term maintenance.Our unwavering commitment to quality is demonstrated by our meticulous project execution, which adheres strictly to the highest national and international standards, including ISHRAE, ASHRAE, NBC, and CPWD. We specialize in engineering energy-efficient and cost-effective cooling systems that are tailored to the unique demands of industrial, commercial, and institutional environments. This focus ensures we deliver not only superior performance and safety but also lasting value and client satisfaction on every project we undertake.',
+  },
+
+  {
+    icon: <HeartHandshake size={24} className="text-cyan-600" />,
+    number: 'Our HVAC Solutions',
+    description: 'We pride ourselves on offering a diverse range of innovative HVAC solutions, designed to meet the specific needs of our clients across various industries. Our portfolio is comprised of high-quality, cutting-edge systems that are engineered for performance, durability, and efficiency. Whether your project requires complex centralized HVAC systems, specialized industrial ducting, or custom-engineered air management solutions, our expertise ensures every component is integrated to deliver exceptional results. We are meticulously focused on ensuring that every project is executed to the highest standards.',
+  },
+];
+
+
+const achievementData2 = [
+ 
+  {
+    icon: <Award size={24} className="text-cyan-600" />,
+
+    number: 'Integrating Technology for Smarter Performance',
+
+    description: 'We leverage modern technology to deliver systems that are not only powerful but also intelligent. Our capabilities include integrating advanced Building Management Systems (BMS), utilizing sophisticated energy modeling to predict and optimize performance, and designing smart solutions that give you greater control over your environment while reducing operational costs.',
+  },
+
+  {
+    icon: <HeartHandshake size={24} className="text-cyan-600" />,
+    number: 'A Commitment to Sustainability',
+    description: 'We believe that superior performance and environmental responsibility go hand-in-hand. Our engineering process prioritizes energy efficiency at every stage, helping our clients reduce their carbon footprint and achieve significant long-term cost savings. We are your partners in building a greener, more sustainable future.',
+  },
+];
+
+
   return (
     <>
       <Head>
@@ -994,96 +1023,89 @@ Expertise Across Key Industries
             </div>
           </div>
         </section>
+ 
+          
 
-      
-
-            <section className="relative   py-20  bg-body overflow-hidden  text-gray-700">
-            <div className="relative container mx-auto px-4">
-
-              
-              
-
-
-              <div className="relative max-w-md lg:max-w-none mx-auto">
-                <div className="flex flex-wrap -mx-4 text-center md:text-left">
-                  {[
-                    {
-                      icon: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738750083/cad__bvhdns.webp',
-                      title: 'Integrating Technology for Smarter Performance',
-                      content: 'We leverage modern technology to deliver systems that are not only powerful but also intelligent. Our capabilities include integrating advanced Building Management Systems (BMS), utilizing sophisticated energy modeling to predict and optimize performance, and designing smart solutions that give you greater control over your environment while reducing operational costs.',
-                    },
-                    {
-                      icon: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738750084/de__xjfjdj.webp',
-                      title: 'A Commitment to Sustainability',
-                      content: "We believe that superior performance and environmental responsibility go hand-in-hand. Our engineering process prioritizes energy efficiency at every stage, helping our clients reduce their carbon footprint and achieve significant long-term cost savings. We are your partners in building a greener, more sustainable future."
-                    },
-                  
-                  ].map((service, index) => (
-                    <div key={index} className="w-full lg:w-6/12 px-4 mb-8 lg:mb-0">
-                      <div
-                        className="group block h-auto  p-8 border-[1px] border-gray-800 border-opacity-10 hover:border-opacity-200 rounded-3xl transition duration-200 cursor-pointer"
-
-                      >
-                        <div className="flex h-full flex-col items-start">
-                    
-                          <div className="mt-auto ">
-                            <h2 className="text-3xl sm:text-4xl mb-2 font-medium  group-hover:text-cyan-500">{service.title}</h2>
-                            <p className="text-gray-400 tracking-tight leading-5  ">{service.content}</p>
-                          </div>
-                        </div>
-                      </div>
+ <section className="py-12 relative xl:mr-0 lg:mr-5 mr-0">
+      <div className="w-full max-w-7xl px-4 md:px-5 lg:px-5 mx-auto">
+        <div className="w-full justify-start items-center xl:gap-12 gap-10 grid lg:grid-cols-2 grid-cols-1">
+          <div className="w-full flex-col justify-center lg:items-start items-center gap-10 inline-flex">
+            <div className="w-full flex-col justify-center items-start gap-8 flex">
+             
+              <div className="w-full flex-col justify-center items-start gap-6 flex">
+                <div className="w-full justify-start items-center gap-8 grid md:grid-cols-1 grid-cols-1">
+                  {achievementData.map((item, index) => (
+                    <div
+                      key={index}
+                      className="w-full h-full p-3.5 rounded-xl border border-gray-200 hover:border-cyan-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex"
+                    >
+                      <div className="p-2 bg-cyan-50 rounded-full">{item.icon}</div>
+                      <h4 className="text-cyan-700  md:text-lg font-bold leading-normal lg:text-start text-center">{item.number}</h4>
+                      <p className="text-gray-500 text-sm  font-normal leading-relaxed lg:text-start text-center">
+                        {item.description}
+                      </p>
                     </div>
                   ))}
                 </div>
               </div>
-
-
             </div>
-          </section>
+         
+          </div>
+          <div className="w-full lg:justify-start justify-center items-start flex">
+            <div className="sm:w-[564px] w-full sm:h-[646px] h-full   rounded-3xl sm:border  sm:bg-gray-50  border-gray-300  relative">
+              <img
+                className="sm:mt-5 sm:ml-5 w-full h-full rounded-3xl object-cover"
+                src="https://images.pexels.com/photos/13716220/pexels-photo-13716220.jpeg"
+                alt="about Us image"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-            <section className="relative   pb-20  bg-body overflow-hidden  text-gray-700">
-            <div className="relative container mx-auto px-4">
-
-              
-              
 
 
-              <div className="relative max-w-md lg:max-w-none mx-auto">
-                <div className="flex flex-wrap -mx-4 text-center md:text-left">
-                  {[
-                    {
-                      icon: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738750083/cad__bvhdns.webp',
-                      title: 'Top HVAC Contractor in Delhi NCR & Across India: Design, Engineering, Installation',
-                      content: 'With a legacy spanning over 19 years, inherited from the renowned Adhunik Powertech, Adhunik HVAC Projects delivers high-performance, personalized HVAC services, boasting a strong presence in Delhi, Gurugram, Noida, and the entire NCR. We are a leading turnkey contractor with proven capabilities for executing complex projects pan-India. Our team of seasoned experts excels in providing comprehensive solutions that encompass every phase of a project, from initial expert consulting and detailed engineering to flawless installation and long-term maintenance.Our unwavering commitment to quality is demonstrated by our meticulous project execution, which adheres strictly to the highest national and international standards, including ISHRAE, ASHRAE, NBC, and CPWD. We specialize in engineering energy-efficient and cost-effective cooling systems that are tailored to the unique demands of industrial, commercial, and institutional environments. This focus ensures we deliver not only superior performance and safety but also lasting value and client satisfaction on every project we undertake.',
-                    },
-                    {
-                      icon: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738750084/de__xjfjdj.webp',
-                      title: 'Our HVAC Solutions',
-                      content: "We pride ourselves on offering a diverse range of innovative HVAC solutions, designed to meet the specific needs of our clients across various industries. Our portfolio is comprised of high-quality, cutting-edge systems that are engineered for performance, durability, and efficiency. Whether your project requires complex centralized HVAC systems, specialized industrial ducting, or custom-engineered air management solutions, our expertise ensures every component is integrated to deliver exceptional results. We are meticulously focused on ensuring that every project is executed to the highest standards."
-                    },
-                  
-                  ].map((service, index) => (
-                    <div key={index} className="w-full lg:w-6/12 px-4 mb-8 lg:mb-0">
-                      <div
-                        className="group block h-auto  p-8 border-[1px] border-gray-800 border-opacity-10 hover:border-opacity-200 rounded-3xl transition duration-200 cursor-pointer"
+ <section className="pb-12 relative xl:mr-0 lg:mr-5 mr-0">
+      <div className="w-full max-w-7xl px-4 md:px-5 lg:px-5 mx-auto">
+        <div className="w-full justify-start items-center xl:gap-12 gap-10  flex flex-row-reverse">
 
-                      >
-                        <div className="flex h-full flex-col items-start">
-                          
-                          <div className="mt-auto ">
-                            <h2 className="text-3xl sm:text-4xl mb-2 font-medium  group-hover:text-cyan-500">{service.title}</h2>
-                            <p className="text-gray-400 tracking-tight leading-5  ">{service.content}</p>
-                          </div>
-                        </div>
-                      </div>
+          <div className="w-full flex-col justify-center lg:items-start items-center md:w-6/12 gap-10 inline-flex">
+            <div className="w-full flex-col justify-center items-start gap-8 flex">
+             
+              <div className="w-full flex-col justify-center items-start gap-6 flex">
+                <div className="w-full justify-start items-center gap-8 grid md:grid-cols-1 grid-cols-1">
+                  {achievementData2.map((item, index) => (
+                    <div
+                      key={index}
+                      className="w-full h-full p-3.5 rounded-xl border border-gray-200 hover:border-cyan-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex"
+                    >
+                      <div className="p-2 bg-cyan-50 rounded-full">{item.icon}</div>
+                      <h4 className="text-cyan-700  md:text-lg font-bold leading-normal lg:text-start text-center">{item.number}</h4>
+                      <p className="text-gray-500 text-sm  font-normal leading-relaxed lg:text-start text-center">
+                        {item.description}
+                      </p>
                     </div>
                   ))}
                 </div>
               </div>
-
-
             </div>
-          </section>
+         
+          </div>
+          
+          <div className="w-full lg:justify-start justify-center md:w-6/12 items-start flex">
+            <div className="sm:w-[564px] w-full sm:h-[646px] h-full rounded-3xl sm:border sm:bg-gray-50  border-gray-300 relative">
+              <img
+                className="sm:mt-5 sm:ml-5 w-full h-full rounded-3xl object-cover"
+                src="https://images.pexels.com/photos/19969242/pexels-photo-19969242.jpeg"
+                alt="about Us image"
+              />
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
 
 
         <div className="inline-flex  py-6 items-center justify-center w-full mx-auto my-4 mt-8">
@@ -1158,6 +1180,7 @@ Expertise Across Key Industries
           </div>
         </div>
 
+
 <div className="row">
     <div className="  inline-flex mb-4  items-center justify-center w-full mx-auto mt-3 ">
 
@@ -1202,8 +1225,62 @@ Expertise Across Key Industries
 </div>
 
 
+<div className="row">
+    <div className="  inline-flex mb-4  items-center justify-center w-full mx-auto mt-3 ">
 
-        <div className="row  py-6">
+            <hr className="w-[90%] h-px my-8 bg-gray-300 border-0  " />
+
+            <h2 className="absolute   px-3  text-gray-700 -translate-x-1/2 bg-white left-1/2  md:text-3xl text-1xl capitalize font-extrabold text-center font-sans" > Certificate & Accreditation  
+
+            </h2>
+
+          </div>
+  <style>
+        {`
+        @keyframes infinite-scroll {
+          from { transform: translateX(0); }
+          to { transform: translateX(-100%); }
+        }
+        .animate-infinite-scroll {
+          animation: infinite-scroll 25s linear infinite;
+        }
+        .parent-container:hover .animate-infinite-scroll {
+          animation-play-state: paused;
+        }
+        `}
+      </style>
+          <div className="w-full py-5 inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-128px),transparent_100%)]">
+            {[...Array(2)].map((_, index) => (
+              <ul
+                key={index}
+                className="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll"
+                aria-hidden={index === 1 ? 'true' : 'false'}
+              >
+                {logos4.map((image, index) => (
+                  <li key={index}>
+                    <Image loading='lazy' src={image.src} width={image.width} height={image.height} alt={image.alt} />
+                  </li>
+                ))}
+              </ul>
+            ))}
+
+          </div>
+          
+</div>
+
+
+
+ 
+
+ 
+ 
+
+ 
+ 
+
+       
+
+          <div className="row  py-6">
           <div className="  inline-flex mb-4  items-center justify-center w-full mx-auto mt-3 ">
 
             <hr className="w-[90%] h-px my-8 bg-gray-300 border-0  " />
@@ -1231,73 +1308,9 @@ Expertise Across Key Industries
           </div>
 
 
-    <div className="  inline-flex mb-4  items-center justify-center w-full mx-auto mt-3 ">
-
-            <hr className="w-[90%] h-px my-8 bg-gray-300 border-0  " />
-
-            <h2 className="absolute   px-3  text-gray-700 -translate-x-1/2 bg-white left-1/2  md:text-3xl text-1xl capitalize font-extrabold text-center font-sans" > Awards and Recognitions
-            </h2>
-
-          </div>
-        </div>
-
-
- 
- 
-
-        <div className="col">
-
-          <div className="  justify-center   ">
-
-            <div className="row">
-
-              <div className="col py-4">
-
-                <div className="items-center justify-center h-full">
-                  <div className="flex-row flex flex-wrap justify-center items-center gap-5 pb-10">
-
-                    {products2.map((item, index) => (
-                      <div key={index} className=" md:w-[25%] w-80 p-5">
-                        <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow rounded-xl">
-                          <div className="w-auto">
-                            <div className={`w-full rounded-xl  bg-white  `}>
-                              <img
-                                className={`h-auto border-[1px]  ${item.borderColor} p-2 w-auto mx-auto object-center object-cover transition-transform duration-500 group-hover:scale-90 
-                           rounded-lg`} 
-                                src={item.src}
-                                fetchPriority="high"
-                                loading="lazy"
-                                 height={300}
-                  width={500}
-                                decoding="async"
-                                alt={item.alt}
-                              />
-                            </div>
-                            <div className="text-center mt-3">
-                              <h3 className="text-lg font-semibold">{item.title}</h3>
-                              <p className="text-sm text-gray-600">{item.description}</p>
-                              <a
-                                href={item.link}
-                                className="text-blue-500 hover:underline mt-1 inline-block"
-                              >
-                                {item.linkText}
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    ))}
-                  
-                  </div>
-                </div>
-
-              </div>
-
-            </div>
-
-          </div>
 
         </div>
+
       </div>
 
     </>
