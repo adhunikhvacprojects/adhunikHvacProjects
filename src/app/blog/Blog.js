@@ -11,7 +11,7 @@ export default function Blog() {
       date: "January  2025",
       image:
         "",
-      link: "/what-is-an-air-washer",
+      link: "/",
       img: "/awb.png",
     },
 

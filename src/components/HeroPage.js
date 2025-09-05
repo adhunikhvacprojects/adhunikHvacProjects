@@ -340,9 +340,9 @@ export default function HeroPage() {
     {
       "@type": "Organization",
       "additionalType": "http://schema.org/Manufacturer",
-      "@id": "https://adhunikpowertech.com/#organization",
+      "@id": "https://www.adhunikhvacprojects.com/#organization",
       "name": "Adhunik Hvac Projects Private Limited",
-      "url": "https://adhunikpowertech.com/",
+      "url": "https://www.adhunikhvacprojects.com",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.adhunikpowertech.com/we.svg",
@@ -389,10 +389,10 @@ export default function HeroPage() {
     },
     {
       "@type": "HVACBusiness",
-      "@id": "https://adhunikpowertech.com/#localbusiness",
+      "@id": "https://www.adhunikhvacprojects.com/#localbusiness",
       "name": "Adhunik Hvac Projects Private Limited",
       "image": "https://www.adhunikpowertech.com/we.svg",
-      "url": "https://adhunikpowertech.com/",
+      "url": "https://www.adhunikhvacprojects.com",
       "telephone": "8287885885",
       "address": {
         "@type": "PostalAddress",
@@ -425,15 +425,15 @@ export default function HeroPage() {
     },
     {
       "@type": "WebSite",
-      "@id": "https://adhunikpowertech.com/#website",
-      "url": "https://adhunikpowertech.com/",
+      "@id": "https://www.adhunikhvacprojects.com/#website",
+      "url": "https://www.adhunikhvacprojects.com/",
       "name": "Adhunik Hvac Projects",
-      "publisher": { "@id": "https://adhunikpowertech.com/#organization" },
+      "publisher": { "@id": "https://www.adhunikhvacprojects.com/#organization" },
       "potentialAction": {
         "@type": "SearchAction",
         "target": {
           "@type": "EntryPoint",
-          "urlTemplate": "https://adhunikpowertech.com/?s={search_term_string}"
+          "urlTemplate": "https://www.adhunikhvacprojects.com/?s={search_term_string}"
         },
         "query-input": "required name=search_term_string"
       },
@@ -444,8 +444,8 @@ export default function HeroPage() {
       "@id": "https://www.adhunikpowertech.com/our-Company",
       "url": "https://www.adhunikpowertech.com/our-Company",
       "name": "About Us - HVAC & Manufacturing Experts in Gurugram - Adhunik Hvac Projects",
-      "isPartOf": { "@id": "https://adhunikpowertech.com/#website" },
-      "about": { "@id": "https://adhunikpowertech.com/#organization" },
+      "isPartOf": { "@id": "https://www.adhunikhvacprojects.com/#website" },
+      "about": { "@id": "https://www.adhunikhvacprojects.com/#organization" },
       "inLanguage": "en-IN"
     },
 	{
@@ -453,7 +453,7 @@ export default function HeroPage() {
       "@id": "https://www.adhunikpowertech.com/product-overview",
       "url": "https://www.adhunikpowertech.com/product-overview",
       "name": "HVAC & Industrial Cooling Products India | Global - Adhunik Hvac Projects",
-      "isPartOf": { "@id": "https://adhunikpowertech.com/#website" },
+      "isPartOf": { "@id": "https://www.adhunikhvacprojects.com/#website" },
       "inLanguage": "en-IN"
     },
     {
@@ -462,7 +462,7 @@ export default function HeroPage() {
       "url": "https://www.adhunikpowertech.com/top-HVAC-Contractor-in-Delhi-NCR-&-India",
       "name": "Top HVAC Contractor in Delhi NCR & India - Adhunik Hvac Projects",
 	  "description": "Adhunik Hvac Projects is a trusted HVAC contractor in Delhi NCR and across India, offering expert services in HVAC design, installation, repair, and maintenance for industrial and commercial clients.",
-      "isPartOf": { "@id": "https://adhunikpowertech.com/#website" },
+      "isPartOf": { "@id": "https://www.adhunikhvacprojects.com/#website" },
       "inLanguage": "en-IN"
     }
   ]
@@ -559,9 +559,9 @@ export default function HeroPage() {
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
         <meta httpEquiv="X-UA-Compatible" content="IE=EmulateIE7" />
         <meta name="twitter:site" content="@adhunikpowertech" />
-        <meta name="twitter:image" content="https://adhunikpowertech.com/img/logo.png" />
+        <meta name="twitter:image" content="https://www.adhunikhvacprojects.com/img/logo.png" />
         <meta name="twitter:image:alt" content="Adhunik Hvac Projects" />
-        <meta property="og:image" content="https://adhunikpowertech.com/img/logo.png" />
+        <meta property="og:image" content="https://www.adhunikhvacprojects.com/img/logo.png" />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
         <meta name="robots" content="index,follow" />
         <meta name="googlebot" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1"></meta>
@@ -574,7 +574,7 @@ export default function HeroPage() {
         <meta name="keywords" content="HVAC solutions, industrial cooling, air washers, air handling units, ventilation systems, energy-efficient cooling, Adhunik Hvac Projects" />
         <meta property="og:locale" content="en_IN" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://adhunikpowertech.com/" />
+        <meta property="og:url" content="https://www.adhunikhvacprojects.com" />
         <meta property="og:site_name" content="Adhunik Hvac Projects" />
         <meta name="twitter:card" content="summary" />
 
@@ -729,7 +729,7 @@ export default function HeroPage() {
                   aria-label="Learn more about HVAC solutions and air cooling systems"
                   title="Learn more about HVAC solutions and air cooling systems"
 
-                  href='/our-Company'
+                  href='/'
                   className=' bg-[#0177C8] font-normal font-sans relative text-white text-[14px] px-4 py-3 md:px-12 md:py-4 rounded-full  uppercase'>
                   Know More About Us
                 </Link>

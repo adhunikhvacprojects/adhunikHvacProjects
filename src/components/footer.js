@@ -44,7 +44,7 @@ function Footer() {
   const links4 = [
 
     { href: "/hvac", text: "HVAC" },
-    { href: "/top-Fire-Fighting-Company-in-Delhi-NCR-And-India", text: <>Fire &amp; Safety</> },
+    { href: "/", text: <>Fire &amp; Safety</> },
 
   ];
 
@@ -52,9 +52,9 @@ function Footer() {
   const links2 = [
 
     { href: "/", text: "Home" },
-    { href: "/our-Company", text: "About Us" },
+    { href: "/", text: "About Us" },
     { href: "/product-overview", text: "Products" },
-    { href: "/manufacturing-and-r-&-d", text: <>Manufacturing and  R&amp;D </> },
+    { href: "/", text: <>Manufacturing and  R&amp;D </> },
     { href: "/annual-maintenance-contract", text: "Maintenance" },
     { href: "/blog", text: "Blog" },
     { href: "/support-form", text: "Contact Us" },
