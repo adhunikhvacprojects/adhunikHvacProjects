@@ -305,22 +305,30 @@ export default function HeroPage() {
 
  const logos4 = [
     { src: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1748602146/A_R_1_rjplf1.webp', alt: 'AWARDED AS INDIA BUSINESS AWARD 2025', width: 176, height: 112 },
-    { src: '/certi/award1.webp', alt: 'AWARDED AS MOST INNOVATIVE BRAND FOR HVAC PROJECTS 2024-25', width: 126, height: 100 },
+    { src: '/certi/award1.webp', alt: 'AWARDED AS MOST INNOVATIVE BRAND FOR HVAC PROJECTS 2024-25', width: 176, height: 112 },
     { src: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1748602146/A_R__2_qup0rl.webp', alt: 'AWARDED AS NATIONAL GROWTH PARTNER AWARD', width: 176, height: 112 },
     { src: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1748602146/A_R__2_qup0rl.webp', alt: 'AWARDED AS NATIONAL GROWTH PARTNER AWARD', width: 176, height: 112 },
     { src: '/certi/award2.webp', alt: 'AWARDED FOR PARTICIPATION GURUGRAM INDUSTRIAL EXPO 2023', width: 176, height: 112 },
     { src: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1748602146/A_R_3_fkcvcv.webp', alt: 'AWARDED FOR BEST QUALITY STANDARDS & SERVICES IN HVAC INDUSTRY', width: 176, height: 112 },
     { src: '/certi/award3.webp', alt: 'RECOGNIZED BY NATIONAL TRADE & INDUSTRY COUNCIL', width: 176, height: 112 },
+    { src: '/certi/award4.webp', alt: 'AWARDED FOR PARTICIPATION SUSTAINABLE HVAC AND ARCHITECTURE', width: 176, height: 112 },
+    { src: '/certi/award5.webp', alt: 'CERTIFICATE OF APPRECIATION MOST INNOVATIVE BRAND FOR HVAC PROJECTS 2024-25', width: 176, height: 112 },
+    { src: '/certi/award6.webp', alt: 'AWARDED FOR OVERALL PERFORMANCE IN 2023', width: 176, height: 112 },
    
 
+
+
     { src: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1748602146/A_R_1_rjplf1.webp', alt: 'AWARDED AS INDIA BUSINESS AWARD 2025', width: 176, height: 112 },
-    { src: '/certi/award1.webp', alt: 'AWARDED AS MOST INNOVATIVE BRAND FOR HVAC PROJECTS 2024-25', width: 126, height: 100 },
+    { src: '/certi/award1.webp', alt: 'AWARDED AS MOST INNOVATIVE BRAND FOR HVAC PROJECTS 2024-25', width: 176, height: 112 },
     { src: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1748602146/A_R__2_qup0rl.webp', alt: 'AWARDED AS NATIONAL GROWTH PARTNER AWARD', width: 176, height: 112 },
     { src: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1748602146/A_R__2_qup0rl.webp', alt: 'AWARDED AS NATIONAL GROWTH PARTNER AWARD', width: 176, height: 112 },
     { src: '/certi/award2.webp', alt: 'AWARDED FOR PARTICIPATION GURUGRAM INDUSTRIAL EXPO 2023', width: 176, height: 112 },
     { src: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1748602146/A_R_3_fkcvcv.webp', alt: 'AWARDED FOR BEST QUALITY STANDARDS & SERVICES IN HVAC INDUSTRY', width: 176, height: 112 },
-   
     { src: '/certi/award3.webp', alt: 'RECOGNIZED BY NATIONAL TRADE & INDUSTRY COUNCIL', width: 176, height: 112 },
+     { src: '/certi/award4.webp', alt: 'AWARDED FOR PARTICIPATION SUSTAINABLE HVAC AND ARCHITECTURE', width: 176, height: 112 },
+     { src: '/certi/award5.webp', alt: 'CERTIFICATE OF APPRECIATION MOST INNOVATIVE BRAND FOR HVAC PROJECTS 2024-25', width: 176, height: 112 },
+     { src: '/certi/award6.webp', alt: 'AWARDED FOR OVERALL PERFORMANCE IN 2023', width: 176, height: 112 },
+   
    
   ];
 
@@ -460,74 +468,15 @@ export default function HeroPage() {
   ]
 };
 
-  const products2 = [
-     {
-      src: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1748602146/A_R_1_rjplf1.webp",
-      alt: "AWARDED AS INDIA BUSINESS AWARD 2025",
-      borderColor: "border-yellow-500", 
-    },
-
-    {
-      src: "/certi/award1.webp",
-      alt: "AWARDED AS MOST INNOVATIVE BRAND FOR HVAC PROJECTS 2024-25",
-      borderColor: "border-yellow-500", 
-    }
-    ,
-      
-    {
-      src: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1748602146/A_R__2_qup0rl.webp",
-      alt: "AWARDED AS NATIONAL GROWTH PARTNER AWARD",
-      borderColor: "border-yellow-500", 
-    },
-
-    {
-      src: "/certi/award2.webp",
-      alt: "",
-      borderColor: "border-yellow-500", 
-    }
-    ,
-
-    {
-      src: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1748602146/A_R_3_fkcvcv.webp",
-      alt: " ",
-      borderColor: "border-yellow-500", 
-    },
-
-  
-  
+  const products2 = [ 
+   
     
-    {
-      src: "/certi/award3.webp",
-      alt: "RECOGNIZED BY NATIONAL TRADE & INDUSTRY COUNCIL",
-      borderColor: "border-yellow-500", 
-    }
-    ,
-    {
-      src: "/certi/award4.webp",
-      alt: "AWARDED FOR PARTICIPATION SUSTAINABLE HVAC AND ARCHITECTURE",
-      borderColor: "border-yellow-500", 
-    }
-    ,
-    {
-      src: "/certi/award5.webp",
-      alt: "CERTIFICATE OF APPRECIATION MOST INNOVATIVE BRAND FOR HVAC PROJECTS 2024-25",
-      borderColor: "border-yellow-500", 
-    },
     {
       src: "/certi/award6.webp",
       alt: "AWARDED FOR OVERALL PERFORMANCE IN 2023",
       borderColor: "border-yellow-500", 
     },
-
-  
-   
-
-
-
-  
-
-  
-
+ 
   ];
 
   
@@ -1027,31 +976,34 @@ Expertise Across Key Industries
           
 
  <section className="py-12 relative xl:mr-0 lg:mr-5 mr-0">
-      <div className="w-full max-w-7xl px-4 md:px-5 lg:px-5 mx-auto">
-        <div className="w-full justify-start items-center xl:gap-12 gap-10 grid lg:grid-cols-2 grid-cols-1">
-          <div className="w-full flex-col justify-center lg:items-start items-center gap-10 inline-flex">
+      <div className="w-full  md:max-w-7xl px-4 md:px-5 lg:px-5 mx-auto">
+        <div className="w-full justify-start items-center xl:gap-12 gap-10  flex flex-col-reverse lg:flex-row">
+
+          <div className="md:w-6/12 w-full flex-col  justify-center lg:items-start items-center gap-10 inline-flex">
             <div className="w-full flex-col justify-center items-start gap-8 flex">
              
               <div className="w-full flex-col justify-center items-start gap-6 flex">
-                <div className="w-full justify-start items-center gap-8 grid md:grid-cols-1 grid-cols-1">
+                <div className="w-full justify-start items-center gap-8 grid md:grid-cols-1  grid-cols-1">
                   {achievementData.map((item, index) => (
                     <div
                       key={index}
-                      className="w-full h-full p-3.5 rounded-xl border border-gray-200 hover:border-cyan-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex"
+                      className="w-full justify-center items-center h-full p-3.5 rounded-xl border border-gray-200 hover:border-cyan-400 transition-all duration-700 ease-in-out flex-col md:justify-start md:items-start gap-2.5 inline-flex"
                     >
                       <div className="p-2 bg-cyan-50 rounded-full">{item.icon}</div>
                       <h4 className="text-cyan-700  md:text-lg font-bold leading-normal lg:text-start text-center">{item.number}</h4>
-                      <p className="text-gray-500 text-sm  font-normal leading-relaxed lg:text-start text-center">
+                      <p className="text-gray-500 text-sm  md:text-justify font-normal leading-relaxed  text-justify">
                         {item.description}
                       </p>
                     </div>
                   ))}
                 </div>
               </div>
+
             </div>
          
           </div>
-          <div className="w-full lg:justify-start justify-center items-start flex">
+
+          <div className="md:w-6/12 w-full lg:justify-start justify-center items-start flex">
             <div className="sm:w-[564px] w-full sm:h-[646px] h-full   rounded-3xl sm:border  sm:bg-gray-50  border-gray-300  relative">
               <img
                 className="sm:mt-5 sm:ml-5 w-full h-full rounded-3xl object-cover"
@@ -1060,6 +1012,7 @@ Expertise Across Key Industries
               />
             </div>
           </div>
+
         </div>
       </div>
     </section>
@@ -1068,7 +1021,7 @@ Expertise Across Key Industries
 
  <section className="pb-12 relative xl:mr-0 lg:mr-5 mr-0">
       <div className="w-full max-w-7xl px-4 md:px-5 lg:px-5 mx-auto">
-        <div className="w-full justify-start items-center xl:gap-12 gap-10  flex flex-row-reverse">
+        <div className="w-full justify-start items-center xl:gap-12 gap-10  flex flex-col-reverse lg:flex-row-reverse">
 
           <div className="w-full flex-col justify-center lg:items-start items-center md:w-6/12 gap-10 inline-flex">
             <div className="w-full flex-col justify-center items-start gap-8 flex">
@@ -1078,11 +1031,11 @@ Expertise Across Key Industries
                   {achievementData2.map((item, index) => (
                     <div
                       key={index}
-                      className="w-full h-full p-3.5 rounded-xl border border-gray-200 hover:border-cyan-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex"
+                      className="w-full h-full p-3.5 rounded-xl border border-gray-200 hover:border-cyan-400 transition-all duration-700 ease-in-out flex-col md:justify-start md:items-start  justify-center items-center gap-2.5 inline-flex"
                     >
                       <div className="p-2 bg-cyan-50 rounded-full">{item.icon}</div>
                       <h4 className="text-cyan-700  md:text-lg font-bold leading-normal lg:text-start text-center">{item.number}</h4>
-                      <p className="text-gray-500 text-sm  font-normal leading-relaxed lg:text-start text-center">
+                      <p className="text-gray-500 text-sm  font-normal leading-relaxed   text-justify ">
                         {item.description}
                       </p>
                     </div>
@@ -1242,7 +1195,7 @@ Expertise Across Key Industries
           to { transform: translateX(-100%); }
         }
         .animate-infinite-scroll {
-          animation: infinite-scroll 25s linear infinite;
+          animation: infinite-scroll 75s linear infinite;
         }
         .parent-container:hover .animate-infinite-scroll {
           animation-play-state: paused;
