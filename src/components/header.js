@@ -25,7 +25,9 @@ function Header() {
   };
 
   const links = [
-    { href: "/", text: "ABOUT US" },
+
+    { href: "/our-company", text: "ABOUT US" },
+    
     { href: "/overview", text: "HVAC OVERVIEW" },
 
     { href: "/our-quality-service", text: "OUR QUALITY SERVICE" },
@@ -103,7 +105,7 @@ function Header() {
   const menuItems = [
     {
       label: "ABOUT US",
-      href: "/",
+      href: "/our-company",
     },
     {
       label: "HVAC OVERVIEW",

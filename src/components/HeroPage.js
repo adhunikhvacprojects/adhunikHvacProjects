@@ -304,6 +304,7 @@ export default function HeroPage() {
 
 
  const logos4 = [
+  
     { src: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1748602146/A_R_1_rjplf1.webp', alt: 'AWARDED AS INDIA BUSINESS AWARD 2025', width: 176, height: 112 },
     { src: '/certi/award1.webp', alt: 'AWARDED AS MOST INNOVATIVE BRAND FOR HVAC PROJECTS 2024-25', width: 176, height: 112 },
     { src: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1748602146/A_R__2_qup0rl.webp', alt: 'AWARDED AS NATIONAL GROWTH PARTNER AWARD', width: 176, height: 112 },
@@ -441,8 +442,8 @@ export default function HeroPage() {
     },
     {
       "@type": "WebPage",
-      "@id": "https://www.adhunikpowertech.com/our-Company",
-      "url": "https://www.adhunikpowertech.com/our-Company",
+      "@id": "https://www.adhunikpowertech.com/our-company",
+      "url": "https://www.adhunikpowertech.com/our-company",
       "name": "About Us - HVAC & Manufacturing Experts in Gurugram - Adhunik Hvac Projects",
       "isPartOf": { "@id": "https://www.adhunikhvacprojects.com/#website" },
       "about": { "@id": "https://www.adhunikhvacprojects.com/#organization" },
