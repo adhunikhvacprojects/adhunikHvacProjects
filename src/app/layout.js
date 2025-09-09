@@ -3,7 +3,8 @@ import "./globals.css";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
 import WatsapButton from "@/components/watsap";
-
+import Script from "next/script";
+import { GoogleTagManager } from '@next/third-parties/google'
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -86,16 +87,16 @@ export const metadata = {
       "Award-winning design & installation for industrial and commercial clients, built on a 19+ year legacy of excellence.",
     card: "summary",
     image: "https://adhunikhvacprojects.com/apple-touch-icon.png",
-    imageAlt: "Adhunik Powertech - HVAC & Air Cooling Solutions",
+    imageAlt: "Adhunik HVAC Projects - HVAC & Air Cooling Solutions",
   },
   openGraph: {
     title: "Top HVAC Contractor in Delhi NCR | Adhunik HVAC Projects",
     type: "website",
     url: "https://www.adhunikhvacprojects.com",
-    siteName: "Adhunik Powertech - HVAC Experts",
+    siteName: "Adhunik HVAC Projects - HVAC Experts",
     image: "https://adhunikhvacprojects.com/apple-touch-icon.png",
     locale: "en_IN",
-    creator: "Adhunik Powertech",
+    creator: "Adhunik HVAC Projects",
 
     images: [
       {
@@ -126,6 +127,78 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+   
+   
+    <head>
+
+   <meta itemProp="name" content="Adhunik HVAC Projects" />
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              "name": "Adhunik HVAC Projects",
+              "url": "https://www.adhunikhvacprojects.com",
+              "alternateName": "Adhunik HVAC Projects",
+            }),
+          }}
+        />
+
+
+     
+  <Script
+      async src="https://www.googletagmanager.com/gtag/js?id=G-D7JKZ9C6RS"
+        strategy="afterInteractive"
+      />
+
+      <Script id="gtag-init" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-D7JKZ9C6RS');
+        `}
+      </Script>
+
+        <GoogleTagManager gtmId="G-D7JKZ9C6RS" />
+        
+        <meta name="google-site-verification" content="NvZ4IN4DrHMOm2iwZo-ONRq9_7U8g_ntzz0_MaRVVc8" />
+
+        
+
+        <Script id="google-analytics" >
+
+          {` window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-D7JKZ9C6RS');`}
+
+        </Script>
+
+
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+          integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+          crossOrigin="anonymous"
+          referrerPolicy="no-referrer"
+        />
+
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+
+
+        <link
+          rel="preload"
+          href="/fonts/Poppins/Poppins-Medium.ttf"
+          as="font"
+          type="font/ttf"
+          crossOrigin="anonymous"
+        />
+
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
