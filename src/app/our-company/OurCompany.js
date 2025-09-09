@@ -159,12 +159,7 @@ export default function OurCompany() {
 
  </p>
 
-
-              
-
-
-
-
+ 
               <div className="row">
                 <svg className="arrows">
                   <path className="a1" d="M0 0 L30 32 L60 0"></path>
@@ -179,8 +174,7 @@ export default function OurCompany() {
       ),
     },
 
-
-    
+ 
     {
       id: 2,
       year: '2014',
@@ -410,7 +404,7 @@ Focused Expertise : </strong>
         </div>
 
         <div className="  block lg:hidden row h-screen flex flex-col mt-10  w-full overflow-hidden justify-center items-center">
-          <p>
+          <p className="py-2 text-sm">
 
             &gt;&gt; SWIPE RIGHT TO SEE MORE
 
@@ -423,266 +417,188 @@ Focused Expertise : </strong>
             className="mySwiper"
           >
 
-
             <SwiperSlide>
 
 
-              <div className="text-center bg-[#00000051]">
+              <div className="z-10  text-center">
+          <div className="row bg-[#0000005d] ">
+            <div className="col py-2 relative md:static  justify-center items-center flex flex-col">
 
-                <div className="row">
-                  <div className="col py-5 px-5  relative md:static    justify-center items-center flex flex-col">
-                    <p className="text-4xl   text-justify font-sans font-thin pt-7 italic md:text-3xl  pb-3" >
-                      About Us
-                    </p>
+            
+              <p className=" text-md px-4 w-full text-justify font-sans font-thin pt-7 italic   pb-3">
+              Our Story : Engineering Excellence, Redefined.
+              </p>
 
-                    <h2 className="text-2xl   font-semibold  lg:text-justify font-sans  lg:text-5xl " >We are Adhunik Powertech : Experts Who Make a Difference
-                    </h2>
+              <p className="text-[11px]  px-4 w-full font-semibold  text-justify font-sans  ">
 
-                    <p className=" text-[14px] md:text-[12xl]  lg:text-justify font-sans font-thin pt-7">
-                      Our journey began in 2005 with a simple vision: to create an indoor environment that nurtures and enhances the well-being of every individual. We started as a small team of passionate engineers, offering innovative HVAC solutions to our local community.
-                      Over the years, we have grown and evolved, expanding our product range and geographic reach. Today, we are proud to be a leading provider of comprehensive HVAC solutions, serving a diverse clientele across various industries.
-                    </p>
+            Every great company has a story. Ours is one of legacy, evolution, and a relentless pursuit of perfection. It’s a story that begins not with a new name, but with nearly two decades of proven engineering experience.
 
-                  </div>
-                </div>
+ </p>
 
+     <p className="text-md w-full px-4 text-justify font-sans font-thin pt-2 italic md:text-3xl  pb-2">
+           Chapter 1 : The Foundation (2005 - 2024)
+  </p>
+              
+     <p className="text-sm w-full px-4 text-justify font-sans font-thin  italic  ">
+          Building a Legacy of Trust
+  </p>
+              
+              <p className=" text-[11px]   w-full px-4 text-justify font-sans font-thin pt-2" >
+          Our journey began in 2005 as the heart of Adhunik Powertech's HVAC division. For 19 years, we were the minds and hands behind more than 600 complex projects across India. We built a reputation not just for installing systems, but for engineering solutions—tackling the toughest challenges in commercial, industrial, and specialized sectors. We became the trusted team known for our meticulous standards and unwavering commitment to quality.
+ </p>
 
-              </div>
+              
 
-            </SwiperSlide>
+               
 
-
-
-
-            <SwiperSlide>
-
-              <div className="text-center bg-[#00000051]">
-
-                <div className="row h-[30rem]">
-                  <div className="col py-5 px-5  relative md:static    justify-center items-center flex flex-col">
-                    <p className="text-3xl   text-justify font-sans font-semibold   lg:text-3xl py-5  " >2005  </p>
-                    <h2 className="text-3xl   text-justify font-sans font-thin  italic lg:text-3xl  px-4 py-3 " >Our Growth Story </h2>
-                    <p className="text-2xl   font-semibold  lg:text-justify font-sans  lg:text-5xl " ><span className=" font-semibold font-sans">Foundation:</span> Established as Adhunik Cooling Systems Pvt. Ltd.</p>
-
-                    <div className="text-[16px]  text-justify font-sans font-thin pt-7">
-                      <blockquote className=" border-l-4 border-[#00A0E1]  my-4 pl-3 lg:pl-7 md:text-2xl font-sans font-thin ">With a vision to provide innovative and sustainable HVAC solutions.</blockquote>
-                    </div>
-
-
-
-                  </div>
-                </div>
-
-
-              </div>
-
-
-
+            </div>
+          </div>
+        </div>
 
             </SwiperSlide>
 
             <SwiperSlide>
 
+              <div className="z-10  text-center">
+          <div className="row bg-[#0000005d] ">
+            <div className="col py-2 relative md:static  justify-center items-center flex flex-col">
+
+            
+              <p className=" text-md px-4 w-full text-justify font-sans font-thin pt-7 italic   pb-3">
+              Chapter 2: The Turning Point (2025)
+              </p>
+              <p className=" text-md px-4 w-full text-justify font-sans font-thin pt-7 italic   pb-3">
+              A Legacy Recognized
+              </p>
+
+              <p className="text-[11px]  px-4 w-full font-semibold  text-justify font-sans  ">
+
+            A pivotal moment arrived in 2025. Our team's dedication and hard work were recognized on a national stage with the prestigious India Business Award for "Best Quality Standards and Services in the HVAC Industry."
+
+ </p>
+
+   
+              
+              <p className=" text-[11px]   w-full px-4 text-justify font-sans font-thin pt-2" >
+        This award wasn't just an accolade; it was a confirmation of our core belief: that true expertise deserves a focused path. It was the catalyst that inspired us to take a bold, strategic step forward.
+ </p>
+
+              
+
+               
+
+            </div>
+          </div>
+        </div>
+
+            </SwiperSlide>
+
+            <SwiperSlide>
 
 
-              <div className="text-center bg-[#00000051]">
 
-                <div className="row h-[30rem]">
-                  <div className="col py-5 px-5  relative md:static    justify-center items-center flex flex-col">
-                    <p className="text-3xl   text-justify font-sans font-semibold   lg:text-3xl py-5  " >2010  </p>
-                    <h2 className="text-3xl   text-justify font-sans font-thin  italic lg:text-3xl  px-4 py-3 " >Our Journey </h2>
-                    <p className="text-2xl   font-semibold  lg:text-justify font-sans  lg:text-5xl " ><span className=" font-semibold font-sans">Expansion:</span> Launched Air Washer Manufacturing</p>
+              <div className="z-10  text-center">
+          <div className="row bg-[#0000005d] ">
+            <div className="col py-2 relative md:static  justify-center items-center flex flex-col">
 
-                    <div className="text-[16px]  text-justify font-sans font-thin pt-7">
-                      <blockquote className=" border-l-4 border-[#00A0E1]  my-4 pl-3 lg:pl-7 lg:text-2xl font-sans font-thin ">Expanded our product range to include Air Washers for improved air quality.</blockquote>
-                    </div>
+            
+              <p className=" text-md px-4 w-full text-justify font-sans font-thin pt-7 italic   pb-3">
+             Chapter 3: The Evolution
+              </p>
+              <p className=" text-md px-4 w-full text-justify font-sans font-thin pt-7 italic   pb-3">
+            Forging a Specialized Future
+              </p>
 
+              <p className="text-[11px]  px-4 w-full font-semibold  text-justify font-sans  ">
 
+          We asked ourselves: "How can we offer our clients even greater value, agility, and specialized expertise?" The answer was to evolve.
 
-                  </div>
-                </div>
+ </p>
 
+   
+              
+              <p className=" text-[11px]   w-full px-4 text-justify font-sans font-thin pt-2" >
+       The award-winning HVAC division was strategically restructured to become Adhunik HVAC Projects, a new, purpose-built company under the banner of Adhunik Guds & Services Private Limited. This was not a separation, but a concentration of our strengths—channeling two decades of experience into a single, powerful entity dedicated exclusively to mastering the art and science of HVAC.
 
-              </div>
+ </p>
 
+              
 
+               
+
+            </div>
+          </div>
+        </div>
 
 
             </SwiperSlide>
 
             <SwiperSlide>
 
-              <div className="text-center bg-[#00000051]" >
+             <div className="z-10  text-center">
+          <div className="row bg-[#0000005d] ">
+            <div className="col py-2 relative md:static  justify-center items-center flex flex-col">
 
-                <div className="row h-[30rem]">
-                  <div className="col py-5 px-5  relative md:static    justify-center items-center flex flex-col">
-                    <p className="text-3xl   text-justify font-sans font-semibold   lg:text-3xl py-5  " >2014  </p>
-                    <p className="text-3xl   text-justify font-sans font-thin  italic lg:text-3xl  px-4 py-3 " >Our Journey </p>
-                    <p className=" text-[22px]   font-semibold  lg:text-justify font-sans  lg:text-5xl  " >
-                      <span className=" font-semibold font-sans">
-                        Product Launch:</span> Introduced Panel Air
-                      Conditioner Manufacturing
-                    </p>
+            
+              <p className=" text-md px-4 w-full text-justify font-sans font-thin pt-7 italic   pb-3">
+              Chapter 4 : Our Integrated Strength Today
 
-                    <div className="text-[13px]  text-justify font-sans font-thin pt-7">
-                      <blockquote className="border-l-4 border-[#00A0E1]  my-4 pl-8 lg:pl-7  font-sans font-thin "> Launched Panel Air Conditioner Manufacturing, marking a significant
-                        milestone in our growth. </blockquote>
-                    </div>
+              </p>
+
+              <p className=" text-md px-4 w-full text-justify font-sans font-thin pt-7 italic   pb-3">
+            The Adhunik Ecosystem
+              </p>
+
+              <p className="text-[11px]  px-4 w-full font-semibold  text-justify font-sans  ">
+
+        Today, Adhunik HVAC Projects operates as a center of excellence within a unique and powerful ecosystem. This structure is our promise of quality and seamless execution to you :
+
+ </p>
+
+   
+              
+            <ul className=" text-md px-4    text-justify font-sans font-thin pb-4">
+
+            <li className="">
+         <strong className=" font-bold text-orange-500">
+Focused Expertise : </strong>
+          Our team lives and breathes HVAC. This singular focus ensures you receive the most innovative and effective solutions.
+            </li>
+
+            <li className="">
+         <strong className=" font-bold text-orange-500">
+ Integrated Solutions :  </strong>
+        As part of a larger family, we collaborate seamlessly with our sister divisions—Adhunik FireXpert (fire safety) and Adhunik Decodive (interiors)—to offer truly comprehensive, single-point solutions for your projects.
+
+            </li>
 
 
+            <li className="">
+         <strong className=" font-bold text-orange-500">
+  Unmatched Quality Control : </strong>
+     Our strategic partnership with our dedicated manufacturing arm, Om Cooling System (OCS), means we control the quality of our core components from the factory floor to your project site.
 
-                  </div>
-                </div>
-
-
-              </div>
-
-
+            </li>
 
 
-            </SwiperSlide>
-
-
-
-            <SwiperSlide>
-
-
-
-
-              <div className="text-center bg-[#00000051]">
-
-                <div className="row h-[30rem]">
-                  <div className="col py-5 px-5  relative md:static    justify-center items-center flex flex-col">
-                    <p className="text-3xl   text-justify font-sans font-semibold   lg:text-3xl py-5  " >2016  </p>
-                    <p className="text-3xl   text-justify font-sans font-thin  italic lg:text-3xl  px-4 py-3 " >Our Journey </p>
-                    <p className=" text-[22px]   font-semibold  lg:text-justify font-sans  lg:text-5xl  " >
-                      <span className=" font-semibold font-sans"> Manufacturing Milestone:</span> Established a dedicated manufacturing plant
-                    </p>
-
-                    <div className="text-[13px]  text-justify font-sans font-thin pt-7">
-                      <blockquote className="border-l-4 border-[#00A0E1]  my-4 pl-8 lg:pl-7  font-sans font-thin "> Established a dedicated manufacturing plant to enhance production capabilities. </blockquote>
-                    </div>
+         </ul> 
 
 
 
-                  </div>
-                </div>
+              
 
+               
 
-              </div>
-
-
-
-
-            </SwiperSlide>
-
-
-
-            <SwiperSlide>
-
-              <div className="text-center bg-[#00000051]">
-
-                <div className="row h-[30rem]">
-                  <div className="col py-5 px-5  relative md:static    justify-center items-center flex flex-col">
-                    <p className="text-3xl   text-justify font-sans font-semibold   lg:text-3xl py-5  " >2017  </p>
-                    <p className="text-3xl   text-justify font-sans font-thin  italic lg:text-3xl  px-4 py-3 " >Our Journey </p>
-                    <p className=" text-[22px]   font-semibold  lg:text-justify font-sans  lg:text-5xl  " >
-                      <span className=" font-semibold font-sans"> Diversification:</span> Expanded into Oil Chiller Manufacturing </p>
-
-                    <div className="text-[13px]  text-justify font-sans font-thin pt-7">
-                      <blockquote className="border-l-4 border-[#00A0E1]  my-4 pl-8 lg:pl-7  font-sans font-thin "> Diversified into Oil Chiller Manufacturing to meet growing market demands. </blockquote>
-                    </div>
-                  </div>
-                </div>
-
-
-              </div>
+            </div>
+          </div>
+        </div>
 
 
 
 
             </SwiperSlide>
 
-
-
-            <SwiperSlide>
-
-              <div className="text-center bg-[#00000051]">
-                <div className="row h-[30rem]">
-                  <div className="col py-5 px-5  relative md:static    justify-center items-center flex flex-col">
-                    <p className="text-3xl   text-justify font-sans font-semibold   lg:text-3xl py-5  " >2020  </p>
-                    <p className="text-3xl   text-justify font-sans font-thin  italic lg:text-3xl  px-4 py-3 " >Our Journey </p>
-                    <p className=" text-[22px]   font-semibold  lg:text-justify font-sans  lg:text-5xl  " >
-                      <span className=" font-semibold font-sans"> Market Expansion:</span>  Started Ventilation Fan Manufacturing </p>
-
-                    <div className="text-[13px]  text-justify font-sans font-thin pt-7">
-                      <blockquote className="border-l-4 border-[#00A0E1]  my-4 pl-8 lg:pl-7  font-sans font-thin "> Expanded our product portfolio with Ventilation Fan Manufacturing. </blockquote>
-                    </div>
-
-
-
-                  </div>
-                </div>
-
-
-              </div>
-
-
-            </SwiperSlide>
-
-
-
-            <SwiperSlide>
-
-              <div className="text-center bg-[#00000051]">
-
-                <div className="row h-[30rem]">
-                  <div className="col py-5 px-5  relative md:static    justify-center items-center flex flex-col">
-                    <p className="text-3xl   text-justify font-sans font-semibold   lg:text-3xl py-5  " >2024  </p>
-                    <p className="text-3xl   text-justify font-sans font-thin  italic lg:text-3xl  px-4 py-3 " >Our Journey </p>
-                    <p className=" text-[22px]   font-semibold  lg:text-justify font-sans  lg:text-5xl  " >
-                      <span className=" font-semibold font-sans"> Service Expansion:</span>   Added Fire & Safety Services </p>
-
-                    <p className=" text-[22px]   font-semibold  lg:text-justify font-sans  lg:text-5xl  " >
-
-                      <span className=" font-semibold font-sans"> Rebranding:</span>
-                      The company name changed to Adhunik Powertech Private Limited </p>
-
-                    <div className="text-[13px]  text-justify font-sans font-thin pt-7">
-                      <blockquote className="border-l-4 border-[#00A0E1]  my-4 pl-8 lg:pl-7  font-sans font-thin "> Added Fire & Safety Services and rebranded as Adhunik Powertech Private Limited </blockquote>
-                    </div>
-
-                  </div>
-                </div>
-
-              </div>
-
-            </SwiperSlide>
-
-            <SwiperSlide>
-
-              <div className="text-center bg-[#00000051]">
-
-                <div className="row ">
-
-
-
-                  <div className="row h-[30rem] flex flex-col justify-center items-center">
-
-                    <p>
-                      Growing Stronger,
-
-                    </p>
-                    <span> Innovating Always… </span>
-
-                  </div>
-
-                </div>
-
-              </div>
-
-            </SwiperSlide>
-
+ 
           </Swiper>
         </div>
 
@@ -697,7 +613,7 @@ Focused Expertise : </strong>
         <section className="pb-24 pt-14 relative">
 
           <div className="w-full max-w-7xl px-4 md:px-5 lg:px-5 mx-auto">
-            <div className="w-full  justify-start   items-center gap-12 grid lg:grid-cols-2 grid-cols-1">
+            <div className="w-full  justify-start   items-center gap-12  flex md:flex-row flex-col-reverse">
          
               <div className="w-full justify-center items-start gap-6 grid sm:grid-cols-2 grid-cols-1 lg:order-first order-last">
                 <div className="pt-24 lg:justify-center sm:justify-end justify-start items-start gap-2.5 flex">
@@ -757,12 +673,13 @@ Focused Expertise : </strong>
           <div
             className="w-full max-w-7xl px-4 md:px-5 lg:px-5 mx-auto  "
           >
-            <div className="w-full text-gray-500 justify-start items-center gap-8 grid lg:grid-cols-2 grid-cols-1   ">
+            <div className="w-full text-gray-500 justify-start items-center gap-8 flex md:flex-row flex-col-reverse  ">
                
-              <div className="w-full   flex-col justify-center lg:items-start items-center gap-10 inline-flex transition-colors duration-500 ease-in-out hover:border-orange-500 border-2 border-gray-300 rounded-xl px-6  py-24">
+              <div className="w-full   flex-col justify-center lg:items-start items-center gap-10 inline-flex transition-colors duration-500 ease-in-out hover:border-orange-500 border-2 border-gray-300 rounded-xl px-6  py-24 ">
                 <div className="w-full flex-col justify-center items-start gap-8 flex ">
                   <div className="w-full flex-col justify-start lg:items-start items-center gap-3 flex ">
                     <h2 className="text-gray-800 font-bold font-manrope leading-normal lg:text-start text-center">
+
                     Vision : Our Aspiration for the Future
 
                     </h2>
@@ -773,6 +690,7 @@ Focused Expertise : </strong>
 
                        </p>
                        <h2 className=" text-base text-gray-800 font-bold font-manrope leading-normal lg:text-start text-center">
+
                         The Next Chapter : Our Promise to You
 
                        </h2>
@@ -805,7 +723,7 @@ Focused Expertise : </strong>
 
  
 
-<p class=" text-center py-12 text-4xl bg-linear-to-r from-cyan-500 to-teal-500 bg-clip-text   font-extrabold text-transparent ...">
+<p className=" text-center py-12 text-4xl bg-linear-to-r from-cyan-500 to-teal-500 bg-clip-text   font-extrabold text-transparent ...">
    Welcome to Adhunik HVAC Projects <br />  <span className=" text-3xl">
     Welcome to the next chapter
    </span>

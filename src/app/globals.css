@@ -91,13 +91,11 @@
 }
 
 
-
-
- 
 .swiper {
   width: 95%;
   height: auto;
 }
+
 
 .swiper-slide {
   text-align: center;
@@ -108,6 +106,8 @@
   align-items: center;
 }
 
+
+
 .swiper-slide img {
   display: block;
   width: 100%;
@@ -116,16 +116,16 @@
 }
 
 
- 
 
 .swiper-slide {
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 18px;
-  font-size: 22px;
+  font-size: 12px;
   font-weight: bold;
   color: white;
+
 }
 
 .swiper-slide:nth-child(1n) {
@@ -133,8 +133,8 @@
   border-color: cyan;
   border: 1px #00A0E1 solid;
   background-image: url('https://res.cloudinary.com/dxenuee4n/image/upload/v1757312695/pic2_nqufnr.webp');
-  background-size: cover; /* Ensures the image covers the slide area */
-  background-position: center; /* Centers the image */
+  background-size: cover;  
+  background-position: center;  
   background-repeat: no-repeat;
   
 
@@ -208,4 +208,10 @@
 
 }
 
-
+@media (min-width: 375px) and (max-width: 667px) {
+ 
+.swiper {
+  width: 95%;
+  height: auto;
+}
+}
