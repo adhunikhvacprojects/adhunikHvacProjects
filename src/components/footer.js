@@ -117,12 +117,12 @@ function Footer() {
             </h2>
 
             <p className=' font-semibold text-[15px]  font-sans  pb-1'>
-            Corporate Office 
+            Head Office 
             </p>
 
             <p className=' pb-1'>
-              DCG1-0102, Tower -1, DLF Corporate Green Sector-74A Gurugram (HR) 122004
-            </p>
+         Unit No. 6-03B, 6th floor, Reach My Tower,
+Sector 70, Gurugram, Pin Code-122101  </p>
 
             <p className=' pb-1'>
             Email: info@adhunikhvacprojects.com
@@ -194,7 +194,13 @@ function Footer() {
 
             </div>
           
+  <p className=' font-semibold text-[15px]  font-sans  pb-1'>
+            Corporate Office 
+            </p>
 
+            <p className=' pb-2'>
+              DCG1-0102, Tower -1, DLF Corporate Green Sector-74A Gurugram (HR) 122004
+            </p>
 
             <h2 className="mb-2  text-[15px] flex justify-center  font-sans font-semibold uppercase ">
               Explore with Us

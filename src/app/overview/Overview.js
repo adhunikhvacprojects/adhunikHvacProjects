@@ -969,6 +969,7 @@ export default function Overview() {
           SOME OF OUR PROJECT COMPLETION
           CERTIFICATION
         </p>
+
         <div className="row flex flex-row flex-wrap">
 
           {cardData.map((card) => (
@@ -1008,6 +1009,281 @@ export default function Overview() {
         </div>
 
        
+ 
+
+         <div className="row">
+          <p className=" text-4xl md:text-4xl py-6 font-sans  w-full text-center text-cyan-900 capitalize">
+            Air Management Jobs
+
+          </p>
+
+          <div className="row flex flex-row flex-wrap-reverse  justify-evenly items-center">
+            <div className=" w-full h-full md:w-5/12 ">
+              <h2
+                className="font-manrope uppercase  font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 to-blue-600 md:text-left text-center text-4xl lg:text-4xl text-black mb-9 max-lg:text-center relative">
+
+                Air Cooling Jobs</h2>
+              <p className="  md:text-left text-justify  font-normal  text-sm text-cyan-800 leading-8 px-3     mx-auto">
+                At Adhunik Powertech, we take pride in delivering a wide range of cooling methods that effectively lower air temperatures according to your specific needs. Our selection of Air Cooling Products—such as Air Washers, Ventilation Fans, and both Ducted and Non-Ducted Air Coolers—ensures increased airflow and reduced temperatures, helping you create the ideal environment.
+
+                <br />
+                Our proven technique focuses on boosting airflow over the areas you want to cool or increasing the surface area of objects to maximize heat dispersal. We often combine both methods to achieve outstanding results.
+
+                <br />
+                When it comes to air cooling projects, we stand out with our expertise, even in non-standard conditions. Trust us to provide reliable and efficient air cooling solutions that meet and exceed your expectations.
+              </p>
+            </div>
+            <div className=" w-full h-full md:w-5/12 my-5  ">
+              <ImageGallery items={images3} className=" rounded-lg " alt="pics" />
+
+            </div>
+          </div>
+        </div>
+
+
+        <div className="row">
+
+
+          <div className="row flex flex-col-reverse  md:flex-row-reverse  justify-evenly items-center">
+
+            <div className=" w-full h-full md:w-5/12 pt-5 ">
+              <h2
+                className="font-manrope uppercase  font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 to-blue-600 text-4xl lg:text-4xl text-black mb-3 md:mb-9 max-lg:text-center relative">
+
+                Air Conditioning Jobs</h2>
+
+
+              <p className=" text-sm text-cyan-800 text-justify md:text-left px-3 font-normal text-[16px] leading-8   mx-auto">
+                We specialize in enhancing air quality and comfort in every environment. Our mission is to efficiently deliver conditioned air to all spaces, ensuring that everyone enjoys optimal conditions.
+
+                <br />
+                We proudly offer HVAC services to a wide variety of settings, including residential, commercial, hospitals, and industries such as pharmaceuticals and food manufacturing, as well as factories and schools. By choosing us, you guarantee improved comfort and exceptional indoor air quality.
+                <br />
+                With years of experience in air conditioning projects, we have a proven track record of success. Trust us to meet your air conditioning needs and experience the difference in quality and comfort.
+              </p>
+            </div>
+            <div className=" w-full h-full md:w-5/12 my-5  ">
+              <ImageGallery items={images4} className=" rounded-lg " alt="pics" />
+
+            </div>
+
+
+
+          </div>
+        </div>
+
+
+        <div className="row pt-11">
+
+
+          <div className="row flex flex-row flex-wrap-reverse  justify-evenly items-center">
+            <div className=" w-full h-full md:w-5/12 ">
+              <h2
+                className="font-manrope uppercase  font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 to-blue-600 text-4xl lg:text-4xl text-black mb-9 max-lg:text-center relative">
+
+                Clean Room & OT Jobs
+
+              </h2>
+              <div className=" text-sm text-cyan-800 text-justify md:text-left font-normal text-[16px] leading-8    px-2  mx-auto">
+                Our team of professional engineers specializes in designing HVAC layouts for clean rooms and operating theatres, which require a high level of precision with strict zero tolerance for the entry of foreign particles. We create controlled, isolated environments for handling contamination-sensitive substances while also protecting the exterior environment from hazardous materials within these controlled areas.
+
+                <br />
+                To maintain these standards, we manage the density of sub-micron and larger airborne particles by introducing clean, filtered air into the cleanroom.
+                <p className=' text-center  md:text-left  text-2xl py-4 '>Our services include :
+                </p>
+                <div className="card px-4  md:px-0 ">
+                  <ul className="list-disc py-3 space-y-1 ps-4   ">
+
+                    <li>
+                      Making a blueprint of the duct layout
+                    </li>
+                    <li>
+                      Making blueprints for duct layouts
+                    </li>
+                    <li>
+                      ⁠Designing/Selecting Air Handling Units (AHUs)
+
+                    </li>
+                    <li>
+                      ⁠Designing ducts, including calculating the requirement for risers and diffusers
+                    </li>
+                    <li>
+                      ⁠Contamination control through airflow rate and direction, pressurization, temperature, humidity, and specialized filtration
+                    </li>
+                    <li>
+                      ⁠Contamination control through airflow rate and direction, pressurization, temperature, humidity, and specialized filtration
+                    </li>
+                    <li>
+                      ⁠Contamination control through airflow rate and direction, pressurization, temperature, humidity, and specialized filtration
+                    </li>
+                    <li>
+                      ⁠Maintaining positive laminar flow inside the room to prevent outside air and foreign particles from entering
+                    </li>
+                    <li>
+                      ⁠Installing a set of micro-filters and HEPA filters as required
+                    </li>
+                    <li>
+                      ⁠Conducting air balancing to ensure positive pressure is maintained
+                    </li>
+                    <li>
+                      ⁠Fabricating and manufacturing AHUs with the necessary filters and humidity control provisions
+                    </li>
+                    <li>
+                      ⁠Installing HEPA filters either within the AHU or at the terminals of the supply duct, depending on available space
+                    </li>
+                    <li>
+                      ⁠Fabricating ducts in various gauges (16G, 18G, 20G, 22G, 24G, 26G)
+                    </li>
+                    <li>
+                      ⁠Providing guaranteed assurance of class maintenance (particle count) inside the workspace
+                    </li>
+                    <li>
+                      ⁠Installing ducts and AHUs under the supervision of experienced professionals
+                    </li>
+                    <li>
+                      ⁠Installing all other standard equipment necessary for the clean room.
+                    </li>
+                  </ul>
+                </div>
+                <p className=' px-4'>Our commitment ensures the highest standards of cleanliness and safety within controlled environments.</p>
+              </div>
+
+
+
+            </div>
+            <div className=" w-full h-full md:w-5/12 my-5  ">
+              <ImageGallery items={images5} className=" rounded-lg " alt="pics" />
+
+            </div>
+          </div>
+        </div>
+
+
+        <div className="row">
+
+
+
+          <div className="row flex md:flex-row flex-col-reverse flex-wrap-reverse  justify-evenly items-center">
+
+
+            <div className=" w-full h-full md:w-5/12 ">
+
+              <h2
+                className="font-manrope uppercase  font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 to-blue-600 text-4xl lg:text-4xl text-black mb-9 max-lg:text-center relative">
+
+                Basement Ventilation
+
+              </h2>
+
+              <div className="about-content pb-8">
+                <div className="section-title ">
+
+                  <p className="  text-sm text-cyan-800 text-justify font-normal text-[16px] leading-8   md:text-left  px-4 mx-auto ">
+                    Do you notice stale, stuffy, or moldy air lingering in your space? At Adhunik Powertech, we offer an effective Basement Ventilation System designed to improve your air quality by addressing the natural “stack effect” found in industrial, institutional, commercial, and residential settings.
+
+                  </p>
+
+                  <p className=" text-sm text-cyan-800 text-justify font-normal text-[16px] leading-8   md:text-left  px-4 mx-auto">
+                    Our innovative Ventilation System provides a crucial escape route for trapped, unhealthy air in your basement while bringing in clean, dry air from above to replace the damp, polluted atmosphere.
+                  </p>
+
+                  <p className=" text-sm text-cyan-800 text-justify font-normal text-[16px] leading-8   md:text-left  px-4 mx-auto">
+                    The best part? No extra heating or cooling ducts are required! Our system enhances air circulation, resulting in more frequent air exchanges. Enjoy a cleaner and healthier living environment that you can truly appreciate.
+                  </p>
+
+
+
+
+                </div>
+              </div>
+
+            </div>
+
+
+            <div className=" w-full h-full md:w-5/12 my-5  ">
+              <ImageGallery items={images6} className=" rounded-lg " alt="pics" />
+
+            </div>
+
+
+
+          </div>
+
+        </div>
+
+
+        <div className="row pt-11">
+
+
+          <div className="row flex flex-row flex-wrap-reverse  justify-evenly items-center">
+            <div className=" w-full h-full md:w-5/12 ">
+              <h2
+                className="font-manrope uppercase  font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 to-blue-600 text-4xl lg:text-4xl text-black mb-9 max-lg:text-center relative">
+
+                Ducting Jobs
+
+              </h2>
+              <div className=" text-justify font-normal text-[16px] leading-8 text-gray-500 font-sans  max-lg:text-center  mx-auto">
+
+                <div className="about-content pb-8">
+                  <div className="section-title  ">
+
+                    <p className=" text-sm text-cyan-800 text-justify font-normal text-[16px] leading-8   md:text-left px-4  mx-auto ">
+                      At Adhunik Powertech, we understand the importance of expertly installed ductwork in creating a comfortable indoor environment. Our commitment ensures that your space remains at the ideal temperature, enhancing your overall comfort.
+
+                    </p>
+
+                    <p className=" text-sm text-cyan-800 text-justify font-normal text-[16px] leading-8   md:text-left px-4  mx-auto  mt-4">
+                      Neglecting proper ductwork installation can lead to significant problems, including air leakage, inefficient systems, compromised air quality, and expedited wear and tear on your heating and air conditioning systems. Don’t let improper installation jeopardize your comfort and investment!
+
+                    </p>
+
+                    <p className=" text-sm text-cyan-800 text-justify font-normal text-[16px] leading-8   md:text-left px-4  mx-auto  mt-4">
+                      Correct duct sizing is also vital—duct dimensions must perfectly match your heater or air conditioner for optimal performance. Our team of expert technicians specializes in precisely aligning your duct system to your existing equipment. Through meticulous adjustments, we maximize efficiency, comfort, and system longevity, guaranteeing effective airflow wherever you need it.
+
+                    </p>
+
+
+
+                    <p className=" text-cyan-900 font-sans text-2xl py-6 mt-4  ">
+                      <strong>Our comprehensive Ducting Jobs process includes:
+                      </strong>
+                    </p>
+
+                    <div className="card px-4 md:px-0">
+
+                      <ul className="list-disc py-3 space-y-1 ps-4 text-sm text-cyan-800 text-justify font-normal text-[16px] leading-8    mx-auto">
+                        <li> Carrying out seamless installation and operation of all ducting activities.
+                        </li>
+                        <li>  ⁠Efficiently scheduling, assigning, planning, and monitoring duct work on your project sites.
+                        </li>
+                        <li>  ⁠Thoroughly reviewing layouts and drawings for both current and future ducting projects. </li>
+                        <li> Supervising all duct work on-site to ensure quality.
+                        </li>
+                        <li> Upholding progress, schedules, and meeting project deadlines without fail.
+                        </li>
+                        <li> ⁠Preparing and delivering detailed daily reports to supervisors, engineers, and clients.
+                        </li>
+                      </ul>
+
+                    </div>
+
+                    <p className='text-sm text-cyan-800 text-justify font-normal text-[16px] leading-8   max-lg:text-center  mx-auto'>Choose Adhunik Powertech for professional ductwork that you can trust, ensuring comfort and efficiency for years to come!</p>
+                  </div>
+                </div>
+
+
+              </div>
+
+
+
+            </div>
+            <div className=" w-full h-full md:w-5/12 my-5  ">
+              <ImageGallery items={images7} className=" rounded-lg " alt="pics" />
+
+            </div>
+          </div>
+        </div>
 
         <div className="row flex-col flex justify-center items-center py-10">
           <div className="flex items-center justify-center md:py-10">
@@ -1034,6 +1310,8 @@ export default function Overview() {
         </div>
 
       </div>
+
+
     </>
   )
 }

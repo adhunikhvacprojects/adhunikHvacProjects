@@ -21,7 +21,7 @@ export default function SupportForm() {
     const handleEmailSend = () => {
         window.location.href = `mailto:${emailAddress}`;
     };
-    const locationAddress = "DCG1-0102, Tower -1, DLF Corporate Green Sector-74A Gurugram (HR) 122004";
+    const locationAddress = "Unit No. 6-03B, 6th floor, Reach My Tower, Sector 70, Gurugram, Pin Code-122101";
 
     const handleGetLocation = () => {
       
@@ -224,7 +224,7 @@ export default function SupportForm() {
 
                         <div className="h-fit justify-center items-center flex w-full md:w-7/12">
                             <img
-                                src="/contactus.webp" 
+                                src="https://images.pexels.com/photos/5869295/pexels-photo-5869295.jpeg" 
                                 alt="Description of the image"
                                 className="w-full h-auto object-cover"
                                 loading='lazy'
@@ -379,8 +379,9 @@ export default function SupportForm() {
                     <div className="w-full h-full">
                         <div className="google-maps-embed">
 
+ 
 
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3509.3866213825036!2d76.99470307554475!3d28.40758867578828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1820517a67c3%3A0x2674661964851cd9!2sAdhunik%20Powertech%20Private%20Limited!5e0!3m2!1sen!2sin!4v1726057699009!5m2!1sen!2sin" width="600" height="450" allowFullScreen="" referrerPolicy="no-referrer-when-downgrade"
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28079.499691121266!2d76.99199437431642!3d28.390956800000012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d22c3ae1907e1%3A0x3f36ee7e064eac62!2sREACH%20MY%20TOWER!5e0!3m2!1sen!2sin!4v1757496307301!5m2!1sen!2sin" width="600" height="450" allowFullScreen="" referrerPolicy="no-referrer-when-downgrade"
                                 className=" w-full h-[50vh]"
                                 style={{ border: 0 }}
                                 loading="lazy"
