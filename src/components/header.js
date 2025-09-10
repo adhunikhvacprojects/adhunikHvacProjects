@@ -317,15 +317,7 @@ function Header() {
                     <p>8287885885</p>
                   </div>
                 </div>
-                <div className="row flex flex-col  md:flex-row">
-                  <div className="col flex justify-center items-center">
-                    {" "}
-                    <i
-                      className="px-2 fa-solid fa-magnifying-glass"
-                      onClick={() => setShowSearch(!showSearch)}
-                    ></i>
-                  </div>
-                </div>
+              
               </div>
 
               <div className=" flex w-full  py-3 items-center rounded-full">
