@@ -61,7 +61,7 @@ export default function HeroPage() {
 
     {
       id: 1,
-      video: 'https://res.cloudinary.com/ddkyx2jhh/video/upload/q_50/v1738647245/Home_Page_v1_gmslhl.mp4',
+      video: 'https://cdn.pixabay.com/video/2021/05/08/73469-548642130_large.mp4',
       title: 'WELCOME TO ADHUNIK HVAC PROJECTS',
       content: 'We are technically very competent to design any kind of project where conditions are different from nominal.',
       buttonText: 'Request A Quote',
@@ -72,7 +72,7 @@ export default function HeroPage() {
 
     {
       id: 2,
-      video: 'https://res.cloudinary.com/ddkyx2jhh/video/upload/q_50/v1738647251/Home_Page_v2_suqvdg.mp4',
+      video: 'https://cdn.pixabay.com/video/2020/06/23/42923-434300950_large.mp4',
       title: 'Air Cooling & Air Conditioning System',
       content: <>
         Installation, Service, Repair &amp; Maintenance
@@ -86,7 +86,7 @@ export default function HeroPage() {
 
     {
       id: 3,
-      video: 'https://res.cloudinary.com/ddkyx2jhh/video/upload/q_50/v1738647245/Home_Page_v3_zaxdfb.mp4',
+      video: 'https://cdn.pixabay.com/video/2016/07/25/3992-176171691_large.mp4',
       title: 'Add Peace Of Mind',
       content: <>We offer a team of Experienced Engineers to take care of your products. Just in case there is  trouble, all you need to call our customer support center and we will take care of your worries.</>,
       buttonText: 'CALL US NOW',
@@ -96,7 +96,7 @@ export default function HeroPage() {
 
     {
       id: 4,
-      video: 'https://res.cloudinary.com/ddkyx2jhh/video/upload/q_50/v1738647238/Home_Page_v4_mmlhja.mp4',
+      video: 'https://www.pexels.com/download/video/854325/',
       title: 'Commercial, Residential & Office Space',
       content: "With our complete HVAC solutions, you will feel superior comfort while enjoying the perfect air conditioning environment.",
       buttonText: 'Request A Quote',
@@ -106,7 +106,7 @@ export default function HeroPage() {
 
     {
       id: 5,
-      video: 'https://res.cloudinary.com/ddkyx2jhh/video/upload/q_50/v1738647233/Home_Page_v5_uxnb0e.mp4',
+      video: 'https://videos.pexels.com/video-files/2818546/2818546-uhd_2560_1440_24fps.mp4',
       title: 'Hospital, Pharma & Food Industry',
       content: "We help your healthcare team maintain a comfortable temperature and a safe environment with our customized heating and cooling solutions.",
       buttonText: 'Request A Quote',
