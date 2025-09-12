@@ -10,13 +10,19 @@ import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
 import Link from 'next/link';
 
-  import {
+import {
   Clock,
   Briefcase,
   Award,
   HeartHandshake,
   ArrowRight
 } from 'lucide-react';
+
+
+import { motion, useMotionValue, useTransform, animate } from 'framer-motion';
+// Although no icons are in the reference image, lucide-react is ready to be used.
+// For example, you could add <Award className="inline-block mr-2" />
+ 
 
 export default function HeroPage() {
 
@@ -115,7 +121,6 @@ export default function HeroPage() {
     },
 
   ];
-
 
   const [currentSlide, setCurrentSlide] = useState(0);
   const [isDragging, setIsDragging] = useState(false);
@@ -276,14 +281,7 @@ export default function HeroPage() {
       [index]: { width: naturalWidth, height: naturalHeight },
     }));
   };
-
-
-
-
-   
  
- 
-
  
  const logos2 = [
     { src: '/certi/7.webp', alt: 'Asahi-India-Glass-Ltd', width: 176, height: 112 },
@@ -517,9 +515,13 @@ const achievementData2 = [
   },
 ];
 
+ 
+ 
+
 
   return (
     <>
+
       <Head>
         <script
           type="application/ld+json"
@@ -558,6 +560,8 @@ const achievementData2 = [
         <meta name="twitter:card" content="summary" />
 
       </Head>
+
+
 
       <script type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
@@ -669,6 +673,8 @@ const achievementData2 = [
 
         </div>
 
+
+ 
 
 
         <div className="row mt-7">
@@ -900,6 +906,9 @@ const achievementData2 = [
 
         </div>
 
+
+
+
         <section className="pb-24 pt-14 relative">
 
           <div className="w-full max-w-7xl px-4 md:px-5 lg:px-5 mx-auto">
@@ -944,7 +953,7 @@ Expertise Across Key Industries
                       We don't believe in one-size-fits-all solutions. Our 19+ years of experience include delivering custom-engineered HVAC systems for some of the most demanding environments. Our specialized expertise includes:
 
                     </p>
-                    <ul className=' list-disc list-inside space-y-2'>
+                    <ul className=' list-disc list-outside ps-4 space-y-2'>
                       <li>
 <strong className=' text-cyan-600 font-bold'>Commercial & Hospitality : </strong> Creating optimal comfort and energy efficiency for corporate offices, hotels, and retail spaces.
                       </li>
