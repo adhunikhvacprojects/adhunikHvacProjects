@@ -26,27 +26,8 @@ function Footer() {
   };
 
 
-  const links = [
-
-    { href: "/product-overview", text: "Overview" },
-    { href: "/air-washer", text: "Air Washer" },
-    { href: "/ducted-air-cooler", text: "Ducted Air Cooler" },
-    { href: "/ventilation-fans", text: "Ventilation Exhaust Fan" },
-    { href: "/panel-air-conditioners", text: "Panel Air Conditioner" },
-    { href: "/chiller-oil-water-coolant", text: "Oil Chiller" },
-    { href: "/air-handling-unit", text: "Air Handling Unit" },
-    { href: "/air-shower", text: "Air Shower & Pass Box" },
-    { href: "/industrial-cooler", text: "Industrial Cooler" },
-    { href: "/bldc-fans", text: "BLDC Fans" },
-  ];
-
-
-  const links4 = [
-
-    { href: "/hvac", text: "HVAC" },
-    { href: "/", text: <>Fire &amp; Safety</> },
-
-  ];
+ 
+ 
 
 
   const links2 = [
@@ -59,6 +40,7 @@ function Footer() {
     { href: "/our-clients", text: "OUR CLIENTS" },
     { href: "/blog", text: "BLOGS" },
     { href: "/support-form", text: "CONTACT US" },
+
   ];
 
 

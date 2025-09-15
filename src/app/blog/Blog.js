@@ -6,13 +6,13 @@ export default function Blog() {
 
     {
       id: 1,
-      title: "What is an Air Washer ?",
+      title: "Award-Winning HVAC Contractor | Adhunik HVAC Projects",
 
-      date: "January  2025",
+      date: "September  2025",
       image:
         "",
-      link: "/",
-      img: "/awb.png",
+      link: "/award-winning-hvac-contractor",
+      img: "https://images.unsplash.com/photo-1648587096714-170302c4c922?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
 
   
