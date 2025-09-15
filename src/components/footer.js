@@ -51,23 +51,20 @@ function Footer() {
 
   const links2 = [
 
-    { href: "/", text: "Home" },
-    { href: "/", text: "About Us" },
-    { href: "/product-overview", text: "Products" },
-    { href: "/", text: <>Manufacturing and  R&amp;D </> },
-    { href: "/annual-maintenance-contract", text: "Maintenance" },
-    { href: "/blog", text: "Blog" },
-    { href: "/support-form", text: "Contact Us" },
+    { href: "/", text: "HOME" },
+    { href: "/our-company", text: "ABOUT US" },
+    { href: "/overview", text: "HVAC OVERVIEW" },
+    { href: "/our-quality-service", text: "OUR QUALITY SERVICE"},
+    { href: "/our-projects", text: "OUR PROJECTS" },
+    { href: "/our-clients", text: "OUR CLIENTS" },
+    { href: "/blog", text: "BLOGS" },
+    { href: "/support-form", text: "CONTACT US" },
   ];
 
 
   const links3 = [
 
-    {
-      href: "/", text: <>
-
-        UNIT NO 98, Phase &#8546; HSIIDC IMT <br /> Bawal , Haryana 123501      </>
-    },
+   
 
     {
       href: "/", text: <>
@@ -91,11 +88,11 @@ function Footer() {
 
 
       <div className=" pt-8 text-center md:text-left pb-5 border-b border-gray-100">
-        <div className="grid-1 grid gap-2  md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5  text-center">
+        <div className="grid-1 md:text-left grid gap-2  p-4 md:p-0 md:grid-cols-2 lg:grid-cols-4  xl:grid-cols-4  text-center">
 
           <div className=''>
 
-            <div className="text-center justify-center items-center flex pb-2">
+            <div className="text-center md:justify-start md:items-start justify-center items-center flex pb-2">
             
               <Image
                 src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1755068273/LOGO_s_2_dwogzo.png"
@@ -107,7 +104,7 @@ function Footer() {
             </div>
 
 
-            <h2 className=" mb-4 flex flex-row text-center  font-semibold uppercase justify-center">
+            <h2 className=" mb-4 flex flex-row md:text-left w-full md:w-[70%]  text-center  font-semibold uppercase justify-center">
 
               ADHUNIK HVAC PROJECTS Private Limited
               provides   latest cooling technology
@@ -116,13 +113,7 @@ function Footer() {
 
             </h2>
 
-            <p className=' font-semibold text-[15px]  font-sans  pb-1'>
-            Head Office 
-            </p>
-
-            <p className=' pb-1'>
-         Unit No. 6-03B, 6th floor, Reach My Tower,
-Sector 70, Gurugram, Pin Code-122101  </p>
+          
 
             <p className=' pb-1'>
             Email: info@adhunikhvacprojects.com
@@ -133,26 +124,9 @@ Sector 70, Gurugram, Pin Code-122101  </p>
           </div>
 
 
-        
-
           {[...Array(1)].map((_, index) => (
             <div key={index}>
-              <h2 className="mb-2 text-[15px] font-sans flex justify-center  font-semibold uppercase ">
-                PROJECT
-              </h2>
-              {links4.map((link, idx) => (
-                <p className="mb-2" key={idx}>
-                  <Link href={link.href} className="link link--thebe">
-                    {link.text}
-                  </Link>
-                </p>
-              ))}
-            </div>
-          ))}
-
-          {[...Array(1)].map((_, index) => (
-            <div key={index}>
-              <h2 className="mb-2 text-[15px] font-sans flex justify-center  font-semibold uppercase ">
+              <h2 className="mb-2  md:justify-start text-[15px] font-sans flex justify-center  font-semibold uppercase ">
                 USEFUL LINKS
               </h2>
               {links2.map((link, idx) => (
@@ -164,26 +138,32 @@ Sector 70, Gurugram, Pin Code-122101  </p>
               ))}
             </div>
           ))}
+ 
+        
 
           {[...Array(1)].map((_, index) => (
             <div key={index}>
-              <h2 className="mb-2 text-[15px] flex justify-center font-sans  font-semibold uppercase ">
-                Manufacturing unit
+              <h2 className="mb-2 text-[15px] font-sans flex md:justify-start justify-center  font-semibold uppercase ">
+                Global Locations
               </h2>
-              {links3.map((link, idx) => (
+             <p className=' font-semibold text-[15px]  font-sans  pb-1'>
+            Head Office 
+            </p>
+
+            <p className=' pb-1'>
+         Unit No. 6-03B, 6th floor, Reach My Tower,
+Sector 70, Gurugram, Pin Code-122101  </p>
+
+  {links3.map((link, idx) => (
                 <div className="mb-2" key={idx}>
                   <div className="link link--thebe">
                     {link.text}
                   </div>
                 </div>
               ))}
-            </div>
-          ))}
 
 
-          <div className=' '>
-
-            <h2 className="mb-2 text-[15px] flex justify-center  font-sans font-semibold uppercase ">
+                  <h2 className="mb-2 text-[15px] flex md:justify-start justify-center  font-sans font-semibold uppercase ">
               Branch office
             </h2>
             <div className="pb-2 font-sans">
@@ -201,13 +181,20 @@ Sector 70, Gurugram, Pin Code-122101  </p>
             <p className=' pb-2'>
               DCG1-0102, Tower -1, DLF Corporate Green Sector-74A Gurugram (HR) 122004
             </p>
+            </div>
+          ))}
 
-            <h2 className="mb-2  text-[15px] flex justify-center  font-sans font-semibold uppercase ">
+
+          <div className=' '>
+
+        
+
+            <h2 className="mb-2  text-[15px] flex md:justify-start justify-center  font-sans font-semibold uppercase ">
               Explore with Us
             </h2>
 
 
-            <div className="row flex w-full  rounded-full  justify-center    gap-3 cursor-pointer">
+            <div className="row flex w-full md:justify-start  rounded-full  justify-center    gap-3 cursor-pointer">
 
 
               <a href="https://x.com/AdhunikHvac" className="w-8 h-8 bg-white flex items-center justify-center rounded-full relative overflow-hidden group transition-all duration-300" aria-label="Visit our profile on X (formerly Twitter)">
