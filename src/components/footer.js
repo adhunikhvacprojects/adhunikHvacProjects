@@ -1,6 +1,3 @@
-
-
-
 'use client'
 
 import Link from 'next/link';
@@ -26,10 +23,6 @@ function Footer() {
   };
 
 
- 
- 
-
-
   const links2 = [
 
     { href: "/", text: "HOME" },
@@ -47,7 +40,6 @@ function Footer() {
   const links3 = [
 
    
-
     {
       href: "/", text: <>
 
@@ -70,7 +62,7 @@ function Footer() {
 
 
       <div className=" pt-8 text-center md:text-left pb-5 border-b border-gray-100">
-        <div className="grid-1 md:text-left grid gap-2  p-4 md:p-0 md:grid-cols-2 lg:grid-cols-4  xl:grid-cols-4  text-center">
+        <div className="grid-1 md:text-left grid gap-2  p-4  md:grid-cols-2 lg:grid-cols-4  xl:grid-cols-5  text-center">
 
           <div className=''>
 
@@ -97,13 +89,65 @@ function Footer() {
 
           
 
-            <p className=' pb-1'>
-            Email: info@adhunikhvacprojects.com
+         
+          </div>
+
+
+    {[...Array(1)].map((_, index) => (
+            <div key={index}>
+              <h2 className="mb-2 text-[15px] font-sans flex md:justify-start justify-center  font-semibold uppercase ">
+               Locations
+              </h2>
+             <p className=' font-semibold text-[15px]  font-sans  pb-1'>
+            Head Office 
             </p>
 
-            <p>Phone: 8287885885</p>
+            <p className=' pb-1 md:w-[80%]'>
+         Unit No. 6-03B, 6th floor, Reach My Tower, <br />
+Sector 70, Gurugram, Pin Code-122101  </p>
 
-          </div>
+ 
+
+
+          
+  <p className=' font-semibold text-[15px]  font-sans  pb-1'>
+            Corporate Office 
+            </p>
+
+            <p className=' pb-2 md:w-[80%]'>
+              DCG1-0102, Tower -1, DLF Corporate Green <br /> Sector-74A Gurugram (HR) 122004
+            </p>
+            </div>
+          ))}
+
+
+
+ 
+        
+
+          {[...Array(1)].map((_, index) => (
+            <div key={index}>
+              <h2 className="mb-2 text-[15px] font-sans flex md:justify-start justify-center  font-semibold uppercase ">
+               Branch Office
+              </h2>
+          
+  
+
+
+                  <h2 className="mb-2 text-[15px] flex md:justify-start justify-center  font-sans font-semibold uppercase ">
+             
+            </h2>
+            <div className="pb-2 font-sans">
+              <span className=' font-bold'> Haridwar</span>  : Ashoka Marg, <br /> Lane No.13, Ramnagar, <br /> Roorkee, Uttarakhand 247667
+
+
+
+
+            </div>
+          
+ 
+            </div>
+          ))}
 
 
           {[...Array(1)].map((_, index) => (
@@ -120,51 +164,6 @@ function Footer() {
               ))}
             </div>
           ))}
- 
-        
-
-          {[...Array(1)].map((_, index) => (
-            <div key={index}>
-              <h2 className="mb-2 text-[15px] font-sans flex md:justify-start justify-center  font-semibold uppercase ">
-                Global Locations
-              </h2>
-             <p className=' font-semibold text-[15px]  font-sans  pb-1'>
-            Head Office 
-            </p>
-
-            <p className=' pb-1'>
-         Unit No. 6-03B, 6th floor, Reach My Tower,
-Sector 70, Gurugram, Pin Code-122101  </p>
-
-  {links3.map((link, idx) => (
-                <div className="mb-2" key={idx}>
-                  <div className="link link--thebe">
-                    {link.text}
-                  </div>
-                </div>
-              ))}
-
-
-                  <h2 className="mb-2 text-[15px] flex md:justify-start justify-center  font-sans font-semibold uppercase ">
-              Branch office
-            </h2>
-            <div className="pb-2 font-sans">
-              <span className=' font-bold'> Haridwar</span>  : Ashoka Marg, <br /> Lane No.13, Ramnagar, <br /> Roorkee, Uttarakhand 247667
-
-
-
-
-            </div>
-          
-  <p className=' font-semibold text-[15px]  font-sans  pb-1'>
-            Corporate Office 
-            </p>
-
-            <p className=' pb-2'>
-              DCG1-0102, Tower -1, DLF Corporate Green Sector-74A Gurugram (HR) 122004
-            </p>
-            </div>
-          ))}
 
 
           <div className=' '>
@@ -172,6 +171,17 @@ Sector 70, Gurugram, Pin Code-122101  </p>
         
 
             <h2 className="mb-2  text-[15px] flex md:justify-start justify-center  font-sans font-semibold uppercase ">
+              Contact Us
+            </h2>
+
+               <p className=' pb-1'>
+            Email: info@adhunikhvacprojects.com
+            </p>
+
+            <p>Phone: 8287885885</p>
+
+
+            <h2 className="my-2  text-[15px] flex md:justify-start justify-center  font-sans font-semibold uppercase ">
               Explore with Us
             </h2>
 
@@ -230,7 +240,7 @@ Sector 70, Gurugram, Pin Code-122101  </p>
 
       <div className=" flex bg-black/5 p-6 text-center   flex-col  md:flex-row justify-center items-center gap-6">
         <div className="font-semibold cursor-pointer"  > © Copyright 2025 ADHUNIK HVAC PROJECTS Private Ltd. All Rights Reserved.</div>
-        <Link href='/sitemap' className="font-semibold cursor-pointer hover:text-cyan-500"  > Sitemap</Link>
+        <Link href='/' className="font-semibold cursor-pointer hover:text-cyan-500"  > Sitemap</Link>
       </div>
     </footer>
   );

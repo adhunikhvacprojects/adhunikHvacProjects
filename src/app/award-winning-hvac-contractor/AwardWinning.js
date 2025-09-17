@@ -401,7 +401,11 @@ export default function AwardWinning() {
 
               <p className=" w-full  text-sm text-gray-700 mb-6 text-justify md:text-left ">
     
-The answer lies beyond the technical drawings, in the deep-seated engineering philosophy and the institutional knowledge of the team executing the project. At Adhunik HVAC Projects, we believe that choosing the right HVAC contractor is about more than just the blueprint; it's about partnering with a team whose experience informs every decision.
+The answer lies beyond the technical drawings, in the deep-seated engineering philosophy and the institutional knowledge of the team executing the project. At 
+ {" "} <Link href='/' className=' text-cyan-500 hover:text-cyan-800'>
+  Adhunik HVAC Projects
+</Link> {" "},
+ we believe that choosing the right HVAC contractor is about more than just the blueprint; it's about partnering with a team whose experience informs every decision.
 
               </p>
 
@@ -422,7 +426,10 @@ The answer lies beyond the technical drawings, in the deep-seated engineering ph
            </h2>
 
             <p className=' text-sm pb-4 text-justify'>
-  The ability to seamlessly execute complex turnkey projects isn't learned overnight. It is forged over years of experience. The engineering DNA at the core of our identity was developed and refined over nearly two decades as the projects division of the renowned Adhunik Powertech.
+  The ability to seamlessly execute complex turnkey projects isn't learned overnight. It is forged over years of experience. The engineering DNA at the core of our identity was developed and refined over nearly two decades as the projects division of the renowned <Link href='https://www.adhunikpowertech.com/' className=' text-cyan-500 hover:text-cyan-800'>
+  Adhunik Powertech
+</Link>  {" "},
+ 
 </p>
            
             <p className=' text-sm pb-4 text-justify'>
@@ -448,9 +455,13 @@ To understand the full scope of the engineering heritage and the foundational wo
 
           <section className="mb-16 bg-white p-3 md:p-8 rounded-xl shadow-md border border-cyan-100">
             <p className="  md:text-2xl  text-center md:text-left  font-bold text-cyan-800 mb-6 pb-2 border-b-2 border-cyan-200">
-              <span className="bg-cyan-600     text-white px-2 py-1 rounded-md">
+              <span className="border-cyan-600      text-white px-2 py-1 rounded-md">
             
-       Discover the 19+ year legacy that forged our expertise at Adhunik Powertech
+            <Link href='https://www.adhunikpowertech.com/our-Company' className=' text-cyan-500 hover:text-cyan-800'>
+   Discover the 19+ year legacy that forged our expertise at Adhunik Powertech
+</Link>
+
+      
 
               </span>
             </p>

@@ -77,7 +77,7 @@ export default function OurCompany() {
 
     {
       id: 0,
-      year: "Overview",
+      year: "Chapter 1",
 
       bgImage:
         "https://res.cloudinary.com/dxenuee4n/image/upload/v1757312695/pic2_nqufnr.webp",
@@ -131,7 +131,7 @@ export default function OurCompany() {
     {
 
       id: 1,
-      year: '2005',
+      year: 'Chapter 2',
 
       bgImage: '/blog/2005.webp',
       content: (
@@ -143,7 +143,7 @@ export default function OurCompany() {
        
 
      <p className="text-md w-[60%]  text-justify font-sans font-thin pt-7 italic md:text-3xl  pb-3">
-         Chapter 2: The Turning Point (2025)
+         Chapter 2 : The Turning Point (2025)
   </p>
               
      <p className="text-sm w-[60%] text-justify font-sans font-thin italic ">
@@ -177,7 +177,7 @@ export default function OurCompany() {
  
     {
       id: 2,
-      year: '2014',
+      year: 'Chapter 3',
 
       bgImage: '/blog/2014.webp',
       content: (
@@ -189,7 +189,7 @@ export default function OurCompany() {
        
 
      <p className="text-md w-[60%]  text-justify font-sans font-thin pt-7 italic md:text-3xl  pb-3">
-        Chapter 3: The Evolution
+        Chapter 3 : The Evolution
   </p>
               
      <p className="text-sm w-[60%] text-justify font-sans font-thin italic ">
@@ -228,7 +228,7 @@ export default function OurCompany() {
     {
       id: 3,
 
-      year: '2016',
+      year: 'Chapter 4',
 
       bgImage: '/blog/2016.webp',
 

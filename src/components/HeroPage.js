@@ -591,7 +591,7 @@ const achievementData2 = [
                 autoPlay
                 loop
                 muted
-                poster="/mv2.webp"
+                poster="https://res.cloudinary.com/dxenuee4n/image/upload/v1758087928/poster_mulnm0.webp"
                 playsInline
                 type="video/mp4"
                 className="w-full h-full object-cover"
