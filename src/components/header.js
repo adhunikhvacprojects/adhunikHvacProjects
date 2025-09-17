@@ -217,8 +217,8 @@ function Header() {
                     style={{ cursor: "pointer" }} // Optional styling for pointer and color
                   >
                     <a
-                      href="/project-catalogue.pdf"
-                      download="project-catalogue"
+                      href="/Adhunik-HVAC-PROJECTS.pdf"
+                      download="Adhunik-HVAC-PROJECTS"
                       className={`relative inline-flex items-center justify-start inline-block px-5 py-3 overflow-hidden font-bold rounded-full group ${
                         isScrolled
                           ? " text-black hover:text-black border-black"
