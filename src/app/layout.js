@@ -76,7 +76,7 @@ export const metadata = {
   appleMobileWebAppCapable: "yes",
   appleMobileWebAppTitle: "Adhunik hvac projects",
   appleMobileWebAppStatusBarStyle: "default",
-  robots: "index, follow",
+  
 
   alternates: {
     canonical: "https://www.adhunikhvacprojects.com",

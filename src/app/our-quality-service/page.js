@@ -25,7 +25,7 @@ export const metadata = {
     "HVAC repair Faridabad",
   ],
 
-  robots: "index, follow",
+  
 
   openGraph: {
     title: "Turnkey HVAC Services in Delhi NCR | Adhunik HVAC Projects",

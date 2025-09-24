@@ -30,7 +30,7 @@ export const metadata = {
     "ASHRAE standards",
   ],
 
-  robots: "index, follow",
+  
 
   openGraph: {
     title: "Complete Turnkey HVAC Solutions | Adhunik HVAC Projects",
