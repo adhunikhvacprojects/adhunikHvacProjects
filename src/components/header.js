@@ -307,7 +307,7 @@ function Header() {
 
                   <div
                     className="col text-left text-[12px] ps-2 hidden md:block"
-                    onClick={() => (window.location.href = "tel:9810216907")}
+                    onClick={() => (window.location.href = "tel:8287885885")}
                     style={{ cursor: "pointer" }}
                   >
                     <p className="text-[12px] text-gray-300  font-extralight  font-serif ">
