@@ -32,7 +32,7 @@ export const metadata = {
     "Adhunik Powertech legacy",
   ],
 
-  
+  robots: "index, follow",
 
   openGraph: {
     title: "Top HVAC Contractor in Delhi NCR | Adhunik HVAC Projects",
