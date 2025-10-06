@@ -20,7 +20,7 @@ export const metadata = {
     "HVAC Gurugram",
   ],
 
-  
+  robots: "index, follow",
 
   openGraph: {
     title: "Our Story: 19+ Years as a Leading HVAC Contractor",
