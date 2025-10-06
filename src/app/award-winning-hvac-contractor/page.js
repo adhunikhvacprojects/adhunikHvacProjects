@@ -22,7 +22,7 @@ export const metadata = {
     "Adhunik Powertech legacy",
   ],
 
-  
+  robots: "index, follow";
 
   openGraph: {
     title: "Beyond the Blueprint: How to Choose a Truly Great HVAC Contractor",
