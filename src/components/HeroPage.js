@@ -725,8 +725,8 @@ const achievementData2 = [
 
                 <img
                   className="w-full h-full object-center   object-cover rounded-3xl"
-                  src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1743500674/indiaawards_k0es0f.webp"
-                  alt="Adhunik Hvac Projects Private Limited has been honored with the India Business Award 2025 Presented by Actress Bipasha Basu"
+                  src="https://res.cloudinary.com/dxenuee4n/image/upload/v1759910923/Home_Page_Image_Sanjay_Chauhan_nxalt2.webp"
+                  alt="Adhunik Hvac Projects Private Limited's Director Mr. Sanjay Chauhan giving speech in ISHRAE Event about an HVAC System"
                   width="600"
                   height="960"
                 />
