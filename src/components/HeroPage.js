@@ -67,7 +67,7 @@ export default function HeroPage() {
 
     {
       id: 1,
-      video: 'https://cdn.pixabay.com/video/2021/05/08/73469-548642130_large.mp4',
+      video: 'https://res.cloudinary.com/dxenuee4n/video/upload/v1759916191/Home_Page_v1_gmslhl_i7mrbq.mp4',
       title: 'WELCOME TO ADHUNIK HVAC PROJECTS',
       content: 'We are technically very competent to design any kind of project where conditions are different from nominal.',
       buttonText: 'Request A Quote',
