@@ -78,7 +78,7 @@ export default function HeroPage() {
 
     {
       id: 2,
-      video: 'https://cdn.pixabay.com/video/2020/06/23/42923-434300950_large.mp4',
+      video: 'https://res.cloudinary.com/dxenuee4n/video/upload/v1759924308/Home_Page_v2_suqvdg_hwfgvg.mp4',
       title: 'Air Cooling & Air Conditioning System',
       content: <>
         Installation, Service, Repair &amp; Maintenance
@@ -92,7 +92,7 @@ export default function HeroPage() {
 
     {
       id: 3,
-      video: 'https://cdn.pixabay.com/video/2016/07/25/3992-176171691_large.mp4',
+      video: 'https://res.cloudinary.com/dxenuee4n/video/upload/v1759924372/Home_Page_v3_zaxdfb_rmqbaa.mp4',
       title: 'Add Peace Of Mind',
       content: <>We offer a team of Experienced Engineers to take care of your products. Just in case there is  trouble, all you need to call our customer support center and we will take care of your worries.</>,
       buttonText: 'CALL US NOW',
@@ -102,7 +102,7 @@ export default function HeroPage() {
 
     {
       id: 4,
-      video: 'https://www.pexels.com/download/video/854325/',
+      video: 'https://res.cloudinary.com/dxenuee4n/video/upload/v1759924504/Home_Page_v4_mmlhja_iubggd.mp4',
       title: 'Commercial, Residential & Office Space',
       content: "With our complete HVAC solutions, you will feel superior comfort while enjoying the perfect air conditioning environment.",
       buttonText: 'Request A Quote',
@@ -112,7 +112,7 @@ export default function HeroPage() {
 
     {
       id: 5,
-      video: 'https://videos.pexels.com/video-files/2818546/2818546-uhd_2560_1440_24fps.mp4',
+      video: 'https://res.cloudinary.com/dxenuee4n/video/upload/v1759924466/Home_Page_v5_uxnb0e_ajp7pj.mp4',
       title: 'Hospital, Pharma & Food Industry',
       content: "We help your healthcare team maintain a comfortable temperature and a safe environment with our customized heating and cooling solutions.",
       buttonText: 'Request A Quote',
