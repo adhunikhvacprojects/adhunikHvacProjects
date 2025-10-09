@@ -289,7 +289,7 @@ function Header() {
 
                   <div className="col pb-2 md:pb-0 ">
                     <svg
-                      onClick={() => (window.location.href = "tel:9810216907")}
+                      onClick={() => (window.location.href = "tel:8287885885")}
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
                       viewBox="0 0 24 24"
@@ -311,7 +311,7 @@ function Header() {
                     style={{ cursor: "pointer" }}
                   >
                     <p className="text-[12px] text-gray-300  font-extralight  font-serif ">
-                      Contact Number
+                      Toll-Free Number
                     </p>
 
                     <p>8287885885</p>
