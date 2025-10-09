@@ -37,11 +37,11 @@ export const metadata = {
   openGraph: {
     title: "Top HVAC Contractor in Delhi NCR | Adhunik HVAC Projects",
     description: "Award-winning design & installation for industrial and commercial clients, built on a 19+ year legacy of excellence.",
-    url: "https://www.adhunikhvac.com/",  
+    url: "https://www.adhunikhvacprojects.com/",  
     type: "website",
     images: [
       {
-        url: "https://www.adhunikhvac.com/images/homepage-social-preview.jpg",  
+        url: "https://www.adhunikhvacprojects.com/_next/image?url=%2Ftophvac2.webp&w=640&q=75",  
         width: 1200, 
         height: 630, 
         alt: "Adhunik HVAC Projects - Industrial HVAC Installation",
@@ -50,14 +50,14 @@ export const metadata = {
   },
 
   alternates: {
-    canonical: "https://www.adhunikhvac.com/",  
+    canonical: "https://www.adhunikhvacprojects.com/",  
   },
 
   twitter: {
     card: "summary_large_image",
     title: "Top HVAC Contractor in Delhi NCR | Adhunik HVAC Projects",
     description: "Award-winning design & installation for industrial and commercial clients, built on a 19+ year legacy of excellence.",
-    image: "https://www.adhunikhvac.com/images/homepage-social-preview.jpg",  
+    image: "https://res.cloudinary.com/dxenuee4n/image/upload/v1759910923/Home_Page_Image_Sanjay_Chauhan_nxalt2.webp",  
   },
 };
 
