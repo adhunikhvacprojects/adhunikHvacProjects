@@ -189,7 +189,6 @@ export default function page() {
   { src: "/projects/clients/72.webp", alt: "Modern HVAC Systems", borderColor: "border-indigo-500" },
   { src: "/projects/clients/73.webp", alt: "Climate Control Units", borderColor: "border-red-500" },
   { src: "/projects/clients/74.webp", alt: "Modern HVAC Systems", borderColor: "border-indigo-500" },
-  { src: "/projects/clients/75.webp", alt: "Climate Control Units", borderColor: "border-red-500" },
   { src: "/projects/clients/76.webp", alt: "Modern HVAC Systems", borderColor: "border-indigo-500" },
   { src: "/projects/clients/77.webp", alt: "Climate Control Units", borderColor: "border-red-500" },
   
