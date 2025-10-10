@@ -129,63 +129,274 @@ export default function page() {
       borderColor: "border-yellow-500", // Custom border color
     },
    
-    { src: "/projects/clients/28.webp", alt: "Air Purifiers", borderColor: "border-blue-500" },
-    { src: "/projects/clients/29.webp", alt: "Air Conditioners", borderColor: "border-green-500" },
-    { src: "/projects/clients/33.webp", alt: "Smart Climate Control", borderColor: "border-pink-500" },
-    { src: "/projects/clients/34.webp", alt: "Eco-friendly Air Conditioning", borderColor: "border-orange-500" },
-    { src: "/projects/clients/36.webp", alt: "Ventilation Systems", borderColor: "border-teal-500" },
-    { src: "/projects/clients/37.webp", alt: "Energy-efficient Coolers", borderColor: "border-yellow-500" },
-    { src: "/projects/clients/38.webp", alt: "Heat Recovery Systems", borderColor: "border-blue-500" },
-    { src: "/projects/clients/39.webp", alt: "Airflow Systems", borderColor: "border-green-500" },
-    { src: "/projects/clients/40.webp", alt: "Airflow Efficiency", borderColor: "border-red-500" },
-    { src: "/projects/clients/41.webp", alt: "HVAC Installation", borderColor: "border-indigo-500" },
-    { src: "/projects/clients/42.webp", alt: "Environmental Control", borderColor: "border-purple-500" },
-    { src: "/projects/clients/43.webp", alt: "Thermal Comfort", borderColor: "border-pink-500" },
-    { src: "/projects/clients/44.webp", alt: "Efficient Air Systems", borderColor: "border-orange-500" },
-    { src: "/projects/clients/45.webp", alt: "Air Conditioning Units", borderColor: "border-cyan-500" },
-    { src: "/projects/clients/46.webp", alt: "Home Cooling Solutions", borderColor: "border-teal-500" },
-    { src: "/projects/clients/47.webp", alt: "Energy-saving Solutions", borderColor: "border-yellow-500" },
-    { src: "/projects/clients/48.webp", alt: "Industrial Air Coolers", borderColor: "border-blue-500" },
-    { src: "/projects/clients/49.webp", alt: "Smart Cooling Systems", borderColor: "border-green-500" },
-    { src: "/projects/clients/50.webp", alt: "Climate Control Units", borderColor: "border-red-500" },
-    { src: "/projects/clients/51.webp", alt: "Modern HVAC Systems", borderColor: "border-indigo-500" },
+    { 
+      src: "/projects/clients/28.webp", 
+     alt: "Air Purifiers", 
+     borderColor: "border-blue-500"
+    },
+    
+    { 
+      src: "/projects/clients/29.webp", 
+     alt: "Air Conditioners", 
+     borderColor: "border-green-500" 
+    },
+    
+    { 
+      src: "/projects/clients/33.webp", 
+     alt: "Smart Climate Control", 
+     borderColor: "border-pink-500" 
+    },
+    
+    { 
+      src: "/projects/clients/34.webp", 
+     alt: "Eco-friendly Air Conditioning", 
+     borderColor: "border-orange-500" 
+    },
+    
+    { 
+      src: "/projects/clients/36.webp", 
+     alt: "Ventilation Systems", 
+     borderColor: "border-teal-500"
+    },
+    
+    { 
+      src: "/projects/clients/37.webp", 
+     alt: "Energy-efficient Coolers", 
+     borderColor: "border-yellow-500" 
+    },
+    
+    { 
+      src: "/projects/clients/38.webp", 
+     alt: "Heat Recovery Systems", 
+     borderColor: "border-blue-500" 
+    },
+    
+    { 
+      src: "/projects/clients/39.webp", 
+     alt: "Airflow Systems", 
+     borderColor: "border-green-500"
+    },
+    
+    { 
+      src: "/projects/clients/40.webp", 
+     alt: "Airflow Efficiency", 
+     borderColor: "border-red-500"
+    },
+    
+    { 
+      src: "/projects/clients/41.webp", 
+     alt: "HVAC Installation", 
+     borderColor: "border-indigo-500" 
+    },
+    
+    { 
+      src: "/projects/clients/42.webp", 
+     alt: "Environmental Control", 
+     borderColor: "border-purple-500"
+    },
+    
+    { 
+      src: "/projects/clients/43.webp", 
+     alt: "Thermal Comfort", 
+     borderColor: "border-pink-500"
+    },
+    
+    { 
+      src: "/projects/clients/44.webp", 
+     alt: "Efficient Air Systems", 
+     borderColor: "border-orange-500" 
+    },
+    
+    { 
+      src: "/projects/clients/45.webp", 
+      alt: "Air Conditioning Units", 
+      borderColor: "border-cyan-500" 
+    },
+    
+    { 
+      src: "/projects/clients/46.webp", 
+      alt: "Home Cooling Solutions", 
+      borderColor: "border-teal-500"
+    },
+    
+    { src: "/projects/clients/47.webp", 
+     alt: "Energy-saving Solutions", 
+     borderColor: "border-yellow-500" 
+    },
+    
+    { 
+      src: "/projects/clients/48.webp", 
+      alt: "Industrial Air Coolers", 
+      borderColor: "border-blue-500" 
+    },
+    
+    { 
+      src: "/projects/clients/49.webp", 
+      alt: "Smart Cooling Systems", 
+      borderColor: "border-green-500"
+    },
+    
+    { 
+      src: "/projects/clients/50.webp", 
+      alt: "Climate Control Units", 
+      borderColor: "border-red-500" 
+    },
+    
+    { 
+      src: "/projects/clients/51.webp", 
+      alt: "Modern HVAC Systems", 
+      borderColor: "border-indigo-500" 
+    },
+    
     {
       src: "/projects/clients/5.webp",
       alt: "Ducted Air Coolers",
       borderColor: "border-yellow-500", // Custom border color
     },
+    
     {
       src: "/projects/clients/6.webp",
       alt: "Ducted Air Coolers",
       borderColor: "border-yellow-500", // Custom border color
     },
+    
     {
       src: "/projects/clients/7.webp",
       alt: "Ducted Air Coolers",
       borderColor: "border-yellow-500", // Custom border color
     },
-    { src: "/projects/clients/55.webp", alt: "Climate Control Units", borderColor: "border-red-500" },
-  { src: "/projects/clients/56.webp", alt: "Modern HVAC Systems", borderColor: "border-indigo-500" },
-  { src: "/projects/clients/57.webp", alt: "Climate Control Units", borderColor: "border-red-500" },
-  { src: "/projects/clients/58.webp", alt: "Modern HVAC Systems", borderColor: "border-indigo-500" },
-  { src: "/projects/clients/59.webp", alt: "Climate Control Units", borderColor: "border-red-500" },
-  { src: "/projects/clients/60.webp", alt: "Modern HVAC Systems", borderColor: "border-indigo-500" },
-  { src: "/projects/clients/61.webp", alt: "Climate Control Units", borderColor: "border-red-500" },
-  { src: "/projects/clients/62.webp", alt: "Modern HVAC Systems", borderColor: "border-indigo-500" },
-  { src: "/projects/clients/63.webp", alt: "Climate Control Units", borderColor: "border-red-500" },
-  { src: "/projects/clients/64.webp", alt: "Modern HVAC Systems", borderColor: "border-indigo-500" },
-  { src: "/projects/clients/65.webp", alt: "Climate Control Units", borderColor: "border-red-500" },
-  { src: "/projects/clients/67.webp", alt: "Climate Control Units", borderColor: "border-red-500" },
-  { src: "/projects/clients/68.webp", alt: "Modern HVAC Systems", borderColor: "border-indigo-500" },
-  { src: "/projects/clients/69.webp", alt: "Climate Control Units", borderColor: "border-red-500" },
-  { src: "/projects/clients/70.webp", alt: "Modern HVAC Systems", borderColor: "border-indigo-500" },
-  { src: "/projects/clients/71.webp", alt: "Climate Control Units", borderColor: "border-red-500" },
-  { src: "/projects/clients/72.webp", alt: "Modern HVAC Systems", borderColor: "border-indigo-500" },
-  { src: "/projects/clients/73.webp", alt: "Climate Control Units", borderColor: "border-red-500" },
-  { src: "/projects/clients/74.webp", alt: "Modern HVAC Systems", borderColor: "border-indigo-500" },
-  { src: "/projects/clients/75.webp", alt: "Modern HVAC Systems", borderColor: "border-indigo-500" },  
-  { src: "/projects/clients/76.webp", alt: "Modern HVAC Systems", borderColor: "border-indigo-500" },
-  { src: "/projects/clients/77.webp", alt: "Climate Control Units", borderColor: "border-red-500" },
+    
+    { 
+      src: "/projects/clients/55.webp", 
+      alt: "Climate Control Units", 
+      borderColor: "border-red-500" 
+    },
+    
+  {
+    src: "/projects/clients/56.webp", 
+    alt: "Modern HVAC Systems", 
+    borderColor: "border-indigo-500"
+  },
+    
+  { 
+    src: "/projects/clients/57.webp", 
+    alt: "Climate Control Units", 
+    borderColor: "border-red-500" 
+  },
+    
+  { 
+    src: "/projects/clients/58.webp", 
+    alt: "Modern HVAC Systems", 
+    borderColor: "border-indigo-500" 
+  },
+    
+  { 
+    src: "/projects/clients/59.webp", 
+    alt: "Climate Control Units", 
+    borderColor: "border-red-500"
+  },
+    
+  { 
+    src: "/projects/clients/60.webp", 
+    alt: "Modern HVAC Systems", 
+    borderColor: "border-indigo-500"
+  },
+    
+  { 
+    src: "/projects/clients/61.webp", 
+    alt: "Climate Control Units", 
+    borderColor: "border-red-500" 
+  },
+    
+  { 
+    src: "/projects/clients/62.webp", 
+    alt: "Modern HVAC Systems", 
+    borderColor: "border-indigo-500" 
+  },
+    
+  { 
+    src: "/projects/clients/63.webp", 
+    alt: "Climate Control Units", 
+    borderColor: "border-red-500" 
+  },
+    
+  { 
+    src: "/projects/clients/64.webp", 
+    alt: "Modern HVAC Systems", 
+    borderColor: "border-indigo-500" 
+  },
+    
+  { 
+    src: "/projects/clients/65.webp", 
+    alt: "Climate Control Units", 
+    borderColor: "border-red-500" 
+  },
+    
+  { 
+    src: "/projects/clients/67.webp", 
+    alt: "Climate Control Units", 
+    borderColor: "border-red-500"
+  },
+    
+  { 
+    src: "/projects/clients/68.webp", 
+    alt: "Modern HVAC Systems", 
+    borderColor: "border-indigo-500" 
+  },
+    
+  {
+    src: "/projects/clients/69.webp",
+    alt: "Climate Control Units", 
+    borderColor: "border-red-500" 
+  },
+    
+  { 
+    src: "/projects/clients/70.webp", 
+    alt: "Modern HVAC Systems", 
+    borderColor: "border-indigo-500" 
+  },
+    
+  { 
+    src: "/projects/clients/71.webp", 
+    alt: "Climate Control Units", 
+    borderColor: "border-red-500" 
+  },
+    
+  { 
+    src: "/projects/clients/72.webp", 
+    alt: "Modern HVAC Systems", 
+    borderColor: "border-indigo-500"
+  },
+    
+  { 
+    src: "/projects/clients/73.webp", 
+    alt: "Climate Control Units", 
+    borderColor: "border-red-500"
+  },
+    
+  { 
+    src: "/projects/clients/74.webp", 
+    alt: "Modern HVAC Systems", 
+    borderColor: "border-indigo-500" 
+  },
+    
+  { 
+    src: "/projects/clients/75.webp", 
+    alt: "Modern HVAC Systems", 
+    borderColor: "border-indigo-500"
+  },  
+    
+  { 
+    src: "/projects/clients/76.webp", 
+    alt: "Modern HVAC Systems", 
+    borderColor: "border-indigo-500"
+  },
+    
+  { 
+    src: "/projects/clients/77.webp", 
+    alt: "Climate Control Units", 
+    borderColor: "border-red-500"
+  },
   
   ];
   
