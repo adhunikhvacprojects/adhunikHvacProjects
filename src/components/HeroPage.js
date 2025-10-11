@@ -848,7 +848,7 @@ const achievementData2 = [
 
 
               <div className="relative max-w-md lg:max-w-none mx-auto">
-                <div className="flex flex-wrap -mx-4 text-center md:text-left">
+                <div className="flex flex-wrap -mx-4 text-center md:text-center">
                   {[
                     {
                       icon: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738750084/de__xjfjdj.webp',
@@ -862,7 +862,7 @@ const achievementData2 = [
                     },
                     {
                       icon: 'https://res.cloudinary.com/dxenuee4n/image/upload/v1760180661/AMC_and_Ongoing_Maintenance_Image_e2h1vq.webp',
-                      title: 'AMC & Ongoing Support',
+                      title: 'AMC & Support',
                       content: "Our commitment extends beyond project completion. We offer comprehensive Annual Maintenance Contracts (AMCs) and ongoing support to ensure your HVAC system operates at peak performance, maximizing longevity and efficiency."
                     },
                   ].map((service, index) => (
