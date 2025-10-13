@@ -230,13 +230,13 @@ export default function OurQualityServices() {
               {
                 title: 'Comprehensive Documentation –',
                 description:
-                  'We develop all necessary technical documents, including plot plans, 2D/3D models, isometrics, and a detailed material take-off (MTO) to ensure clarity and accuracy.
+                  'We develop all necessary technical documents, including plot plans, 2D/3D models, isometrics, and a detailed material take-off (MTO) to ensure clarity and accuracy.'
               },
               
               {
                 title: 'Safety & Efficiency Focus –',
                 description:
-                  'We engineer for a comfortable and safe indoor environment with superior air quality, focusing on energy modeling to maximize the efficiency of your building and deliver cost-effective solutions.
+                  'We engineer for a comfortable and safe indoor environment with superior air quality, focusing on energy modeling to maximize the efficiency of your building and deliver cost-effective solutions.'
               },
           
             
@@ -328,7 +328,7 @@ export default function OurQualityServices() {
               {
                 title: 'Dedicated Technical Support –',
                 description: 
-                  ' Our expert service team is always available to provide timely repairs, technical assistance, and operational guidance whenever you need it.
+                  ' Our expert service team is always available to provide timely repairs, technical assistance, and operational guidance whenever you need it.'
 
 ',
               },
