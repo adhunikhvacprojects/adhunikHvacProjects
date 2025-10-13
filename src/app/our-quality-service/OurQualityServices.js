@@ -190,7 +190,7 @@ export default function OurQualityServices() {
         </div>
         <div className="md:w-6/12 flex flex-col justify-center item-center">
         <div className="container mx-auto    shadow-none ">
-            <h1 className=" text-lg md:text-2xl md:text-left  font-bold text-center mb-2 text-gray-800">
+            <h1 className=" text-lg md:text-2xl md:text-left mt-8 font-bold text-center mb-2 text-gray-800">
              A Commitment to End-to-End Excellence
 
             </h1>
