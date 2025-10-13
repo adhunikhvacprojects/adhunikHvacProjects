@@ -86,7 +86,7 @@ export default function SupportForm() {
         if (validateForm()) {
           
             emailjs
-                .sendForm("service_106xw2n", "template_xpk4wj5", form.current, {
+                .sendForm("service_cv482sc", "template_xpk4wj5", form.current, {
                     publicKey: "K49eAHdpU4ZAW7xJe",
                 })
                 .then(() => {

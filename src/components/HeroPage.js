@@ -848,22 +848,22 @@ const achievementData2 = [
 
 
               <div className="relative max-w-md lg:max-w-none mx-auto">
-                <div className="flex flex-wrap -mx-4 text-center md:text-left">
+                <div className="flex flex-wrap -mx-4 text-center md:text-center">
                   {[
                     {
-                      icon: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738750083/cad__bvhdns.webp',
-                      title: 'Consultancy & Design',
-                      content: 'Adhunik HVAC Projects provides expert HVAC consultancy and design services. We work closely with clients across various industries to engineer custom, turnkey solutions for projects all over India.',
-                    },
-                    {
                       icon: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738750084/de__xjfjdj.webp',
-                      title: 'Detailed Engineering',
-                      content: "With over 19+ years of legacy experience, our detailed engineering process focuses on designing energy-efficient and cost-effective cooling solutions with near 'zero' maintenance for large industrial, institutional, and commercial facilities."
+                      title: 'Design & Engineering',
+                      content: 'We provide expert system design and detailed engineering, translating project requirements into energy-efficient and cost-effective cooling solutions for large industrial, institutional, and commercial facilities.',
                     },
                     {
                       icon: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1743499001/Project_Exe_mptvqx.webp',
                       title: 'Project Execution',
                       content: "Our project execution is defined by precision and adherence to the highest standards. We execute all projects under strict NBC, CPWD, and NABH guidelines, while following ISHRAE, ASHRAE, and ISO standards to ensure safety and performance."
+                    },
+                    {
+                      icon: 'https://res.cloudinary.com/dxenuee4n/image/upload/v1760180661/AMC_and_Ongoing_Maintenance_Image_e2h1vq.webp',
+                      title: 'AMC & Support',
+                      content: "Our commitment extends beyond project completion. We offer comprehensive Annual Maintenance Contracts (AMCs) and ongoing support to ensure your HVAC system operates at peak performance, maximizing longevity and efficiency."
                     },
                   ].map((service, index) => (
                     <div key={index} className="w-full lg:w-1/3 px-4 mb-8 lg:mb-0">
