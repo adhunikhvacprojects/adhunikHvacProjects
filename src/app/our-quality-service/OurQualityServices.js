@@ -322,7 +322,7 @@ export default function OurQualityServices() {
               {
                 title: 'Proactive Maintenance –',
                 description: 
-                  'We provide regularly scheduled inspections and preventative servicing to identify and address potential issues before they can lead to costly downtime.',
+                  'We provide regularly scheduled inspections and preventative servicing to identify and address potential issues before they can lead to costly downtime.'
               },
 
               {
@@ -330,18 +330,17 @@ export default function OurQualityServices() {
                 description: 
                   ' Our expert service team is always available to provide timely repairs, technical assistance, and operational guidance whenever you need it.'
 
-',
               },
 
               {
                 title: 'Performance Optimization –',
                 description: 
-                  'We continuously monitor and tune your system to ensure it operates at maximum energy efficiency, helping to reduce your long-term operational costs.',
+                  'We continuously monitor and tune your system to ensure it operates at maximum energy efficiency, helping to reduce your long-term operational costs.'
               },
 
               {
                 title: 'System Longevity –',
-                description: 'Through meticulous care and professional support, we aim to maximize the operational lifespan of your HVAC equipment, ensuring you get the most out of your investment.',
+                description: 'Through meticulous care and professional support, we aim to maximize the operational lifespan of your HVAC equipment, ensuring you get the most out of your investment.'
               },
            
             ].map((item, index) => (
