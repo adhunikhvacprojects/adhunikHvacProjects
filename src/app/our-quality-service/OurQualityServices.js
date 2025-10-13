@@ -204,11 +204,13 @@ export default function OurQualityServices() {
        
  
           <h2 className=" text-lg md:text-2xl font-semibold text-gray-800  mb-4 text-center md:text-left">
-       Consultancy & Strategic Design
+       Design & Engineering
          </h2>
 
           <p className="text-gray-700 text-sm text-justify mb-4  font-sans">
-        Every successful project begins with a deep understanding of your unique requirements. Our process starts with expert consultancy, where our team of professional engineers engages in detailed interactions with all stakeholders. We work to crystallize your vision and translate it into a clear, actionable plan. This phase includes
+        Every successful HVAC project begins with a flawless plan, and our Design & Engineering phase combines strategic planning with technical expertise to create systems that are powerful, efficient, and built to last. We work closely with clients and partners to translate project requirements into a comprehensive blueprint, ensuring every technical aspect is perfected before procurement or construction begins.
+</br>
+  Our capabilities in this phase include:
   </p>
 
           <ul className="list-disc pl-6 space-y-3 text-gray-700">
@@ -216,18 +218,25 @@ export default function OurQualityServices() {
               {
                 title: 'Needs Assessment –',
                 description:
-                  'We meticulously gather data on your facility, operational needs, and long-term goals.'
+                  'We start by meticulously gathering data on your facility, operational needs, and long-term goals to inform every decision.'
               },
           
               {
-                title: 'Conceptual Planning –',
+                title: 'Advanced System Modeling –',
                 description:
-                  'A detailed design concept report is prepared, summarizing the project requirements, proposed system scheme, and a budgetary cost estimate for your approval.'
+                  'We utilize advanced software for precise load calculations, P&ID development, line sizing, and energy mass balance to design the optimal layout and ensure peak performance.'
               },
+              
               {
-                title: 'System Layout –',
+                title: 'Comprehensive Documentation –',
                 description:
-                  'Our HVAC engineers take full responsibility for designing the optimal layout for all heating, cooling, and control systems, ensuring every element is planned in accordance with the highest industry standards.'
+                  'We develop all necessary technical documents, including plot plans, 2D/3D models, isometrics, and a detailed material take-off (MTO) to ensure clarity and accuracy.
+              },
+              
+              {
+                title: 'Safety & Efficiency Focus –',
+                description:
+                  'We engineer for a comfortable and safe indoor environment with superior air quality, focusing on energy modeling to maximize the efficiency of your building and deliver cost-effective solutions.
               },
           
             
@@ -250,30 +259,39 @@ export default function OurQualityServices() {
        
  
           <h2 className="text-2xl font-semibold text-gray-800 md:mt-10 mb-4 text-center md:text-left">
-      Detailed Engineering
+      Project Execution 
          </h2>
 
           <p className="text-gray-700 text-sm text-justify mb-4  font-sans">
-     This is where precision takes shape. With our extensive experience, we focus on designing energy-efficient and cost-effective solutions that require minimal maintenance. Our detailed engineering phase ensures every technical aspect is perfected before procurement or construction begins. Our capabilities include
+     Our project execution is defined by precision, safety, and an unwavering commitment to timelines. We manage every phase of the installation with meticulous attention to detail, ensuring a seamless workflow from start to finish. All projects are executed under strict adherence to NBC, CPWD, and NABH guidelines, while following ISHRAE, ASHRAE, and ISO standards to guarantee the highest levels of safety and performance.
+    </br>
+                        This phase includes:
   </p>
+                        
 
           <ul className="list-disc pl-6 space-y-3 text-gray-700">
             {[
               {
-                title: 'Advanced System Modeling –',
+                title: 'Professional Oversight –',
                 description:
-                  'We utilize advanced software for precise load calculations, P&ID development, line sizing, and energy mass balance to ensure optimal performance.'
+                  'Our dedicated engineers and on-site managers oversee every task, ensuring milestones are met on schedule and the project stays on track.'
               },
               {
-                title: 'Comprehensive Documentation –',
+                title: 'Proactive Management –',
                 description:
-                  'We develop all necessary technical documents, including plot plans, 2D/3D models, isometrics, and a detailed material take-off (MTO).'
+                  'We proactively manage any issues that arise, ensuring quick adjustments and clear communication to minimize any disruption.'
               },
             
               {
-                title: 'Safety & Efficiency Focus –',
+                title: 'Transparent Communication –',
                 description:
-                  'We engineer for a comfortable and safe indoor environment with superior air quality, while maximizing the energy efficiency of your building.'
+                  'We believe in complete transparency and provide regular project status reports to keep you informed and confident at every stage.'
+              },
+
+              {
+                title: 'Quality Assurance –',
+                description:
+                  'We are committed to completing every project within the promised time, without ever compromising on our award-winning quality standards.'
               },
             
             ].map((item, index) => (
@@ -288,34 +306,42 @@ export default function OurQualityServices() {
 
 
           <h2 className="text-2xl font-semibold text-gray-800 mt-10 mb-4 text-center md:text-left">
-         Project Execution & Management
+         AMC & Ongoing Support
  </h2>
           <p className=" text-sm text-gray-700 text-justify mb-4 font-sans">
-        Our project execution is defined by precision, safety, and a commitment to timelines. We execute all projects under strict adherence to NBC, CPWD, and NABH guidelines, while following ISHRAE, ASHRAE, and ISO standards. Our on-site management ensures a smooth workflow from start to finish. This phase includes
+        Our commitment to our clients extends far beyond project completion. We believe in building long-term partnerships to ensure your system operates at peak performance for its entire lifespan. Our comprehensive Annual Maintenance Contracts (AMCs) and ongoing support services are designed to protect your investment, maximize efficiency, and provide you with complete peace of mind.
+            </br>
+            Our after-sales support includes:
 
           </p>
+          
 
 
           <ul className="list-disc pl-6 space-y-3 text-gray-700">
             {[
               {
-                title: 'Workflow Management –',
-                description: 'Our professional engineers oversee every task to ensure milestones are met on schedule.',
+                title: 'Proactive Maintenance –',
+                description: 
+                  'We provide regularly scheduled inspections and preventative servicing to identify and address potential issues before they can lead to costly downtime.',
               },
 
               {
-                title: 'Risk & Change Management –',
-                description: 'We proactively manage any issues that arise, ensuring quick adjustments and clear communication.',
+                title: 'Dedicated Technical Support –',
+                description: 
+                  ' Our expert service team is always available to provide timely repairs, technical assistance, and operational guidance whenever you need it.
+
+',
               },
 
               {
-                title: 'Client Communication –',
-                description: 'We believe in transparency and provide regular project status reports to keep you informed at every stage.',
+                title: 'Performance Optimization –',
+                description: 
+                  'We continuously monitor and tune your system to ensure it operates at maximum energy efficiency, helping to reduce your long-term operational costs.',
               },
 
               {
-                title: 'Quality Assurance –',
-                description: 'We are committed to completing every project within the promised time, without ever compromising on our award-winning quality standards.',
+                title: 'System Longevity –',
+                description: 'Through meticulous care and professional support, we aim to maximize the operational lifespan of your HVAC equipment, ensuring you get the most out of your investment.',
               },
            
             ].map((item, index) => (
@@ -328,22 +354,9 @@ export default function OurQualityServices() {
 
 
          
-          <h2 className="text-2xl font-semibold text-gray-800 mt-10 mb-4 text-center md:text-left">
-        After-Sales Support & Annual Maintenance Contracts (AMCs)
+        
 
- </h2>
-          <p className="text-gray-700 text-justify mb-4 font-sans">
-       Our partnership doesn't end when the project is complete. We offer comprehensive after-sales support and tailored Annual Maintenance Contracts (AMCs) to ensure your system continues to operate at peak performance. Our support services are designed to extend the life of your investment, prevent unexpected downtime, and guarantee long-term energy efficiency.
-
-
-          </p>
-
-
-         
-
-
-
-         
+ 
          
           <h2 className="text-2xl font-semibold text-gray-800 mt-10 mb-4 text-center md:text-left">
          Technologies & Systems We Master
@@ -496,7 +509,7 @@ At Adhunik HVAC Projects, we provide a comprehensive suite of services designed 
                 <div className="   lg:w-1/2 w-full mb-8 lg:mb-0">
                   <div className="about-content">
                     <div className="section-title px-4 text-justify ">
-                      <h2 className="text-3xl text-gray-800 font-semibold mb-4  text-center md:text-left ">Consultancy & Design</h2>
+                      <h2 className="text-3xl text-gray-800 font-semibold mb-4  text-center md:text-left ">Design & Engineering</h2>
                       <p className="mb-4 font-sans font-normal text-gray-700 ">
                         <strong> ADHUNIK HVAC PROJECTS </strong>  provides HVAC solutions (Engineering, procurement, and execution) to clients of various industries, executing turnkey HVAC projects all over India.
                       </p>
@@ -598,7 +611,7 @@ At Adhunik HVAC Projects, we provide a comprehensive suite of services designed 
                   <div className="about-company-1">
                     <img src=" dd.jpg "  height={300}
                   width={500}
-                  loading="lazy" alt="Consultancy Design" className="w-full h-auto rounded-lg px-5" />
+                  loading="lazy" alt="Design & Engineering" className="w-full h-auto rounded-lg px-5" />
                   </div>
                 </div>
 
