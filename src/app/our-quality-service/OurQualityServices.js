@@ -209,7 +209,7 @@ export default function OurQualityServices() {
 
           <p className="text-gray-700 text-sm text-justify mb-4  font-sans">
         Every successful HVAC project begins with a flawless plan, and our Design & Engineering phase combines strategic planning with technical expertise to create systems that are powerful, efficient, and built to last. We work closely with clients and partners to translate project requirements into a comprehensive blueprint, ensuring every technical aspect is perfected before procurement or construction begins.
-</br>
+<br />
   Our capabilities in this phase include:
   </p>
 
@@ -264,7 +264,7 @@ export default function OurQualityServices() {
 
           <p className="text-gray-700 text-sm text-justify mb-4  font-sans">
      Our project execution is defined by precision, safety, and an unwavering commitment to timelines. We manage every phase of the installation with meticulous attention to detail, ensuring a seamless workflow from start to finish. All projects are executed under strict adherence to NBC, CPWD, and NABH guidelines, while following ISHRAE, ASHRAE, and ISO standards to guarantee the highest levels of safety and performance.
-    </br>
+    <br />
                         This phase includes:
   </p>
                         
@@ -310,7 +310,7 @@ export default function OurQualityServices() {
  </h2>
           <p className=" text-sm text-gray-700 text-justify mb-4 font-sans">
         Our commitment to our clients extends far beyond project completion. We believe in building long-term partnerships to ensure your system operates at peak performance for its entire lifespan. Our comprehensive Annual Maintenance Contracts (AMCs) and ongoing support services are designed to protect your investment, maximize efficiency, and provide you with complete peace of mind.
-            </br>
+            <br />
             Our after-sales support includes:
 
           </p>
