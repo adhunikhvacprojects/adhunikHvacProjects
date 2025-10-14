@@ -18,9 +18,9 @@ export default function Blog() {
 
    {
       id: 2,
-      title: "Award-Winning HVAC Contractor | Adhunik HVAC Projects",
+      title: "Top HVAC Contactor In Gurugram | Adhunik HVAC Projects",
 
-      date: "September  2025",
+      date: "October  2025",
       image: "",
 
       link:  "/top-hvac-contractor-in-gurugram",
