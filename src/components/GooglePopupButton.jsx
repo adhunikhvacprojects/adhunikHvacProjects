@@ -55,14 +55,14 @@ const GooglePopupButton = () => {
                     <button
                         onClick={openGooglePopup}
                         className="w-14 h-14 bg-[#4285F4] hover:bg-[#5C94F9] rounded-full p-2 text-white shadow-xl transition-all duration-300 transform hover:scale-110 focus:outline-none focus:ring-4 focus:ring-blue-500/50 flex items-center justify-center"
-                        aria-label="Google QR Code"
+                        aria-label="Visit us on Google"
                     >
                         <GoogleIcon />
                     </button>
                     <span
                         className="absolute right-full top-1/2 -translate-y-1/2 mr-3 px-3 py-1 bg-gray-700 text-white text-sm rounded-lg whitespace-nowrap opacity-0 group-hover/tooltip:opacity-100 transition-opacity duration-300 pointer-events-none"
                     >
-                        Google QR Code
+                        Visit us on Google
                     </span>
                 </div>
             </div>
