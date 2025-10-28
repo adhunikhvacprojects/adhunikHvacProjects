@@ -224,7 +224,7 @@ export default function SupportForm() {
 
                         <div className="h-fit justify-center items-center flex w-full md:w-7/12">
                             <img
-                                src="public/contact us.webp" 
+                                src="/contact us.webp" 
                                 alt="Description of the image"
                                 className="w-full h-auto object-cover"
                                 loading='lazy'
