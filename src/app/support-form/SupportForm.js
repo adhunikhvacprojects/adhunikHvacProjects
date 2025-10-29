@@ -223,13 +223,13 @@ export default function SupportForm() {
 
 
                         <div className="h-fit justify-center items-center flex w-full md:w-7/12">
-                            <img
-                                src="\Images\contact_us.webp" 
+                            <Image
+                                src="/contact_us.webp"
                                 alt="Contact Us Image"
                                 className="w-full h-auto object-cover"
-                                loading='lazy'
-                                height="300"
-                                width='300'
+                                height={300}
+                                width={300}
+                                priority={false}
                             />
                         </div>
 
