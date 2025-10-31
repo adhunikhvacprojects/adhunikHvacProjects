@@ -619,16 +619,16 @@ Focused Expertise : </strong>
                 <div className="pt-24 lg:justify-center sm:justify-end justify-start items-start gap-2.5 flex">
                   <img
                     className="rounded-xl object-cover"
-                    src="https://images.pexels.com/photos/257770/pexels-photo-257770.jpeg"
-                    alt="about Us image"
+                    src="https://res.cloudinary.com/dxenuee4n/image/upload/v1761905764/vision_zcttu6.webp"
+                    alt="Global handshake with digital world map, signifying **worldwide business mission"
                     
                     loading="lazy"
                   />
                 </div>
                 <img
                   className="sm:ml-0 ml-auto rounded-xl object-cover"
-                  src="https://images.pexels.com/photos/11744190/pexels-photo-11744190.jpeg"
-                  alt="about Us image"
+                  src="https://res.cloudinary.com/dxenuee4n/image/upload/v1761905756/mission_1_zludio.webp"
+                  alt="Business mission concept showing leadership, teamwork, strategy, and global goals as glowing white icons floating above an open hand"
                 
                   loading="lazy"
                 />
@@ -710,8 +710,8 @@ Focused Expertise : </strong>
               
               <img
                 className="lg:mx-0 mx-auto h-full rounded-3xl object-cover"
-                src="https://images.pexels.com/photos/19431067/pexels-photo-19431067.jpeg"
-                alt="about Us image"
+                src="https://res.cloudinary.com/dxenuee4n/image/upload/v1761905760/mission_2_o5uqyo.webp"
+                alt="future vision concept with glowing bar graph in hand."
                 loading="lazy"
                  height={300}
                   width={500}
