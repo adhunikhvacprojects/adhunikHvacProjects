@@ -305,30 +305,30 @@ export default function HeroPage() {
 
  const logos4 = [
   
-    { src: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1748602146/A_R_1_rjplf1.webp', alt: 'AWARDED AS INDIA BUSINESS AWARD 2025', width: 176, height: 112 },
-    { src: '/certi/award1.webp', alt: 'AWARDED AS MOST INNOVATIVE BRAND FOR HVAC PROJECTS 2024-25', width: 176, height: 112 },
-    { src: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1748602146/A_R__2_qup0rl.webp', alt: 'AWARDED AS NATIONAL GROWTH PARTNER AWARD', width: 176, height: 112 },
+    { src: 'https://res.cloudinary.com/dxenuee4n/image/upload/v1761904020/India_Business_award_2025_qblzy4.webp', alt: 'AWARDED AS INDIA BUSINESS AWARD 2025', width: 176, height: 112 },
+    { src: 'https://res.cloudinary.com/dxenuee4n/image/upload/v1761904021/Innovative_brand_for_HVACProjects__2024-25_nv69nt.webp', alt: 'AWARDED AS MOST INNOVATIVE BRAND FOR HVAC PROJECTS 2024-25', width: 176, height: 112 },
+    { src: 'https://res.cloudinary.com/dxenuee4n/image/upload/v1761904025/National_growth__partner_award_d97r04.webp', alt: 'AWARDED AS NATIONAL GROWTH PARTNER AWARD', width: 176, height: 112 },
    
-    { src: '/certi/award2.webp', alt: 'AWARDED FOR PARTICIPATION GURUGRAM INDUSTRIAL EXPO 2023', width: 176, height: 112 },
-    { src: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1748602146/A_R_3_fkcvcv.webp', alt: 'AWARDED FOR BEST QUALITY STANDARDS & SERVICES IN HVAC INDUSTRY', width: 176, height: 112 },
-    { src: '/certi/award3.webp', alt: 'RECOGNIZED BY NATIONAL TRADE & INDUSTRY COUNCIL', width: 176, height: 112 },
-    { src: '/certi/award4.webp', alt: 'AWARDED FOR PARTICIPATION SUSTAINABLE HVAC AND ARCHITECTURE', width: 176, height: 112 },
-    { src: '/certi/award5.webp', alt: 'CERTIFICATE OF APPRECIATION MOST INNOVATIVE BRAND FOR HVAC PROJECTS 2024-25', width: 176, height: 112 },
-    { src: '/certi/award6.webp', alt: 'AWARDED FOR OVERALL PERFORMANCE IN 2023', width: 176, height: 112 },
+    { src: 'https://res.cloudinary.com/dxenuee4n/image/upload/v1761904018/Gurugram_Industrial_expo_2023_wp1hrg.webp', alt: 'AWARDED FOR PARTICIPATION GURUGRAM INDUSTRIAL EXPO 2023', width: 176, height: 112 },
+    { src: 'https://res.cloudinary.com/dxenuee4n/image/upload/v1761904015/Best_qualtity_in_Hvac_Industry_oitj4u.webp', alt: 'AWARDED FOR BEST QUALITY STANDARDS & SERVICES IN HVAC INDUSTRY', width: 176, height: 112 },
+    { src: 'https://res.cloudinary.com/dxenuee4n/image/upload/v1761904027/National_trade___industry_council_m1teql.webp', alt: 'RECOGNIZED BY NATIONAL TRADE & INDUSTRY COUNCIL', width: 176, height: 112 },
+    { src: 'https://res.cloudinary.com/dxenuee4n/image/upload/v1761904031/Sustainable_hvac____architecture_zgecsy.webp', alt: 'AWARDED FOR PARTICIPATION SUSTAINABLE HVAC AND ARCHITECTURE', width: 176, height: 112 },
+    { src: 'https://res.cloudinary.com/dxenuee4n/image/upload/v1761904023/Most_Innovative_Brand_llrdtb.webp', alt: 'CERTIFICATE OF APPRECIATION MOST INNOVATIVE BRAND FOR HVAC PROJECTS 2024-25', width: 176, height: 112 },
+    { src: 'https://res.cloudinary.com/dxenuee4n/image/upload/v1761904029/Overall_Performance_in_2023_umbjao.webp', alt: 'AWARDED FOR OVERALL PERFORMANCE IN 2023', width: 176, height: 112 },
    
 
 
 
-    { src: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1748602146/A_R_1_rjplf1.webp', alt: 'AWARDED AS INDIA BUSINESS AWARD 2025', width: 176, height: 112 },
-    { src: '/certi/award1.webp', alt: 'AWARDED AS MOST INNOVATIVE BRAND FOR HVAC PROJECTS 2024-25', width: 176, height: 112 },
-    { src: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1748602146/A_R__2_qup0rl.webp', alt: 'AWARDED AS NATIONAL GROWTH PARTNER AWARD', width: 176, height: 112 },
+    { src:'https://res.cloudinary.com/dxenuee4n/image/upload/v1761904020/India_Business_award_2025_qblzy4.webp', alt: 'AWARDED AS INDIA BUSINESS AWARD 2025', width: 176, height: 112 },
+    { src: 'https://res.cloudinary.com/dxenuee4n/image/upload/v1761904021/Innovative_brand_for_HVACProjects__2024-25_nv69nt.webp', alt: 'AWARDED AS MOST INNOVATIVE BRAND FOR HVAC PROJECTS 2024-25', width: 176, height: 112 },
+    { src: 'https://res.cloudinary.com/dxenuee4n/image/upload/v1761904025/National_growth__partner_award_d97r04.webp', alt: 'AWARDED AS NATIONAL GROWTH PARTNER AWARD', width: 176, height: 112 },
      
-    { src: '/certi/award2.webp', alt: 'AWARDED FOR PARTICIPATION GURUGRAM INDUSTRIAL EXPO 2023', width: 176, height: 112 },
+    { src: 'https://res.cloudinary.com/dxenuee4n/image/upload/v1761904018/Gurugram_Industrial_expo_2023_wp1hrg.webp', alt: 'AWARDED FOR PARTICIPATION GURUGRAM INDUSTRIAL EXPO 2023', width: 176, height: 112 },
     { src: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1748602146/A_R_3_fkcvcv.webp', alt: 'AWARDED FOR BEST QUALITY STANDARDS & SERVICES IN HVAC INDUSTRY', width: 176, height: 112 },
-    { src: '/certi/award3.webp', alt: 'RECOGNIZED BY NATIONAL TRADE & INDUSTRY COUNCIL', width: 176, height: 112 },
-     { src: '/certi/award4.webp', alt: 'AWARDED FOR PARTICIPATION SUSTAINABLE HVAC AND ARCHITECTURE', width: 176, height: 112 },
-     { src: '/certi/award5.webp', alt: 'CERTIFICATE OF APPRECIATION MOST INNOVATIVE BRAND FOR HVAC PROJECTS 2024-25', width: 176, height: 112 },
-     { src: '/certi/award6.webp', alt: 'AWARDED FOR OVERALL PERFORMANCE IN 2023', width: 176, height: 112 },
+    { src: 'https://res.cloudinary.com/dxenuee4n/image/upload/v1761904027/National_trade___industry_council_m1teql.webp', alt: 'RECOGNIZED BY NATIONAL TRADE & INDUSTRY COUNCIL', width: 176, height: 112 },
+     { src: 'https://res.cloudinary.com/dxenuee4n/image/upload/v1761904031/Sustainable_hvac____architecture_zgecsy.webp', alt: 'AWARDED FOR PARTICIPATION SUSTAINABLE HVAC AND ARCHITECTURE', width: 176, height: 112 },
+     { src: 'https://res.cloudinary.com/dxenuee4n/image/upload/v1761904023/Most_Innovative_Brand_llrdtb.webp', alt: 'CERTIFICATE OF APPRECIATION MOST INNOVATIVE BRAND FOR HVAC PROJECTS 2024-25', width: 176, height: 112 },
+     { src: 'https://res.cloudinary.com/dxenuee4n/image/upload/v1761904029/Overall_Performance_in_2023_umbjao.webp', alt: 'AWARDED FOR OVERALL PERFORMANCE IN 2023', width: 176, height: 112 },
    
    
   ];
