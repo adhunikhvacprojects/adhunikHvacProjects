@@ -193,7 +193,7 @@ export default function HeroPage() {
     { src: 'https://res.cloudinary.com/dxenuee4n/image/upload/v1761904132/MSME_fjm67p.webp', alt: 'MSME India certificate logo', width: 50, height: 50 },
     { src: 'https://res.cloudinary.com/dxenuee4n/image/upload/v1761904117/CE_hznx0e.webp', alt: 'CE Marking certification logo ', width: 50, height: 50 },
     { src: 'https://res.cloudinary.com/dxenuee4n/image/upload/v1761904119/GEM_n8yyzy.webp', alt: 'GeM Government-E-Marketplace logo', width: 50, height: 50 },
-    { src: 'https://res.cloudinary.com/dxenuee4n/image/upload/v1761904134/ZED_BRONZE_cx6wcz.webp', alt: 'MSME Zed Bronze certification logo for Zero Defect, Zero Effect quality and environmental standard'. width: 50, height: 50 },
+    { src: 'https://res.cloudinary.com/dxenuee4n/image/upload/v1761904134/ZED_BRONZE_cx6wcz.webp', alt: 'MSME Zed Bronze certification logo for Zero Defect, Zero Effect quality and environmental standard', width: 50, height: 50 },
     { src: 'https://res.cloudinary.com/dxenuee4n/image/upload/v1761904127/IAS_dfzvwx.webp', alt: 'IAF and IAS Accredited logos for ISO 9001:2015 certification', width: 120, height: 50 },
     { src: 'https://res.cloudinary.com/dxenuee4n/image/upload/v1761904128/IEC_koqvmo.webp', alt: 'IEC Import Export Code Licence with number AAFCA3979G and Indian National Emblem, validating global trade certification', width: 119, height: 119 },
     { src: '/NTIC2.webp', alt: 'pics', width: 120, height: 120 },
