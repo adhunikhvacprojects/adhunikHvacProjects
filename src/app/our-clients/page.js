@@ -14,7 +14,7 @@ export default function page() {
     },
    
     {
-      src: "/projects/clients/2.webp",
+      src: "https://res.cloudinary.com/dxenuee4n/image/upload/v1761906118/tata_nlwyfy.webp",
       alt: "Ducted Air Coolers",
       borderColor: "border-yellow-500", // Custom border color
     },
