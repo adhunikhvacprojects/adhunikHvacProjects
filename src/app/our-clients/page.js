@@ -8,7 +8,7 @@ export default function page() {
 
   const products = [
     {
-      src: "/projects/clients/1.webp",
+      src: "https://res.cloudinary.com/dxenuee4n/image/upload/v1761906135/whirlpool_lmjnd1.webp",
       alt: "Ducted Air Coolers",
       borderColor: "border-yellow-500", // Custom border color
     },
