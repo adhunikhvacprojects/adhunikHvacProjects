@@ -920,8 +920,8 @@ const achievementData2 = [
                     width={300}
                     height={200}
                     className="rounded-xl  object-cover  "
-                    src="/tophvac2.webp"
-                    alt="about Us image"
+                    src="https://res.cloudinary.com/dxenuee4n/image/upload/v1761905105/top_hvac2_soznsg.webp"
+                    alt="Large industrial cooling towers and thick insulated pipes on a rooftop for commercial HVAC systems."
                     loading='lazy'
                   />
 
@@ -931,8 +931,8 @@ const achievementData2 = [
                     width={300}
                     height={200}
                     className="sm:ml-0 ml-auto rounded-xl object-cover "
-                    src="https://res.cloudinary.com/dxenuee4n/image/upload/v1761905102/top_hvac1_yqtx9c.webp.webp"
-                    alt="about Us image"
+                    src="https://res.cloudinary.com/dxenuee4n/image/upload/v1761905102/top_hvac1_yqtx9c.webp"
+                    alt="aLarge industrial cooling tower with metal stacks and green service pipes on a factory rooftop"
                     loading='lazy'
                   />
                 </div>
