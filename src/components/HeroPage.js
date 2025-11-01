@@ -37,18 +37,18 @@ export default function HeroPage() {
 
  
   const logos = [
-    { src: '/projects/1.webp', alt: 'Asahi-India-Glass-Ltd', width: 176, height: 112 },
-    { src: '/projects/2.webp', alt: 'BKT', width: 126, height: 100 },
-    { src: '/projects/3.webp', alt: 'BOOKFIELD', width: 176, height: 112 },
-    { src: '/projects/4.webp', alt: 'HERO', width: 176, height: 112 },
-    { src: '/projects/5.webp', alt: 'MARUTI SUZUKI', width: 176, height: 112 },
-    { src: '/projects/6.webp', alt: 'SIGNATURE GLOBAL ', width: 176, height: 112 },
-    { src: '/projects/7.webp', alt: 'NFC', width: 176, height: 112 },
-    { src: '/projects/8.webp', alt: 'POSITRON', width: 176, height: 112 },
-    { src: '/projects/9.webp', alt: 'ZOMATO', width: 176, height: 112 },
-    { src: '/projects/10.webp', alt: 'BHILAI STEEL PLANT', width: 176, height: 112 },
-    { src: '/projects/10.png', alt: 'GOODREZ', width: 176, height: 112 },
-    { src: '/projects/101.webp', alt: 'AARVY HEALTHCARE', width: 176, height: 112 },
+    { src: 'https://res.cloudinary.com/dxenuee4n/image/upload/v1761904267/asi_hyno6j.webp', alt: 'Asahi-India-Glass-Ltd', width: 176, height: 112 },
+    { src: 'https://res.cloudinary.com/dxenuee4n/image/upload/v1761904271/bkt_fipeo0.webp', alt: 'BKT', width: 126, height: 100 },
+    { src: 'https://res.cloudinary.com/dxenuee4n/image/upload/v1761904274/brookfield_zb2pya.webp', alt: 'BROOKFIELD', width: 176, height: 112 },
+    { src: 'https://res.cloudinary.com/dxenuee4n/image/upload/v1761904288/hero_e0ydrr.webp', alt: 'HERO', width: 176, height: 112 },
+    { src: 'https://res.cloudinary.com/dxenuee4n/image/upload/v1761904293/maruti_suzuki_j0ao2b.webp', alt: 'MARUTI SUZUKI', width: 176, height: 112 },
+    { src: 'https://res.cloudinary.com/dxenuee4n/image/upload/v1761904303/signature_global_g28iao.webp', alt: 'SIGNATURE GLOBAL ', width: 176, height: 112 },
+    { src: 'https://res.cloudinary.com/dxenuee4n/image/upload/v1761904297/NFC_evfwv1.webp', alt: 'NFC', width: 176, height: 112 },
+    { src: 'https://res.cloudinary.com/dxenuee4n/image/upload/v1761904299/positron_jmh9tw.webp', alt: 'POSITRON', width: 176, height: 112 },
+    { src: 'https://res.cloudinary.com/dxenuee4n/image/upload/v1761904305/Zomato_hsl6wy.webp', alt: 'ZOMATO', width: 176, height: 112 },
+    { src: 'https://res.cloudinary.com/dxenuee4n/image/upload/v1761904269/Bhilai_ax9dny.webp', alt: 'BHILAI STEEL PLANT', width: 176, height: 112 },
+    { src: 'https://res.cloudinary.com/dxenuee4n/image/upload/v1761904277/Godrej_tmodoz.webp', alt: 'GODREZ', width: 176, height: 112 },
+    { src: 'https://res.cloudinary.com/dxenuee4n/image/upload/v1761904257/aarvy_i8wtib.webp', alt: 'AARVY HEALTHCARE', width: 176, height: 112 },
   ];
  
   const handleButtonClick = (buttonText) => {
