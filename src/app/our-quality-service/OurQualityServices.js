@@ -182,8 +182,8 @@ export default function OurQualityServices() {
                      width={500}
                      height={500}
                      loading="lazy"
-                     src="/HVAC Contractor.webp"
-                      alt="Consultancy Design"
+                     src="https://res.cloudinary.com/dxenuee4n/image/upload/v1761913224/HVAC_Contractor_mctcdr.webp"
+                      alt="Rooftop industrial air conditioning unit with insulated piping for quality HVAC services"
                       className=" object-center w-full h-full   px-5  rounded-3xl" />
                   
                 </div>
@@ -538,7 +538,8 @@ At Adhunik HVAC Projects, we provide a comprehensive suite of services designed 
 
                 <div className="lg:w-1/2 w-full pb-5">
                   <div className="about-company-1 rounded-xl  ">
-                    <img src="/cd.jpg " loading="lazy" alt="Consultancy Design" height={300}
+                    <img src="https://res.cloudinary.com/dxenuee4n/image/upload/v1761913224/design_eng_mu3j3w.webp" loading="lazy" alt="
+Business team reviewing financial data and charts on a tablet during a consultancy and design meeting" height={300}
                   width={500}
                       className=" object-center   px-5 " />
                   </div>
@@ -608,9 +609,9 @@ At Adhunik HVAC Projects, we provide a comprehensive suite of services designed 
 
                 <div className="lg:w-1/2 w-full">
                   <div className="about-company-1">
-                    <img src=" dd.jpg "  height={300}
+                    <img src=" https://res.cloudinary.com/dxenuee4n/image/upload/v1761913223/deatiled_eng_pzod98.webp"  height={300}
                   width={500}
-                  loading="lazy" alt="Design & Engineering" className="w-full h-auto rounded-lg px-5" />
+                  loading="lazy" alt="an engineer or architect's hands drawing and marking dimensions on detailed blueprints with a pen and ruler for engineering design" className="w-full h-auto rounded-lg px-5" />
                   </div>
                 </div>
 
