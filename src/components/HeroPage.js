@@ -182,10 +182,11 @@ export default function HeroPage() {
     { src: 'https://res.cloudinary.com/dxenuee4n/image/upload/v1761903937/ASHRAE_fnhqtx.webp', alt: 'ASHRAE logo, representing the American Society of Heating, Refrigerating and Air-Conditioning Engineers standards', width: 120, height: 120 },
     { src: 'https://res.cloudinary.com/dxenuee4n/image/upload/v1761903943/ISHRAE_irowe3.webp', alt: 'ISHRAE logo for the Indian Society of Heating, Refrigerating & Air Conditioning Engineers affiliation', width: 150, height: 150 }, // Custom size
     { src: 'https://res.cloudinary.com/dxenuee4n/image/upload/v1761903938/GEM_rtfeki.webp', alt: 'GeM Government-E-Marketplace logo', width: 220, height: 220 },
-    { src: 'https://res.cloudinary.com/dxenuee4n/image/upload/v1761903949/RATA_lsqsuz.webp', alt: 'RATA (Refrigeration & Air Conditioning Traders Association)', width: 200, height: 100 }, // Custom size
+    { src: 'https://res.cloudinary.com/dxenuee4n/image/upload/v1761903949/RATA_lsqsuz.webp', alt: 'RATA (Refrigeration & Air Conditioning Traders Association)', width: 200, height: 100 },
+	{ src: 'https://res.cloudinary.com/dxenuee4n/image/upload/v1761903941/INDIAMART_ta7pgz.webp', alt: 'Indiamart logo', width: 120, height: 120 },// Custom size
     { src: 'https://res.cloudinary.com/dxenuee4n/image/upload/v1761903945/NHWC_gvlpxc.webp', alt: 'National Human Welfare Council', width: 120, height: 120 },
     { src: 'https://res.cloudinary.com/dxenuee4n/image/upload/v1761903947/NTIC2_hum7hc.webp', alt: 'NTIC (National Trade & Industry Council)', width: 120, height: 120 },
-    { src: 'https://res.cloudinary.com/dxenuee4n/image/upload/v1761903941/INDIAMART_ta7pgz.webp', alt: 'Indiamart logo', width: 120, height: 120 },
+
 
   ];
 
@@ -194,9 +195,10 @@ export default function HeroPage() {
     { src: 'https://res.cloudinary.com/dxenuee4n/image/upload/v1761903943/ISHRAE_irowe3.webp', alt: 'ISHRAE logo for the Indian Society of Heating, Refrigerating & Air Conditioning Engineers affiliation', width: 50, height: 50 },
     { src: 'https://res.cloudinary.com/dxenuee4n/image/upload/v1761903938/GEM_rtfeki.webp', alt: 'GeM Government-E-Marketplace logo', width: 50, height: 50 },
     { src: 'https://res.cloudinary.com/dxenuee4n/image/upload/v1761903949/RATA_lsqsuz.webp', alt: 'RATA (Refrigeration & Air Conditioning Traders Association)', width: 50, height: 50 },
+	   { src: 'https://res.cloudinary.com/dxenuee4n/image/upload/v1761903941/INDIAMART_ta7pgz.webp', alt: 'Indiamart logo', width: 120, height: 120 },
     { src: 'https://res.cloudinary.com/dxenuee4n/image/upload/v1761903945/NHWC_gvlpxc.webp', alt: 'National Human Welfare Council', width: 120, height: 50 },
     { src: 'https://res.cloudinary.com/dxenuee4n/image/upload/v1761903947/NTIC2_hum7hc.webp', alt: 'NTIC (National Trade & Industry Council)', width: 119, height: 119 },
-    { src: 'https://res.cloudinary.com/dxenuee4n/image/upload/v1761903941/INDIAMART_ta7pgz.webp', alt: 'Indiamart logo', width: 120, height: 120 },
+   
 
   ];
 
