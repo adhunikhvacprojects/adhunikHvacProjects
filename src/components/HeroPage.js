@@ -179,24 +179,24 @@ export default function HeroPage() {
 
  
   const images6 = [
-    { src: 'https://res.cloudinary.com/dxenuee4n/image/upload/v1761904132/MSME_fjm67p.webp', alt: 'MSME India certificate logo', width: 120, height: 120 },
-    { src: 'https://res.cloudinary.com/dxenuee4n/image/upload/v1761904117/CE_hznx0e.webp', alt: 'CE Marking certification logo ', width: 150, height: 150 }, // Custom size
-    { src: 'https://res.cloudinary.com/dxenuee4n/image/upload/v1761904119/GEM_n8yyzy.webp', alt: 'GeM Government-E-Marketplace logo', width: 220, height: 220 },
-    { src: 'https://res.cloudinary.com/dxenuee4n/image/upload/v1761904134/ZED_BRONZE_cx6wcz.webp', alt: 'MSME Zed Bronze certification logo for Zero Defect, Zero Effect quality and environmental standard', width: 200, height: 100 }, // Custom size
-    { src: 'https://res.cloudinary.com/dxenuee4n/image/upload/v1761904127/IAS_dfzvwx.webp', alt: 'IAF and IAS Accredited logos for ISO 9001:2015 certification', width: 120, height: 120 },
-    { src: 'https://res.cloudinary.com/dxenuee4n/image/upload/v1761904128/IEC_koqvmo.webp', alt: 'IEC Import Export Code Licence with number AAFCA3979G and Indian National Emblem, validating global trade certification', width: 120, height: 120 },
-    { src: '/NTIC2.webp', alt: 'pics', width: 120, height: 120 },
+    { src: 'https://res.cloudinary.com/dxenuee4n/image/upload/v1761903937/ASHRAE_fnhqtx.webp', alt: 'ASHRAE logo, representing the American Society of Heating, Refrigerating and Air-Conditioning Engineers standards', width: 120, height: 120 },
+    { src: 'https://res.cloudinary.com/dxenuee4n/image/upload/v1761903943/ISHRAE_irowe3.webp', alt: 'ISHRAE logo for the Indian Society of Heating, Refrigerating & Air Conditioning Engineers affiliation', width: 150, height: 150 }, // Custom size
+    { src: 'https://res.cloudinary.com/dxenuee4n/image/upload/v1761903938/GEM_rtfeki.webp', alt: 'GeM Government-E-Marketplace logo', width: 220, height: 220 },
+    { src: 'https://res.cloudinary.com/dxenuee4n/image/upload/v1761903949/RATA_lsqsuz.webp', alt: 'RATA (Refrigeration & Air Conditioning Traders Association)', width: 200, height: 100 }, // Custom size
+    { src: 'https://res.cloudinary.com/dxenuee4n/image/upload/v1761903945/NHWC_gvlpxc.webp', alt: 'National Human Welfare Council', width: 120, height: 120 },
+    { src: 'https://res.cloudinary.com/dxenuee4n/image/upload/v1761903947/NTIC2_hum7hc.webp', alt: 'NTIC (National Trade & Industry Council)', width: 120, height: 120 },
+    { src: 'https://res.cloudinary.com/dxenuee4n/image/upload/v1761903941/INDIAMART_ta7pgz.webp', alt: 'Indiamart logo', width: 120, height: 120 },
 
   ];
 
   const images7 = [
     { src: 'https://res.cloudinary.com/dxenuee4n/image/upload/v1761903937/ASHRAE_fnhqtx.webp', alt: 'ASHRAE logo, representing the American Society of Heating, Refrigerating and Air-Conditioning Engineers standards', width: 50, height: 50 },
-    { src: 'https://res.cloudinary.com/dxenuee4n/image/upload/v1761903943/ISHRAE_irowe3.webp', alt: 'CE Marking certification logo ', width: 50, height: 50 },
-    { src: 'https://res.cloudinary.com/dxenuee4n/image/upload/v1761904119/GEM_n8yyzy.webp', alt: 'GeM Government-E-Marketplace logo', width: 50, height: 50 },
-    { src: 'https://res.cloudinary.com/dxenuee4n/image/upload/v1761904134/ZED_BRONZE_cx6wcz.webp', alt: 'MSME Zed Bronze certification logo for Zero Defect, Zero Effect quality and environmental standard', width: 50, height: 50 },
-    { src: 'https://res.cloudinary.com/dxenuee4n/image/upload/v1761904127/IAS_dfzvwx.webp', alt: 'IAF and IAS Accredited logos for ISO 9001:2015 certification', width: 120, height: 50 },
-    { src: 'https://res.cloudinary.com/dxenuee4n/image/upload/v1761904128/IEC_koqvmo.webp', alt: 'IEC Import Export Code Licence with number AAFCA3979G and Indian National Emblem, validating global trade certification', width: 119, height: 119 },
-    { src: '/NTIC2.webp', alt: 'pics', width: 120, height: 120 },
+    { src: 'https://res.cloudinary.com/dxenuee4n/image/upload/v1761903943/ISHRAE_irowe3.webp', alt: 'ISHRAE logo for the Indian Society of Heating, Refrigerating & Air Conditioning Engineers affiliation', width: 50, height: 50 },
+    { src: 'https://res.cloudinary.com/dxenuee4n/image/upload/v1761903938/GEM_rtfeki.webp', alt: 'GeM Government-E-Marketplace logo', width: 50, height: 50 },
+    { src: 'https://res.cloudinary.com/dxenuee4n/image/upload/v1761903949/RATA_lsqsuz.webp', alt: 'RATA (Refrigeration & Air Conditioning Traders Association)', width: 50, height: 50 },
+    { src: 'https://res.cloudinary.com/dxenuee4n/image/upload/v1761903945/NHWC_gvlpxc.webp', alt: 'National Human Welfare Council', width: 120, height: 50 },
+    { src: 'https://res.cloudinary.com/dxenuee4n/image/upload/v1761903947/NTIC2_hum7hc.webp', alt: 'NTIC (National Trade & Industry Council)', width: 119, height: 119 },
+    { src: 'https://res.cloudinary.com/dxenuee4n/image/upload/v1761903941/INDIAMART_ta7pgz.webp', alt: 'Indiamart logo', width: 120, height: 120 },
 
   ];
 
