@@ -853,12 +853,12 @@ const achievementData2 = [
                 <div className="flex flex-wrap -mx-4 text-center md:text-center">
                   {[
                     {
-                      icon: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738750084/de__xjfjdj.webp',
+                      icon: 'https://res.cloudinary.com/dxenuee4n/image/upload/v1761972517/design_eng_naqunt.webp',
                       title: 'Design & Engineering',
                       content: 'We provide expert system design and detailed engineering, translating project requirements into energy-efficient and cost-effective cooling solutions for large industrial, institutional, and commercial facilities.',
                     },
                     {
-                      icon: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1743499001/Project_Exe_mptvqx.webp',
+                      icon: 'https://res.cloudinary.com/dxenuee4n/image/upload/v1761972520/Project_Exe_roddmb.webp',
                       title: 'Project Execution',
                       content: "Our project execution is defined by precision and adherence to the highest standards. We execute all projects under strict NBC, CPWD, and NABH guidelines, while following ISHRAE, ASHRAE, and ISO standards to ensure safety and performance."
                     },
