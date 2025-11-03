@@ -464,8 +464,7 @@ const images7 = [
     originalAlt: "HVAC System Image",
     thumbnailAlt: "HVAC System Image",
     originalHeight: "300",
-    originalWidth: "300",
-    thumbnailHeight: "300",
+    originalWidth: "300", 
     thumbnailWidth: "300",
       thumbnailLoading: "lazy",
     loading:"lazy",
@@ -577,7 +576,7 @@ export default function Overview() {
 
     {
       id: 1,
-      imgSrc: "certi/1.webp",
+      imgSrc: "https://res.cloudinary.com/dxenuee4n/image/upload/v1761913425/BKT_CERTIFICATE_ptvzbk.webp",
       clientName: "BKT Tires, Bhuj",
       location: "Gujarat",
       jobType: "Chiller, AHU & BMS",
@@ -587,7 +586,7 @@ export default function Overview() {
 
     {
       id: 2,
-      imgSrc: "certi/2.webp",
+      imgSrc: "https://res.cloudinary.com/dxenuee4n/image/upload/v1761913454/SUNCITY_CERTIFICATE_fjomg2.webp",
       clientName: "Suncity Parikrama",
       location: "Panchkula, Haryana",
       jobType: "Basement Ventilation",
@@ -595,7 +594,7 @@ export default function Overview() {
     },
     {
       id: 3,
-      imgSrc: "certi/3.webp",
+      imgSrc: "https://res.cloudinary.com/dxenuee4n/image/upload/v1761913451/JU_SHIN_CERTIFICATE_cldcxc.webp",
       clientName: "Jay Ushin",
       location: "Gurgaon, Haryana",
       jobType: " VRF System ",
@@ -604,7 +603,7 @@ export default function Overview() {
     {
 
       id: 4,
-      imgSrc: "certi/4.webp",
+      imgSrc: "https://res.cloudinary.com/dxenuee4n/image/upload/v1761913452/POSITRON_CERTIFICATE_bhk4ic.webp",
       clientName: <>Positron Multi Specialty <br /> & Cancer Hospital</>,
       location: "Rohtak, Haryana",
       jobType: " Chiller & AHU ",
@@ -614,7 +613,7 @@ export default function Overview() {
 
     {
       id: 5,
-      imgSrc: "certi/5.webp",
+      imgSrc: "https://res.cloudinary.com/dxenuee4n/image/upload/v1761913412/AIS_CERTIFICATE_dqfqhd.webp",
       clientName: "AlS Glass",
       location: "Bawal, Haryana",
       jobType: "Air Cooling with Air Washer",
