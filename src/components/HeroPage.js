@@ -1017,7 +1017,7 @@ Expertise Across Key Industries
             <div className="sm:w-[564px] w-full sm:h-[646px] h-full   rounded-3xl sm:border  sm:bg-gray-50  border-gray-300  relative">
               <img
                 className="sm:mt-5 sm:ml-5 w-full h-full rounded-3xl object-cover"
-                src="https://images.pexels.com/photos/13716220/pexels-photo-13716220.jpeg"
+                src="https://res.cloudinary.com/dxenuee4n/image/upload/v1761905111/top_hvac3_np0ldb.webp"
                 alt="about Us image"
               />
             </div>
@@ -1060,7 +1060,7 @@ Expertise Across Key Industries
             <div className="sm:w-[564px] w-full sm:h-[646px] h-full rounded-3xl sm:border sm:bg-gray-50  border-gray-300 relative">
               <img
                 className="sm:mt-5 sm:ml-5 w-full h-full rounded-3xl object-cover"
-                src="https://images.pexels.com/photos/19969242/pexels-photo-19969242.jpeg"
+                src="https://res.cloudinary.com/dxenuee4n/image/upload/v1761908261/h3_y1oj5m.jpg"
                 alt="about Us image"
               />
             </div>

@@ -1,4 +1,3 @@
-
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   async headers() {
@@ -8,23 +7,23 @@ const nextConfig = {
         headers: [
           {
             key: "X-Frame-Options",
-            value: "DENY",  
+            value: "DENY",
           },
           {
             key: "X-Content-Type-Options",
-            value: "nosniff",  
+            value: "nosniff",
           },
           {
             key: "X-XSS-Protection",
-            value: "1; mode=block",  
+            value: "1; mode=block",
           },
           {
             key: "Referrer-Policy",
-            value: "strict-origin-when-cross-origin",  
+            value: "strict-origin-when-cross-origin",
           },
           {
             key: "Strict-Transport-Security",
-            value: "max-age=63072000; includeSubDomains; preload",  
+            value: "max-age=63072000; includeSubDomains; preload",
           },
           {
             key: "Content-Security-Policy",
@@ -33,7 +32,6 @@ const nextConfig = {
         ],
       },
       {
-       
         source: "/:path*\\.pdf",
         headers: [
           {
@@ -45,26 +43,34 @@ const nextConfig = {
     ];
   },
 
+  // ✅ Image Optimization Configuration
   images: {
     remotePatterns: [
       {
         protocol: "https",
         hostname: "res.cloudinary.com",
-        pathname: "**",
+        port: "",
+        pathname: "/**", // Corrected for Next.js image domain pattern
       },
       {
         protocol: "https",
         hostname: "images.unsplash.com",
-        pathname: "**",
+        port: "",
+        pathname: "/**", // Corrected pattern
       },
     ],
+    formats: ["image/avif", "image/webp"], // Recommended for performance
+    dangerouslyAllowSVG: false, // security best practice
   },
 
   eslint: {
-    ignoreDuringBuilds: true,
+    ignoreDuringBuilds: true, // keeps build clean for deployments
   },
 
-  
+  // ✅ Optional: add React strict mode & compression for production
+  reactStrictMode: true,
+  poweredByHeader: false,
+  compress: true,
 };
 
 export default nextConfig;

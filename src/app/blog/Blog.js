@@ -38,6 +38,18 @@ export default function Blog() {
       link:  "/top-hvac-contractor-delhi-in-ncr",
 
       img: "https://images.pexels.com/photos/2539462/pexels-photo-2539462.jpeg",
+    },
+
+    {
+      id: 4,
+      title: "What an HVAC Contractor Does | Adhunik HVAC Projects",
+
+      date: "Nov 2025",
+      image: "",
+
+      link:  "/what-does-an-hvac-contractor-do",
+
+      img: "https://res.cloudinary.com/dxenuee4n/image/upload/v1762157380/hvaccontractor_vvwwh6.webp",
     }
     
   ];
