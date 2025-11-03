@@ -153,7 +153,7 @@ function Header() {
                     <a
                       href="/Adhunik-HVAC-PROJECTS.pdf"
                       download="Adhunik-HVAC-PROJECTS"
-                      className={`relative inline-flex items-center justify-start inline-block px-5 py-3 overflow-hidden font-bold rounded-full group ${
+                      className={`relative inline-flex items-center justify-start px-5 py-3 overflow-hidden font-bold rounded-full group ${
                         isScrolled
                           ? "text-black hover:text-black border-black"
                           : "text-white hover:text-black"
