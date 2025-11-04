@@ -156,7 +156,7 @@ export default function HVACContractorPage() {
           {/* Final CTA Section */}
           <section className="bg-gradient-to-r from-cyan-600 to-cyan-800 rounded-xl p-8 text-white shadow-lg">
             <div className="text-center max-w-3xl mx-auto">
-              <h2 className="text-xl md:text-2xl font-bold mb-4">Initiate Your HVAC Engineering Consultation</h2>
+              <h2 className="text-xl md:text-2xl font-bold mb-4">Let’s Plan Your HVAC Project Together</h2>
               <p className="text-cyan-100 mb-8 text-sm">
                 Connect with us today for expert consultation and customized cooling solutions engineered to meet your exact project needs.
               </p>
