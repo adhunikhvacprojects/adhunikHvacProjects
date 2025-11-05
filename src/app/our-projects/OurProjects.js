@@ -27,7 +27,7 @@ export default function OurProjects() {
           location: "Faridabad, Haryana",
         },
         {
-          imgSrc: "projects/25.webp",
+          imgSrc: "https://res.cloudinary.com/dxenuee4n/image/upload/v1762326462/kajaria-ceramics_rd8dbj.webp",
           title: "Kajaria",
           location: "Sikandrabad, Uttar Pradesh",
         },
