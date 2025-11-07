@@ -66,7 +66,7 @@ export default function HvacSolutionsPage() {
               </p>
               <p className="text-sm text-gray-700 mb-6 text-justify font-bold">
              At Adhunik Hvac Projects, we eliminate this chaos. Our core philosophy is captured perfectly by our commitment:  
-                <CustomLink href="https://www.adhunikhvacprojects.com/our-company" className="text-cyan-700 font-extrabold hover:text-cyan-900 hover:underline">
+                <CustomLink href="https://www.adhunikhvacprojects.com" className="text-cyan-700 font-extrabold hover:text-cyan-900 hover:underline">
                       HVAC SOLUTION UNDER ONE ROOF
                 </CustomLink>. 
                 It’s our proven turnkey methodology built on a 19+ year legacy of engineering excellence.
