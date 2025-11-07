@@ -50,6 +50,15 @@ export default function Blog() {
       link:  "/what-does-an-hvac-contractor-do",
 
       img: "https://res.cloudinary.com/dxenuee4n/image/upload/v1762157380/hvaccontractor_vvwwh6.webp",
+    },
+    {
+      id: 5,
+      title: "HVAC SOLUTION UNDER ONE ROOF | Turnkey Excellence by Adhunik HVAC Projects",
+      date: "Nov 2025",
+      image: "",
+      link:  "/hvac-solution-under-one-roof",
+
+      img: "https://res.cloudinary.com/dxenuee4n/image/upload/v1762500165/hvacsolution2_g54clt.jpg",
     }
     
   ];
