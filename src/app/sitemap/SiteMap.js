@@ -20,6 +20,7 @@ export default function SiteMap() {
         { href: '/top-hvac-contractor-delhi-in-ncr',text: 'Top HVAC Contractor in Delhi NCR', title: 'Guide to selecting the best HVAC contractor for your projects in the Delhi NCR region.' },
         { href: '/top-hvac-contractor-in-gurugram', text: 'Top HVAC Contractor in Gurugram', title: 'Find specialized HVAC contractor services for projects located in the Gurugram (Gurgaon) area.' },
         { href: '/what-does-an-hvac-contractor-do', text: 'What Does an HVAC Contractor Do?', title: 'A comprehensive explanation of the roles, responsibilities, and scope of work for a professional HVAC contractor.' },
+        { href: '/hvac-solution-under-one-roof', text: 'HVAC SOLUTIONS UNDER ONE ROOF', title: 'The Single-Source Turnkey Contractor Built on a 19+ Year Legacy' },
     ];
     
      return (
