@@ -45,7 +45,7 @@ export const metadata = {
   openGraph: {
     title: "Expert Commercial HVAC Contractor in Delhi NCR | Adhunik HVAC Projects",
     description: "Partner with Adhunik for reliable, energy-efficient commercial HVAC solutions in Delhi NCR. We offer turnkey design, installation, and 24/7 support. Get a free consultation!",
-    url: "https://www.adhunikhvacprojects.com/top-hvac-contractor-delhi-in-ncr,
+    url: "https://www.adhunikhvacprojects.com/top-hvac-contractor-delhi-in-ncr",
     type: "website",
     images: [
       {
