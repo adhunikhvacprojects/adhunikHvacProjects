@@ -2,9 +2,9 @@ import SiteMap from "./SiteMap";
 
 export const metadata = {
   title: "Sitemap",
-  description: "www.adhunikpowertech.com Sitemap",
+  description: "www.adhunikhvacprojects.com Sitemap",
     alternates: {
-    canonical: "https://www.adhunikpowertech.com/sitemap",  
+    canonical: "https://www.adhunikhvacprojects.com/sitemap",  
   },
 }
 
