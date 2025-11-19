@@ -59,7 +59,17 @@ export default function Blog() {
       link:  "/hvac-solution-under-one-roof",
 
       img: "https://res.cloudinary.com/dxenuee4n/image/upload/v1762500165/hvacsolution2_g54clt.jpg",
-    }
+    },
+
+     {
+      id: 6,
+      title: "How to Maintain Peak HVAC Performance in Low Temperatures | Adhunik HVAC Projects",
+      date: "Nov 2025",
+      image: "",
+      link:  "/maintain-hvac-performance-in-low-temps",
+
+      img: "https://res.cloudinary.com/dxenuee4n/image/upload/v1763536710/hvac-performance_xwirpr.webp",
+    },
     
   ];
 
