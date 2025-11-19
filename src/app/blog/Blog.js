@@ -79,6 +79,16 @@ export default function Blog() {
 
       img: "https://res.cloudinary.com/dxenuee4n/image/upload/v1763546606/modular-vs-centralized-hvac_pyr2kb.webp",
     },
+
+    {
+      id: 8,
+      title: "Comprehensive HVAC Contractor Services | Adhunik Hvac Projects",
+      date: "Nov 2025",
+      image: "",
+      link:  "/comprehensive-hvac-services",
+
+      img: "https://res.cloudinary.com/dxenuee4n/image/upload/v1763553789/hvacservices_gzpvjj.webp",
+    },
   ];
 
   return (
