@@ -70,7 +70,15 @@ export default function Blog() {
 
       img: "https://res.cloudinary.com/dxenuee4n/image/upload/v1763536710/hvac-performance_xwirpr.webp",
     },
-    
+      {
+      id: 7,
+      title: "Modular vs. Centralized HVAC: The Smart Choice | Adhunik HVAC Projects",
+      date: "Nov 2025",
+      image: "",
+      link:  "/modular-vs-centralized-hvac",
+
+      img: "https://res.cloudinary.com/dxenuee4n/image/upload/v1763546606/modular-vs-centralized-hvac_pyr2kb.webp",
+    },
   ];
 
   return (
