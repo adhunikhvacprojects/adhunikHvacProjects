@@ -714,7 +714,7 @@ const achievementData2 = [
                   aria-label="Learn more about HVAC solutions and air cooling systems"
                   title="Learn more about HVAC solutions and air cooling systems"
 
-                  href='/'
+                  href='/our-company'
                   className=' bg-[#0177C8] font-normal font-sans relative text-white text-[14px] px-4 py-3 md:px-12 md:py-4 rounded-full  uppercase'>
                   Know More About Us
                 </Link>

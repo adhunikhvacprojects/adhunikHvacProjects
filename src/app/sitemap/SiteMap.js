@@ -5,7 +5,7 @@ export default function SiteMap() {
     const sitemapLinks = [
         { href: '/', text: 'Home', title: 'Go to homepage - Adhunik Hvacprojects' },
         { href: '/support-form', text: 'Contact Us', title: 'Get in touch with our HVAC experts' },
-        { href: '/our-Company', text: 'About Us', title: 'Learn more about Adhunik Hvacprojects' },
+        { href: '/our-company', text: 'About Us', title: 'Learn more about Adhunik Hvacprojects' },
         { href: '/project-catalogue', text: 'Project Catalogue', title: 'Download or view our detailed project catalogue' },
       
         // --- Projects & Clients ---
