@@ -89,6 +89,16 @@ export default function Blog() {
 
       img: "https://res.cloudinary.com/dxenuee4n/image/upload/v1763553789/hvacservices_gzpvjj.webp",
     },
+
+    {
+      id: 9,
+      title: "Commercial Ducting Design Importance | Adhunik HVAC Projects",
+      date: "Nov 2025",
+      image: "",
+      link:  "/ducting-design-importance",
+
+      img: "https://res.cloudinary.com/dxenuee4n/image/upload/v1764267199/Commercial_ducting_design_Importance_xnyyvl.webp",
+    },
   ];
 
   return (

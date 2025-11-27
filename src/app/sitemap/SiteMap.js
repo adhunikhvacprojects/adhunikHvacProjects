@@ -23,6 +23,7 @@ export default function SiteMap() {
         { href: '/hvac-solution-under-one-roof', text: 'HVAC SOLUTIONS UNDER ONE ROOF', title: 'The Single-Source Turnkey Contractor Built on a 19+ Year Legacy' },
         { href: '/maintain-hvac-performance-in-low-temps', text: 'Maintain Peak HVAC Performance in Low Temps', title: 'How to Maintain Peak HVAC Performance in Low Temperatures' },
         { href: '/comprehensive-hvac-services', text: 'Comprehensive HVAC Contractor Services', title: 'Our Comprehensive HVAC Contractor Services' },
+        { href: '/ducting-design-importance', text: 'Commercial Ducting Design Importance', title: 'Why Proper Ducting Design Matters in Commercial Buildings' },
     
     
     
