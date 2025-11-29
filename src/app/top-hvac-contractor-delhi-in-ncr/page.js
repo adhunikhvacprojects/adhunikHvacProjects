@@ -49,7 +49,7 @@ export const metadata = {
     type: "website",
     images: [
       {
-        url: "https://www.adhunikhvacprojects.com/images/hvac-projects-delhi-preview.jpg", // Placeholder: Use a high-quality image of a completed project
+        url: "https://res.cloudinary.com/dxenuee4n/image/upload/v1764413800/HVAC_Contractor_in_Delhi_NCR_ni0r0n.webp", // Placeholder: Use a high-quality image of a completed project
         width: 1200, 
         height: 630, 
         alt: "A large-scale commercial HVAC system installed on a rooftop by Adhunik HVAC Projects.",
@@ -65,7 +65,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Expert Commercial HVAC Contractor in Delhi NCR | Adhunik HVAC Projects",
     description: "Partner with Adhunik for reliable, energy-efficient commercial HVAC solutions in Delhi NCR. We offer turnkey design, installation, and 24/7 support. Get a free consultation!",
-    image: "https://www.adhunikhvacprojects.com/images/hvac-projects-delhi-preview.jpg", // Placeholder: Use the same image as Open Graph
+    image: "https://res.cloudinary.com/dxenuee4n/image/upload/v1764413800/HVAC_Contractor_in_Delhi_NCR_ni0r0n.webp", // Placeholder: Use the same image as Open Graph
   },
 };
 
