@@ -13,7 +13,7 @@ export default function Blog() {
 
       link: "/award-winning-hvac-contractor",
 
-      img: "https://images.unsplash.com/photo-1648587096714-170302c4c922?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      img: "https://res.cloudinary.com/dxenuee4n/image/upload/v1764413799/award-winning_rvyrwp.webp",
     },
 
    {
@@ -25,7 +25,7 @@ export default function Blog() {
 
       link:  "/top-hvac-contractor-in-gurugram",
 
-      img: "https://images.pexels.com/photos/1768073/pexels-photo-1768073.jpeg",
+      img: "https://res.cloudinary.com/dxenuee4n/image/upload/v1764413800/HVAC_Contractor_in_Gurugram_Gurgaon_qvu1nz.webp",
     },
 
   {
@@ -37,7 +37,7 @@ export default function Blog() {
 
       link:  "/top-hvac-contractor-delhi-in-ncr",
 
-      img: "https://images.pexels.com/photos/2539462/pexels-photo-2539462.jpeg",
+      img: "https://res.cloudinary.com/dxenuee4n/image/upload/v1764413800/HVAC_Contractor_in_Delhi_NCR_ni0r0n.webp",
     },
 
     {
