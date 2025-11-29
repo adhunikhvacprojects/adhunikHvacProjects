@@ -93,8 +93,8 @@ export default function TopHvacGurugramPage() {
             </div>
             <div className="w-full md:w-6/12">
               <Image
-                src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                alt="Modern corporate office building in Gurugram"
+                src="https://res.cloudinary.com/dxenuee4n/image/upload/v1764413800/HVAC_Contractor_in_Gurugram_Gurgaon_qvu1nz.webp"
+                alt="Modern corporate office building"
                 width={1260}
                 height={750}
                 loading="lazy"
