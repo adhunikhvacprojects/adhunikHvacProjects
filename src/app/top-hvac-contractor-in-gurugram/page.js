@@ -50,7 +50,7 @@ keywords: [
     type: "website",
     images: [
       {
-        url: "https://www.adhunikhvacprojects.com/images/hvac-projects-gurugram-preview.jpg", // Placeholder: Use a high-quality image of a completed Gurugram project
+        url: "https://res.cloudinary.com/dxenuee4n/image/upload/v1764413800/HVAC_Contractor_in_Gurugram_Gurgaon_qvu1nz.webp", // Placeholder: Use a high-quality image of a completed Gurugram project
         width: 1200, 
         height: 630, 
         alt: "A modern HVAC system on a corporate building in Gurugram, installed by Adhunik HVAC Projects.",
@@ -66,7 +66,7 @@ keywords: [
     card: "summary_large_image",
     title: "Expert Commercial HVAC Contractor in Gurugram | Adhunik HVAC Projects",
     description: "Partner with Adhunik for reliable, energy-efficient commercial HVAC in Gurugram. We offer turnkey design & installation for corporate offices and industrial hubs. Get a free consultation!",
-    image: "https://www.adhunikhvacprojects.com/images/hvac-projects-gurugram-preview.jpg", // Placeholder: Use the same image as Open Graph
+    image: "https://res.cloudinary.com/dxenuee4n/image/upload/v1764413800/HVAC_Contractor_in_Gurugram_Gurgaon_qvu1nz.webp", // Placeholder: Use the same image as Open Graph
   },
 };
 
