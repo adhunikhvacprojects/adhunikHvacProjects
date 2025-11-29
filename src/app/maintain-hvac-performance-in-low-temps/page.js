@@ -32,7 +32,7 @@ export const metadata = {
   openGraph: {
     title: "How to Maintain Peak HVAC Performance in Low Temperatures | Adhunik HVAC Projects",
     description: "Don't let the cold cripple your system. Learn expert strategies to protect your HVAC infrastructure and ensure efficiency during the winter months.",
-    url: "https://www.adhunikhvacprojects.com/winter-hvac-maintenance-tips",
+    url: "https://www.adhunikhvacprojects.com/maintain-hvac-performance-in-low-temps",
     type: "article",
     images: [
       {
@@ -46,7 +46,7 @@ export const metadata = {
   },
 
   alternates: {
-    canonical: "https://www.adhunikhvacprojects.com/winter-hvac-maintenance-tips",
+    canonical: "https://www.adhunikhvacprojects.com/maintain-hvac-performance-in-low-temps",
   }
 };
 
