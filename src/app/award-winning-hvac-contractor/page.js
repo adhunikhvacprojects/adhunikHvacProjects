@@ -37,7 +37,7 @@ export const metadata = {
 
       {
 
-        url: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", 
+        url: "https://res.cloudinary.com/dxenuee4n/image/upload/v1764413799/award-winning_rvyrwp.webp", 
         width: 1200, 
         height: 630, 
         alt: "Engineers reviewing a complex HVAC project blueprint.",
@@ -57,7 +57,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Award-Winning HVAC Contractor | Adhunik HVAC Projects",
     description: "Choosing the right HVAC contractor is critical. Learn how our 19+ year legacy of engineering excellence ensures smarter design, flawless execution & project success.",
-    image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", 
+    image: "https://res.cloudinary.com/dxenuee4n/image/upload/v1764413799/award-winning_rvyrwp.webp", 
 
   },
 }
