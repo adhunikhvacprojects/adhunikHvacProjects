@@ -58,7 +58,7 @@ export default function Blog() {
       image: "",
       link:  "/hvac-solution-under-one-roof",
 
-      img: "https://res.cloudinary.com/dxenuee4n/image/upload/v1762500165/hvacsolution2_g54clt.jpg",
+      img: "https://res.cloudinary.com/dxenuee4n/image/upload/v1764413495/hvacsolution2_lhoxog.webp",
     },
 
      {
