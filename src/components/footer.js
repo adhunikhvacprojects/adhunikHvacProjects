@@ -239,7 +239,7 @@ Sector 70, Gurugram, Pin Code-122101  </p>
 
 
       <div className=" flex bg-black/5 p-6 text-center   flex-col  md:flex-row justify-center items-center gap-6">
-        <div className="font-semibold cursor-pointer"  > © Copyright 2025 ADHUNIK HVAC PROJECTS Private Ltd. All Rights Reserved.</div>
+        <div className="font-semibold cursor-pointer"  > © Copyright 2026 ADHUNIK HVAC PROJECTS Private Ltd. All Rights Reserved.</div>
         <Link href='/sitemap' className="font-semibold cursor-pointer hover:text-cyan-500" > Sitemap</Link>
 
       </div>
